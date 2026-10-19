@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { X, ChevronDown, Phone, Mail, FileText, Send, Layers, Search, ArrowRight } from "lucide-react";
 import { categories } from "@/data/categories";
 import { useQuoteModal } from "@/context/QuoteModalContext";
@@ -154,11 +155,25 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
                       <div key={cat.id} className="border border-slate-800/80 rounded-xl overflow-hidden bg-slate-900/60">
                         <button
                           onClick={() => toggleCategory(cat.id)}
-                          className="w-full flex items-center justify-between px-3 py-2.5 text-xs font-bold text-slate-200 hover:text-[#FF5E14] text-left transition-colors"
+                          className="w-full flex items-center justify-between px-3 py-2 text-xs font-bold text-slate-200 hover:text-[#FF5E14] text-left transition-colors"
                         >
-                          <span>{cat.name}</span>
+                          <div className="flex items-center gap-2.5 min-w-0">
+                            <div className="relative w-8 h-8 rounded-lg bg-white border border-slate-700/80 p-0.5 shrink-0 overflow-hidden">
+                              <Image
+                                src={cat.image}
+                                alt={cat.name}
+                                fill
+                                sizes="32px"
+                                className="object-contain"
+                              />
+                            </div>
+                            <div className="min-w-0">
+                              <span className="block truncate">{cat.name}</span>
+                              <span className="text-[10px] text-slate-400 font-normal">{cat.products.length} Models</span>
+                            </div>
+                          </div>
                           <ChevronDown
-                            className={`w-3.5 h-3.5 text-slate-400 transition-transform duration-200 ${
+                            className={`w-3.5 h-3.5 text-slate-400 transition-transform duration-200 shrink-0 ml-2 ${
                               isExpanded ? "rotate-180 text-[#FF5E14]" : ""
                             }`}
                           />

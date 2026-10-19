@@ -56,7 +56,7 @@ export const categories: CategoryGroup[] = [
     name: "Filling & Dosing Machinery",
     slug: "auger-filling-machine",
     description: "Precision servo auger powder fillers, pneumatic piston liquid fillers, and viscous paste dosing lines.",
-    image: "/images/avm/clean/all/powder-filling-machine.jpg",
+    image: "/images/avm/clean/all/auger-filling-machine.jpg",
     products: [
       { name: "Auger Filling Machine", slug: "auger-filling-machine", shortDesc: "Servo powder filling with ±1% accuracy" },
       { name: "Powder Filling Machine", slug: "powder-filling-machine", shortDesc: "Free-flowing & fine powder filler" },

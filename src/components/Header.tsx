@@ -5,11 +5,28 @@ import Link from "next/link";
 import Image from "next/image";
 import { 
   Phone, Mail, FileText, ChevronDown, Menu, Send, ShieldCheck, MapPin, 
-  Layers, ArrowRight, Search, X, Package, Droplets, Printer, Boxes 
+  Layers, ArrowRight, Search, X, Package, Droplets, Printer, Boxes, 
+  ChevronRight, Settings, Globe, Headphones, Filter, Barcode 
 } from "lucide-react";
 import { categories } from "@/data/categories";
 import { useQuoteModal } from "@/context/QuoteModalContext";
 import MobileNav from "@/components/MobileNav";
+
+const categoryIcons: Record<string, React.ReactNode> = {
+  "pouch-packing": <Package className="w-3.5 h-3.5 text-[#FF5E14]" />,
+  "sealing-machines": <Settings className="w-3.5 h-3.5 text-[#FF5E14]" />,
+  "filling-machines": <Filter className="w-3.5 h-3.5 text-[#FF5E14]" />,
+  "coding-marking": <Barcode className="w-3.5 h-3.5 text-[#FF5E14]" />,
+  "end-of-line": <Boxes className="w-3.5 h-3.5 text-[#FF5E14]" />,
+};
+
+const viewAllLabels: Record<string, string> = {
+  "pouch-packing": "View All Pouch Machines",
+  "sealing-machines": "View All Sealing & Capping",
+  "filling-machines": "View All Filling Machines",
+  "coding-marking": "View All Coding & Marking",
+  "end-of-line": "View All End-of-Line",
+};
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -202,7 +219,7 @@ export default function Header() {
                 <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isMegaMenuOpen ? "rotate-180" : ""}`} />
               </button>
 
-              {/* Redesigned Premium Industrial Mega Menu */}
+              {/* Redesigned Premium Industrial Mega Menu with Category Product Images (Reference Screenshot 2) */}
               <div 
                 id="mega-menu-machinery"
                 ref={menuRef}
@@ -210,7 +227,7 @@ export default function Header() {
                 aria-label="Machinery Catalog Navigation"
                 onMouseEnter={handleMenuEnter}
                 onMouseLeave={handleMenuLeave}
-                className={`absolute left-1/2 -translate-x-1/2 top-full mt-1.5 w-[92vw] max-w-6xl bg-white border border-[#E5ECF0] rounded-2xl shadow-[0_20px_60px_-15px_rgba(11,25,44,0.18)] z-50 transition-all duration-200 overflow-hidden ${
+                className={`absolute left-1/2 -translate-x-1/2 top-full mt-1.5 w-[98vw] max-w-[1380px] bg-white border border-[#E5ECF0] rounded-2xl shadow-[0_25px_70px_-15px_rgba(11,25,44,0.22)] z-50 transition-all duration-200 overflow-hidden ${
                   isMegaMenuOpen 
                     ? "visible opacity-100 translate-y-0 pointer-events-auto" 
                     : "invisible opacity-0 translate-y-2 pointer-events-none"
@@ -219,49 +236,58 @@ export default function Header() {
                 {/* Invisible hover bridge spanning gap between header and dropdown */}
                 <div className="absolute -top-3 left-0 right-0 h-3 bg-transparent pointer-events-auto" />
 
-                {/* Mega Menu Top Header with Search Field */}
-                <div className="px-7 py-4 bg-white border-b border-[#E5ECF0] flex flex-wrap items-center justify-between gap-4">
+                {/* Top Mega Menu Header with Eyebrow, Search, and Custom Model Quote Button */}
+                <div className="px-6 py-4 bg-white border-b border-[#E5ECF0] flex flex-wrap items-center justify-between gap-4">
                   <div>
-                    <div className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-[#FF5E14]" />
-                      <h3 className="text-base font-bold text-[#0B192C] tracking-tight">
-                        Explore Our Machinery
-                      </h3>
-                      <span className="text-[11px] font-semibold text-[#164E7A] bg-[#164E7A]/10 px-2 py-0.5 rounded-full">
-                        38 Models
-                      </span>
-                    </div>
-                    <p className="text-xs text-slate-500 mt-0.5">
-                      Packaging solutions for every industry &bull; Food, Pharma & FMCG
+                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#FF5E14] block">
+                      ENGINEERED IN MUMBAI, DELIVERED WORLDWIDE
+                    </span>
+                    <h3 className="text-xl font-extrabold text-[#0B192C] tracking-tight mt-0.5">
+                      Explore Our Packaging Machinery
+                    </h3>
+                    <p className="text-xs text-slate-500 font-medium">
+                      Complete range of 38 models for every packaging need
                     </p>
                   </div>
 
-                  {/* Search Box */}
-                  <div className="relative w-full sm:w-80">
-                    <div className="relative flex items-center">
-                      <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
+                  <div className="flex items-center gap-3 w-full sm:w-auto">
+                    {/* Search Box */}
+                    <div className="relative w-full sm:w-72 md:w-80">
+                      <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
                       <input
                         type="text"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         placeholder="Search 38 machinery models..."
-                        className="w-full pl-9 pr-8 py-2 text-xs text-[#0F172A] bg-[#F8FAFC] border border-[#E5ECF0] rounded-xl focus:outline-none focus:border-[#FF5E14] focus:bg-white focus:ring-2 focus:ring-[#FF5E14]/15 transition-all placeholder:text-slate-400"
+                        className="w-full pl-9 pr-8 py-2 text-xs text-[#0F172A] bg-[#F8FAFC] border border-[#E5ECF0] rounded-xl focus:outline-none focus:border-[#FF5E14] focus:bg-white focus:ring-2 focus:ring-[#FF5E14]/15 transition-all placeholder:text-slate-400 font-medium"
                       />
                       {searchQuery && (
                         <button
                           onClick={() => setSearchQuery("")}
-                          className="absolute right-2.5 p-1 text-slate-400 hover:text-slate-600 rounded-md hover:bg-slate-200/60 transition-colors"
+                          className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600 rounded-md hover:bg-slate-200/60 transition-colors"
                           aria-label="Clear search"
                         >
                           <X className="w-3.5 h-3.5" />
                         </button>
                       )}
                     </div>
+
+                    {/* Request Custom Model Quote Button */}
+                    <button
+                      onClick={() => {
+                        closeMenu();
+                        openModal();
+                      }}
+                      className="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-xs font-bold text-white bg-[#FF5E14] hover:bg-[#E04800] rounded-xl shadow-sm transition-all whitespace-nowrap shrink-0"
+                    >
+                      <Settings className="w-3.5 h-3.5" />
+                      <span>Request Custom Model Quote &rarr;</span>
+                    </button>
                   </div>
                 </div>
 
-                {/* Main Content Area: Search Filtered View OR 5-Column Category + Featured Card View */}
-                <div className="p-6 max-h-[68vh] overflow-y-auto">
+                {/* Main Content Area: Search Filtered View OR 6-Column Category Cards + Featured Panel */}
+                <div className="p-4 sm:p-5 max-h-[72vh] overflow-y-auto">
                   {searchQuery.trim() ? (
                     /* Search Results View */
                     <div>
@@ -282,7 +308,7 @@ export default function Header() {
                       </div>
 
                       {filteredProducts.length > 0 ? (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                           {filteredProducts.map((prod) => (
                             <Link
                               key={prod.slug}
@@ -291,16 +317,16 @@ export default function Header() {
                               className="group flex flex-col justify-between p-3 rounded-xl border border-[#E5ECF0] bg-white hover:border-[#FF5E14] hover:bg-[#F8FAFC] hover:shadow-sm transition-all"
                             >
                               <div>
-                                <div className="flex items-center justify-between gap-2 mb-1">
+                                <div className="flex items-center justify-between gap-2 mb-1.5">
                                   <span className="text-[10px] font-bold text-[#164E7A] bg-[#164E7A]/10 px-1.5 py-0.5 rounded">
                                     {prod.categoryName}
                                   </span>
                                   <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#FF5E14] group-hover:translate-x-0.5 transition-all" />
                                 </div>
-                                <h4 className="text-xs font-bold text-[#0F172A] group-hover:text-[#FF5E14] transition-colors">
+                                <h4 className="text-xs font-bold text-[#0F172A] group-hover:text-[#FF5E14] transition-colors leading-snug">
                                   {prod.name}
                                 </h4>
-                                <p className="text-[11px] text-slate-500 line-clamp-1 mt-0.5">
+                                <p className="text-[11px] text-slate-500 line-clamp-2 mt-1">
                                   {prod.shortDesc}
                                 </p>
                               </div>
@@ -328,278 +354,202 @@ export default function Header() {
                       )}
                     </div>
                   ) : (
-                    /* Default Multi-Column Grid + Compact Featured Product Panel */
-                    <div className="grid grid-cols-12 gap-5">
-                      {/* Left 4 Category Columns (Span 9 on desktop) */}
-                      <div className="col-span-12 lg:col-span-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
-                        {/* Column 1: Pouch Packaging Machines (9) */}
-                        <div className="space-y-2.5">
-                          <div className="flex items-center gap-2 pb-2 border-b border-[#E5ECF0]">
-                            <div className="w-6 h-6 rounded-md bg-[#164E7A]/10 text-[#164E7A] flex items-center justify-center shrink-0">
-                              <Package className="w-3.5 h-3.5" />
-                            </div>
-                            <div className="min-w-0">
-                              <Link
-                                href={`/${categories[0].slug}`}
-                                onClick={closeMenu}
-                                className="font-bold text-xs text-[#0B192C] hover:text-[#FF5E14] transition-colors block leading-tight truncate"
-                              >
-                                {categories[0].name}
-                              </Link>
-                              <span className="text-[10px] text-slate-400 font-medium">9 Models</span>
-                            </div>
-                          </div>
-                          <ul className="space-y-1">
-                            {categories[0].products.map((prod) => (
-                              <li key={prod.slug}>
-                                <Link
-                                  href={`/${prod.slug}`}
-                                  onClick={closeMenu}
-                                  className="group block px-2 py-1 text-xs text-[#0F172A] hover:text-[#FF5E14] hover:bg-[#F8FAFC] rounded transition-colors font-medium leading-snug"
-                                >
-                                  <span className="group-hover:translate-x-0.5 inline-block transition-transform">
-                                    {prod.name}
-                                  </span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                          <Link
-                            href={`/${categories[0].slug}`}
-                            onClick={closeMenu}
-                            className="inline-flex items-center gap-1 text-[11px] font-bold text-[#FF5E14] hover:underline pt-1"
-                          >
-                            <span>View All Pouch Models</span>
-                            <ArrowRight className="w-3 h-3" />
-                          </Link>
-                        </div>
-
-                        {/* Column 2: Sealing & Capping Machines (12) */}
-                        <div className="space-y-2.5">
-                          <div className="flex items-center gap-2 pb-2 border-b border-[#E5ECF0]">
-                            <div className="w-6 h-6 rounded-md bg-[#164E7A]/10 text-[#164E7A] flex items-center justify-center shrink-0">
-                              <ShieldCheck className="w-3.5 h-3.5" />
-                            </div>
-                            <div className="min-w-0">
-                              <Link
-                                href={`/${categories[1].slug}`}
-                                onClick={closeMenu}
-                                className="font-bold text-xs text-[#0B192C] hover:text-[#FF5E14] transition-colors block leading-tight truncate"
-                              >
-                                {categories[1].name}
-                              </Link>
-                              <span className="text-[10px] text-slate-400 font-medium">12 Models</span>
-                            </div>
-                          </div>
-                          <ul className="space-y-1">
-                            {categories[1].products.map((prod) => (
-                              <li key={prod.slug}>
-                                <Link
-                                  href={`/${prod.slug}`}
-                                  onClick={closeMenu}
-                                  className="group block px-2 py-1 text-xs text-[#0F172A] hover:text-[#FF5E14] hover:bg-[#F8FAFC] rounded transition-colors font-medium leading-snug"
-                                >
-                                  <span className="group-hover:translate-x-0.5 inline-block transition-transform">
-                                    {prod.name}
-                                  </span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                          <Link
-                            href={`/${categories[1].slug}`}
-                            onClick={closeMenu}
-                            className="inline-flex items-center gap-1 text-[11px] font-bold text-[#FF5E14] hover:underline pt-1"
-                          >
-                            <span>View All Sealing Models</span>
-                            <ArrowRight className="w-3 h-3" />
-                          </Link>
-                        </div>
-
-                        {/* Column 3: Filling & Dosing (6) + Coding & Marking (4) */}
-                        <div className="space-y-4">
-                          {/* Filling & Dosing Machinery */}
-                          <div className="space-y-2">
-                            <div className="flex items-center gap-2 pb-2 border-b border-[#E5ECF0]">
-                              <div className="w-6 h-6 rounded-md bg-[#164E7A]/10 text-[#164E7A] flex items-center justify-center shrink-0">
-                                <Droplets className="w-3.5 h-3.5" />
-                              </div>
-                              <div className="min-w-0">
-                                <Link
-                                  href={`/${categories[2].slug}`}
-                                  onClick={closeMenu}
-                                  className="font-bold text-xs text-[#0B192C] hover:text-[#FF5E14] transition-colors block leading-tight truncate"
-                                >
-                                  {categories[2].name}
-                                </Link>
-                                <span className="text-[10px] text-slate-400 font-medium">6 Models</span>
-                              </div>
-                            </div>
-                            <ul className="space-y-1">
-                              {categories[2].products.map((prod) => (
-                                <li key={prod.slug}>
-                                  <Link
-                                    href={`/${prod.slug}`}
-                                    onClick={closeMenu}
-                                    className="group block px-2 py-1 text-xs text-[#0F172A] hover:text-[#FF5E14] hover:bg-[#F8FAFC] rounded transition-colors font-medium leading-snug"
-                                  >
-                                    <span className="group-hover:translate-x-0.5 inline-block transition-transform">
-                                      {prod.name}
-                                    </span>
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-
-                          {/* Coding & Marking Equipment */}
-                          <div className="space-y-2 pt-1">
-                            <div className="flex items-center gap-2 pb-2 border-b border-[#E5ECF0]">
-                              <div className="w-6 h-6 rounded-md bg-[#164E7A]/10 text-[#164E7A] flex items-center justify-center shrink-0">
-                                <Printer className="w-3.5 h-3.5" />
-                              </div>
-                              <div className="min-w-0">
-                                <Link
-                                  href={`/${categories[3].slug}`}
-                                  onClick={closeMenu}
-                                  className="font-bold text-xs text-[#0B192C] hover:text-[#FF5E14] transition-colors block leading-tight truncate"
-                                >
-                                  {categories[3].name}
-                                </Link>
-                                <span className="text-[10px] text-slate-400 font-medium">4 Models</span>
-                              </div>
-                            </div>
-                            <ul className="space-y-1">
-                              {categories[3].products.map((prod) => (
-                                <li key={prod.slug}>
-                                  <Link
-                                    href={`/${prod.slug}`}
-                                    onClick={closeMenu}
-                                    className="group block px-2 py-1 text-xs text-[#0F172A] hover:text-[#FF5E14] hover:bg-[#F8FAFC] rounded transition-colors font-medium leading-snug"
-                                  >
-                                    <span className="group-hover:translate-x-0.5 inline-block transition-transform">
-                                      {prod.name}
-                                    </span>
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </div>
-
-                        {/* Column 4: Carton Taping, Strapping & End-of-Line (7) */}
-                        <div className="space-y-2.5">
-                          <div className="flex items-center gap-2 pb-2 border-b border-[#E5ECF0]">
-                            <div className="w-6 h-6 rounded-md bg-[#164E7A]/10 text-[#164E7A] flex items-center justify-center shrink-0">
-                              <Boxes className="w-3.5 h-3.5" />
-                            </div>
-                            <div className="min-w-0">
-                              <Link
-                                href={`/${categories[4].slug}`}
-                                onClick={closeMenu}
-                                className="font-bold text-xs text-[#0B192C] hover:text-[#FF5E14] transition-colors block leading-tight truncate"
-                              >
-                                {categories[4].name}
-                              </Link>
-                              <span className="text-[10px] text-slate-400 font-medium">7 Models</span>
-                            </div>
-                          </div>
-                          <ul className="space-y-1">
-                            {categories[4].products.map((prod) => (
-                              <li key={prod.slug}>
-                                <Link
-                                  href={`/${prod.slug}`}
-                                  onClick={closeMenu}
-                                  className="group block px-2 py-1 text-xs text-[#0F172A] hover:text-[#FF5E14] hover:bg-[#F8FAFC] rounded transition-colors font-medium leading-snug"
-                                >
-                                  <span className="group-hover:translate-x-0.5 inline-block transition-transform">
-                                    {prod.name}
-                                  </span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                          <Link
-                            href={`/${categories[4].slug}`}
-                            onClick={closeMenu}
-                            className="inline-flex items-center gap-1 text-[11px] font-bold text-[#FF5E14] hover:underline pt-1"
-                          >
-                            <span>View All End-of-Line</span>
-                            <ArrowRight className="w-3 h-3" />
-                          </Link>
-                        </div>
-                      </div>
-
-                      {/* Right Column: Compact Featured Machinery Panel (Span 3 on desktop) */}
-                      <div className="col-span-12 lg:col-span-3 flex flex-col justify-between p-4 bg-[#F8FAFC] border border-[#E5ECF0] rounded-xl">
-                        <div>
-                          <div className="flex items-center justify-between gap-2 mb-2">
-                            <span className="text-[10px] font-extrabold tracking-wider uppercase text-[#FF5E14] bg-orange-100/70 px-2 py-0.5 rounded-full">
-                              Featured Machinery
-                            </span>
-                            <span className="text-[10px] text-slate-500 font-semibold">Flagship</span>
-                          </div>
-
-                          <div className="relative w-full h-36 rounded-lg overflow-hidden bg-white border border-[#E5ECF0] my-2 group">
+                    /* 6-Column Layout: 5 Image-Based Category Cards + 1 Featured Machinery Panel (Reference Screenshot 2) */
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 xl:gap-3.5">
+                      {/* 5 Category Cards with Actual Product Images */}
+                      {categories.map((cat) => (
+                        <div 
+                          key={cat.id} 
+                          className="bg-white rounded-xl border border-slate-200/90 shadow-xs flex flex-col justify-between overflow-hidden hover:shadow-md hover:border-slate-300 transition-all group"
+                        >
+                          {/* Image Area at Top with object-contain */}
+                          <div className="relative w-full h-32 sm:h-36 bg-[#F8FAFC] border-b border-slate-100 p-2 flex items-center justify-center overflow-hidden">
                             <Image
-                              src="/images/avm/clean/product/automatic-pouch-packing-machine.jpg"
-                              alt="Automatic Pouch Packing Machine"
+                              src={cat.image}
+                              alt={cat.name}
                               fill
+                              sizes="(max-width: 768px) 100vw, 220px"
                               className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
                             />
                           </div>
 
-                          <h4 className="font-bold text-xs text-[#0B192C] mt-2">
+                          {/* Category Header with Icon, Name, and Count */}
+                          <div className="p-3 pb-2">
+                            <div className="flex items-start justify-between gap-1.5">
+                              <div className="flex items-center gap-2 min-w-0">
+                                <div className="w-6 h-6 rounded-md bg-orange-50 text-[#FF5E14] flex items-center justify-center shrink-0">
+                                  {categoryIcons[cat.id] || <Package className="w-3.5 h-3.5 text-[#FF5E14]" />}
+                                </div>
+                                <div className="min-w-0">
+                                  <Link
+                                    href={`/${cat.slug}`}
+                                    onClick={closeMenu}
+                                    className="font-bold text-xs text-[#0B192C] hover:text-[#FF5E14] transition-colors block leading-tight line-clamp-2"
+                                  >
+                                    {cat.name}
+                                  </Link>
+                                  <span className="text-[10px] text-slate-400 font-medium block mt-0.5">
+                                    {cat.products.length} Models
+                                  </span>
+                                </div>
+                              </div>
+                              <Link 
+                                href={`/${cat.slug}`}
+                                onClick={closeMenu}
+                                aria-label={`View ${cat.name}`}
+                                className="text-slate-400 hover:text-[#FF5E14] transition-colors"
+                              >
+                                <ChevronRight className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                              </Link>
+                            </div>
+                          </div>
+
+                          {/* Thin Divider */}
+                          <div className="border-b border-slate-100 mx-3 my-1" />
+
+                          {/* Product Links List with Chevrons and Internal Scroll */}
+                          <ul className="px-2 py-1 flex-1 space-y-0.5 max-h-[220px] overflow-y-auto scrollbar-thin">
+                            {cat.products.map((prod) => (
+                              <li key={prod.slug}>
+                                <Link
+                                  href={`/${prod.slug}`}
+                                  onClick={closeMenu}
+                                  className="flex items-center justify-between py-1 px-1.5 rounded hover:bg-[#F8FAFC] text-[11px] text-[#0F172A] hover:text-[#FF5E14] transition-colors font-medium group/item"
+                                  title={prod.name}
+                                >
+                                  <span className="truncate pr-1 group-hover/item:translate-x-0.5 transition-transform">
+                                    {prod.name}
+                                  </span>
+                                  <ChevronRight className="w-2.5 h-2.5 text-slate-300 group-hover/item:text-[#FF5E14] shrink-0" />
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+
+                          {/* View All Button at Bottom */}
+                          <div className="p-2.5 pt-1.5 mt-auto border-t border-slate-100/80">
+                            <Link
+                              href={`/${cat.slug}`}
+                              onClick={closeMenu}
+                              className="block w-full py-1.5 px-2 rounded-lg bg-orange-50/70 hover:bg-orange-100/90 text-[11px] font-bold text-[#FF5E14] text-center transition-colors"
+                            >
+                              {viewAllLabels[cat.id] || `View All ${cat.name}`} &rarr;
+                            </Link>
+                          </div>
+                        </div>
+                      ))}
+
+                      {/* Column 6: Featured Machinery Panel (Right Side) */}
+                      <div className="bg-[#F0F7FD] rounded-xl border border-[#D5E5F5] p-3.5 flex flex-col justify-between">
+                        <div>
+                          <span className="self-start inline-block text-[9px] font-extrabold uppercase tracking-wider text-white bg-[#FF5E14] px-2 py-0.5 rounded-full mb-1.5">
+                            FEATURED MACHINERY
+                          </span>
+
+                          <div className="relative w-full h-36 bg-white rounded-lg border border-slate-200/80 p-2 overflow-hidden shadow-xs my-1 group">
+                            <Image
+                              src="/images/avm/clean/product/automatic-pouch-packing-machine.jpg"
+                              alt="Automatic Pouch Packing Machine"
+                              fill
+                              sizes="220px"
+                              className="object-contain p-1.5 group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </div>
+
+                          <h4 className="font-extrabold text-xs text-[#0B192C] mt-1.5 leading-tight">
                             Automatic Pouch Packing Machine
                           </h4>
-                          <p className="text-[11px] text-slate-500 mt-1 line-clamp-2">
-                            Continuous Form-Fill-Seal packaging with high-accuracy volumetric & auger dosing for snacks, spices & granules.
+                          <p className="text-[10px] text-slate-600 mt-1 line-clamp-2 leading-relaxed">
+                            High-speed, reliable pouch packing solution for food, pharma and industrial products.
                           </p>
                         </div>
 
-                        <div className="pt-3 mt-3 border-t border-[#E5ECF0] space-y-2">
+                        <div className="mt-2.5 space-y-2">
                           <Link
                             href="/automatic-pouch-packing-machine"
                             onClick={closeMenu}
-                            className="w-full inline-flex items-center justify-center gap-1.5 py-2 px-3 text-xs font-bold text-white bg-[#0B192C] hover:bg-[#FF5E14] rounded-lg transition-colors shadow-sm"
+                            className="w-full inline-flex items-center justify-center gap-1.5 py-2 px-3 text-xs font-bold text-white bg-[#FF5E14] hover:bg-[#E04800] rounded-lg transition-colors shadow-sm"
                           >
                             <span>View Machine</span>
                             <ArrowRight className="w-3.5 h-3.5" />
                           </Link>
-                          <button
-                            onClick={() => {
-                              closeMenu();
-                              openModal("Automatic Pouch Packing Machine");
-                            }}
-                            className="w-full text-center text-[11px] font-semibold text-[#164E7A] hover:text-[#FF5E14] transition-colors py-0.5"
-                          >
-                            Request Custom Specs &rarr;
-                          </button>
+
+                          {/* 3 mini thumbnails row */}
+                          <div className="grid grid-cols-3 gap-1.5 pt-2 border-t border-slate-200/60">
+                            <div className="relative h-10 bg-white rounded border border-slate-200 p-0.5 overflow-hidden">
+                              <Image
+                                src="/images/avm/clean/product/automatic-pouch-packing-machine.jpg"
+                                alt="Pouch"
+                                fill
+                                sizes="50px"
+                                className="object-contain"
+                              />
+                            </div>
+                            <div className="relative h-10 bg-white rounded border border-slate-200 p-0.5 overflow-hidden">
+                              <Image
+                                src="/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg"
+                                alt="Sealing"
+                                fill
+                                sizes="50px"
+                                className="object-contain"
+                              />
+                            </div>
+                            <div className="relative h-10 bg-white rounded border border-slate-200 p-0.5 overflow-hidden">
+                              <Image
+                                src="/images/avm/clean/all/auger-filling-machine.jpg"
+                                alt="Filling"
+                                fill
+                                sizes="50px"
+                                className="object-contain"
+                              />
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   )}
                 </div>
 
-                {/* Mega Menu Bottom Bar */}
-                <div className="px-7 py-3 bg-[#F8FAFC] border-t border-[#E5ECF0] flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
-                  <div className="flex items-center gap-2">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>All 38 models manufactured with food/pharma grade SS 304/316 contact parts and standardized PLC controls.</span>
+                {/* Bottom Feature Badges Bar (Reference Screenshot 2) */}
+                <div className="bg-[#F8FAFC] border-t border-[#E5ECF0] px-6 py-3.5 grid grid-cols-2 lg:grid-cols-4 gap-4 rounded-b-2xl">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-blue-100/80 text-[#164E7A] flex items-center justify-center shrink-0">
+                      <Settings className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="text-xs font-bold text-[#0B192C] block leading-tight">38+ Machinery Models</span>
+                      <span className="text-[10px] text-slate-500 font-medium block">Complete Packaging Solutions</span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-5">
-                    <span className="font-semibold text-slate-800">
-                      Factory Guidance: <a href="tel:+918928852195" className="text-[#FF5E14] hover:underline font-bold">+91-8928852195</a>
-                    </span>
-                    <a
-                      href="/avmpackagingsystem.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-bold text-[#FF5E14] hover:underline flex items-center gap-1"
-                    >
-                      <FileText className="w-3.5 h-3.5" />
-                      <span>Catalog PDF</span>
-                    </a>
+
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-blue-100/80 text-[#164E7A] flex items-center justify-center shrink-0">
+                      <Globe className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="text-xs font-bold text-[#0B192C] block leading-tight">Engineered in Mumbai</span>
+                      <span className="text-[10px] text-slate-500 font-medium block">Trusted Worldwide</span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-blue-100/80 text-[#164E7A] flex items-center justify-center shrink-0">
+                      <ShieldCheck className="w-4 h-4 text-[#164E7A]" />
+                    </div>
+                    <div>
+                      <span className="text-xs font-bold text-[#0B192C] block leading-tight">Custom Solutions</span>
+                      <span className="text-[10px] text-slate-500 font-medium block">Tailored to Your Needs</span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-blue-100/80 text-[#164E7A] flex items-center justify-center shrink-0">
+                      <Headphones className="w-4 h-4 text-[#164E7A]" />
+                    </div>
+                    <div>
+                      <span className="text-xs font-bold text-[#0B192C] block leading-tight">Expert Support</span>
+                      <span className="text-[10px] text-slate-500 font-medium block">From Selection to Installation</span>
+                    </div>
                   </div>
                 </div>
               </div>
