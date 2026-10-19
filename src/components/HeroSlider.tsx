@@ -133,7 +133,7 @@ export default function HeroSlider() {
 
   return (
     <section 
-      className="relative overflow-hidden bg-[#07111E] text-white h-[600px] sm:h-[550px] md:h-[520px] lg:h-[530px] border-b border-slate-800 flex flex-col justify-between"
+      className="relative overflow-hidden bg-[#07111E] text-white h-[610px] sm:h-[560px] md:h-[530px] lg:h-[540px] border-b border-slate-800 flex flex-col justify-between"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       aria-label="Machinery Showcase Slider"
