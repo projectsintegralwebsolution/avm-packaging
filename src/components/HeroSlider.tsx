@@ -11,12 +11,7 @@ import {
   CheckCircle2, 
   PhoneCall, 
   FileText, 
-  Zap, 
-  Settings, 
-  Clock, 
-  Gauge, 
-  Award,
-  Layers
+  Award
 } from "lucide-react";
 import { useQuoteModal } from "@/context/QuoteModalContext";
 
@@ -27,9 +22,9 @@ interface SlideData {
   titleLight: string;
   titleHighlight: string;
   description: string;
-  image: string;
+  bannerImage: string;
   machineName: string;
-  specs: { label: string; value: string; icon: string }[];
+  specs: { label: string; value: string }[];
   primaryCtaText: string;
   primaryCtaMachine: string;
   secondaryCtaLink: string;
@@ -41,21 +36,21 @@ const slides: SlideData[] = [
   {
     id: 1,
     badge: "Direct Factory Manufacturer • 25+ Years Legacy",
-    badgeColor: "bg-orange-500/15 text-orange-400 border-orange-500/30",
+    badgeColor: "bg-orange-500/20 text-orange-400 border-orange-500/30",
     titleLight: "High-Speed Automated",
     titleHighlight: "Pouch Packaging Systems",
-    description: "Engineered for potato chips, namkeen, fryums, snacks, and spices. Heavy-duty SS 304 food-grade contact parts, multi-head combination weighers, and continuous nitrogen gas flushing.",
-    image: "/images/avm/clean/all/potato-chips-packaging-machine.jpg",
-    machineName: "Flagship Multihead Pouch Packaging System",
+    description: "Complete vertical form-fill-seal packaging line with supporting conveyor and sealing equipment. Engineered for potato chips, namkeen, fryums, snacks, and food granules.",
+    bannerImage: "/images/banner/hero-banner-1.png",
+    machineName: "Vertical Form-Fill-Seal Packaging Line",
     specs: [
-      { label: "Output Speed", value: "15 - 120 PPM", icon: "speed" },
-      { label: "Construction", value: "SS 304 Contact Parts", icon: "metal" },
-      { label: "Automation", value: "Touchscreen PLC", icon: "plc" },
-      { label: "Accuracy", value: "±0.5% Combined Weigher", icon: "accuracy" },
+      { label: "Output Speed", value: "15 - 120 PPM" },
+      { label: "Construction", value: "SS 304 Contact Parts" },
+      { label: "Automation", value: "Touchscreen PLC" },
+      { label: "Accuracy", value: "±0.5% Combined Weigher" },
     ],
     primaryCtaText: "Get Factory Price Quote",
-    primaryCtaMachine: "Potato Chips Packing Machine",
-    secondaryCtaLink: "/pouch-packaging-machine.php",
+    primaryCtaMachine: "Automatic Pouch Packing Machine",
+    secondaryCtaLink: "/automatic-pouch-packing-machine",
     secondaryCtaText: "Explore Pouch Packaging",
     trustPoints: [
       "Zero Product Breakage",
@@ -65,51 +60,51 @@ const slides: SlideData[] = [
   },
   {
     id: 2,
-    badge: "Heavy-Duty Industrial Sealing • ISO 9001 Standard",
-    badgeColor: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-    titleLight: "Continuous Band & Industrial",
-    titleHighlight: "Vacuum Sealing Machinery",
-    description: "Air-tight hermetic seals for food, pharma, and chemical pouches. Featuring synchronized motorized conveyors, solid-ink date coding wheels, and single/double chamber vacuum systems.",
-    image: "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
-    machineName: "Continuous Band Sealer with Conveyor",
+    badge: "High-Speed Flow Packaging • Precision Engineering",
+    badgeColor: "bg-sky-500/20 text-sky-400 border-sky-500/30",
+    titleLight: "High-Efficiency Horizontal",
+    titleHighlight: "Flow-Wrap Packaging Machines",
+    description: "Horizontal flow-wrap packaging machine with extended feeding conveyor and film-wrapping mechanism. Continuous hermetic wrapping for bakery, biscuits, trays, and industrial items.",
+    bannerImage: "/images/banner/hero-banner-2.png",
+    machineName: "Horizontal Flow-Wrap Packaging Machine",
     specs: [
-      { label: "Sealing Speed", value: "0 - 12 Meters/Min", icon: "speed" },
-      { label: "Sealing Width", value: "8 - 12 mm Embossed", icon: "metal" },
-      { label: "Temp Control", value: "0 - 300°C Digital PID", icon: "plc" },
-      { label: "Max Conveyor Load", value: "5 - 15 kg Heavy-Duty", icon: "accuracy" },
+      { label: "Output Speed", value: "30 - 250 PPM" },
+      { label: "Film Width", value: "Up to 350 mm" },
+      { label: "Control", value: "Digital PID & PLC" },
+      { label: "Sealing", value: "Pillow Pack Hermetic" },
     ],
-    primaryCtaText: "Request Band Sealer Pricing",
-    primaryCtaMachine: "Continuous Sealing Machine",
-    secondaryCtaLink: "/continuous-sealing-machine.php",
-    secondaryCtaText: "View Sealing Machines",
+    primaryCtaText: "Request Flow-Wrap Quote",
+    primaryCtaMachine: "Horizontal Flow Wrap Machine",
+    secondaryCtaLink: "/horizontal-flow-wrap-machine",
+    secondaryCtaText: "View Flow-Wrap Systems",
     trustPoints: [
-      "Consistent Leak-Proof Sealing",
-      "Hot Ink Roller Coding Included",
+      "Consistent Film Tracking",
+      "Quick Product Changeover",
       "Ready Stock Spare Parts"
     ]
   },
   {
     id: 3,
-    badge: "Precision Dosing & Marking • Custom Tooling",
-    badgeColor: "bg-sky-500/15 text-sky-400 border-sky-500/30",
-    titleLight: "Servo-Driven Auger Fillers &",
-    titleHighlight: "Industrial Coding Systems",
-    description: "Micro-dosing filling accuracy for pharmaceutical powders, spices, protein supplements, liquids, and pastes. Combined with high-speed carton batch coders and bottle sticker labelers.",
-    image: "/images/avm/clean/all/powder-filling-machine.jpg",
-    machineName: "Servo Auger Powder Filling Machine",
+    badge: "Heavy-Duty Secondary Packaging • Warehouse Automation",
+    badgeColor: "bg-amber-500/20 text-amber-400 border-amber-500/30",
+    titleLight: "High-Speed Automatic",
+    titleHighlight: "Carton Strapping Systems",
+    description: "Industrial carton strapping machine with yellow arch frame, integrated conveyor system, and heavy-duty black strapping reel. Engineered for high-throughput logistics and dispatch.",
+    bannerImage: "/images/banner/hero-banner-3.png",
+    machineName: "Automatic Arch Carton Strapping Machine",
     specs: [
-      { label: "Dosing Range", value: "5g to 5000g Jars/Pouches", icon: "speed" },
-      { label: "Filling Precision", value: "≤ ±1% High Accuracy", icon: "metal" },
-      { label: "Drive System", value: "High-Torque Servo Motor", icon: "plc" },
-      { label: "Hopper Capacity", value: "35L - 50L SS 316 Option", icon: "accuracy" },
+      { label: "Cycle Speed", value: "1.5 - 2.0 Sec/Strap" },
+      { label: "Arch Size", value: "Standard & Custom" },
+      { label: "Tension Range", value: "10 - 70 kg Adjustable" },
+      { label: "Reel", value: "PP Strap Compatible" },
     ],
-    primaryCtaText: "Get Auger Filler Quote",
-    primaryCtaMachine: "Auger Filling Machine",
-    secondaryCtaLink: "/auger-filling-machine.php",
-    secondaryCtaText: "Explore Dosing Systems",
+    primaryCtaText: "Get Strapping Quote",
+    primaryCtaMachine: "Box Strapping Machine",
+    secondaryCtaLink: "/box-strapping-machine",
+    secondaryCtaText: "View Strapping Systems",
     trustPoints: [
-      "Quick-Release Cleaning Hopper",
-      "No-Spill Anti-Drip Nozzles",
+      "High Tension Reliability",
+      "Integrated Roller Conveyor",
       "1-Year Comprehensive Warranty"
     ]
   }
@@ -138,43 +133,58 @@ export default function HeroSlider() {
 
   return (
     <section 
-      className="relative overflow-hidden bg-gradient-to-b from-[#07111E] via-[#0B192C] to-[#0A1628] text-white py-8 md:py-[45px] border-b border-slate-800"
+      className="relative overflow-hidden bg-[#07111E] text-white min-h-[480px] lg:min-h-[500px] border-b border-slate-800 flex flex-col justify-between"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       aria-label="Machinery Showcase Slider"
     >
-      {/* Background Ambience & Grid Pattern */}
-      <div 
-        className="absolute inset-0 opacity-10 pointer-events-none"
-        style={{
-          backgroundImage: "radial-gradient(#38bdf8 1px, transparent 1px)",
-          backgroundSize: "28px 28px"
-        }}
-      />
-      <div className="absolute top-1/4 -left-48 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-10 -right-48 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
+      {/* 
+        Hero Banner Images: 100% Crisp, Pure, Authentic.
+        NOTE: ALL dark background overlays, gradients, and darkening pseudo-elements 
+        have been completely removed to keep the banners vibrant and unaltered.
+      */}
+      {slides.map((s, idx) => (
+        <div
+          key={s.id}
+          className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
+            idx === currentSlide ? "opacity-100 z-0" : "opacity-0 pointer-events-none"
+          }`}
+          aria-hidden={idx !== currentSlide}
+        >
+          <Image
+            src={s.bannerImage}
+            alt={s.machineName}
+            fill
+            priority={idx === 0}
+            sizes="100vw"
+            quality={95}
+            className="object-cover object-right md:object-center select-none"
+          />
+        </div>
+      ))}
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+      {/* Foreground Content Container */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-8 sm:pt-10 md:pt-11 pb-4">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
-          {/* Left Column: Machine Information & CTAs */}
-          <div className="lg:col-span-7 space-y-4 sm:space-y-5">
+          {/* Left Column: Machine Information & CTAs (Localized subtle backdrop on mobile for readability, completely transparent on desktop) */}
+          <div className="lg:col-span-7 xl:col-span-6 space-y-4 sm:space-y-4.5 bg-[#07111E]/80 sm:bg-[#07111E]/60 lg:bg-transparent p-4 sm:p-5 lg:p-0 rounded-2xl lg:rounded-none backdrop-blur-xs lg:backdrop-blur-none">
             
             {/* Top Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold border backdrop-blur-md transition-all duration-300">
-              <span className={`inline-block w-2 h-2 rounded-full ${currentSlide === 0 ? "bg-[#FF5E14]" : currentSlide === 1 ? "bg-emerald-400" : "bg-sky-400"} animate-pulse`} />
-              <span className="text-slate-200">{slide.badge}</span>
+              <span className={`inline-block w-2 h-2 rounded-full ${currentSlide === 0 ? "bg-[#FF5E14]" : currentSlide === 1 ? "bg-sky-400" : "bg-amber-400"} animate-pulse`} />
+              <span className="text-slate-100">{slide.badge}</span>
             </div>
 
             {/* Main Headline */}
-            <div className="space-y-1.5">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight leading-tight">
-                <span className="text-white block">{slide.titleLight}</span>
+            <div className="space-y-1">
+              <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-extrabold tracking-tight leading-tight">
+                <span className="text-white block drop-shadow-sm">{slide.titleLight}</span>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF5E14] via-amber-400 to-[#FF7A00] block mt-0.5">
                   {slide.titleHighlight}
                 </span>
               </h1>
-              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-2xl pt-1">
+              <p className="text-slate-200 text-xs sm:text-sm leading-relaxed max-w-xl pt-1 drop-shadow-xs">
                 {slide.description}
               </p>
             </div>
@@ -184,7 +194,7 @@ export default function HeroSlider() {
               {slide.specs.map((spec, idx) => (
                 <div 
                   key={idx} 
-                  className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/60 shadow-inner backdrop-blur-sm"
+                  className="p-2.5 rounded-xl bg-slate-900/85 border border-slate-700/70 shadow-sm backdrop-blur-sm"
                 >
                   <span className="text-[10px] font-medium text-slate-400 block uppercase tracking-wider">{spec.label}</span>
                   <span className="text-xs font-bold text-white mt-0.5 block truncate">{spec.value}</span>
@@ -193,7 +203,7 @@ export default function HeroSlider() {
             </div>
 
             {/* Trust Highlights Checklist */}
-            <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-slate-300">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-slate-200">
               {slide.trustPoints.map((point, idx) => (
                 <div key={idx} className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
@@ -214,7 +224,7 @@ export default function HeroSlider() {
 
               <Link
                 href={slide.secondaryCtaLink}
-                className="inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl font-semibold text-xs sm:text-sm bg-slate-800/80 hover:bg-slate-700 text-white border border-slate-700 hover:border-slate-600 transition-all duration-200"
+                className="inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl font-semibold text-xs sm:text-sm bg-slate-800/90 hover:bg-slate-700 text-white border border-slate-700 hover:border-slate-600 transition-all duration-200 shadow-sm"
               >
                 <span>{slide.secondaryCtaText}</span>
                 <ArrowRight className="w-4 h-4 text-[#FF5E14]" />
@@ -224,71 +234,32 @@ export default function HeroSlider() {
                 href="/avmpackagingsystem.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-3.5 py-2.5 sm:py-3 rounded-xl font-semibold text-xs text-slate-300 hover:text-white bg-slate-900/60 hover:bg-slate-800 border border-slate-800 transition-colors"
+                className="inline-flex items-center gap-1.5 px-3.5 py-2.5 sm:py-3 rounded-xl font-semibold text-xs text-slate-200 hover:text-white bg-slate-900/80 hover:bg-slate-800 border border-slate-800 transition-colors shadow-sm"
                 title="Download Official Engineering Brochure"
               >
                 <FileText className="w-3.5 h-3.5 text-amber-400" />
-                <span className="hidden sm:inline">Catalog PDF (3.2MB)</span>
+                <span className="hidden sm:inline">Catalog PDF</span>
                 <span className="sm:hidden">Catalog</span>
               </a>
             </div>
 
           </div>
 
-          {/* Right Column: Clean Machinery Showcase Canvas */}
-          <div className="lg:col-span-5 relative flex items-center justify-center">
-            
-            {/* Ambient Machinery Glow Ring */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#FF5E14]/15 via-sky-500/10 to-transparent rounded-3xl blur-2xl pointer-events-none" />
-
-            {/* Showcase Stage Frame */}
-            <div className="relative w-full max-w-[390px] aspect-square bg-gradient-to-b from-slate-900/90 to-slate-950/90 p-4 sm:p-5 rounded-3xl border border-slate-700/80 shadow-2xl flex flex-col items-center justify-between">
-              
-              {/* Stage Header Info */}
-              <div className="w-full flex items-center justify-between border-b border-slate-800/80 pb-2.5">
-                <div className="flex items-center gap-2">
-                  <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-orange-500/20 text-orange-400 border border-orange-500/30">
-                    AVM Model #{slide.id}
-                  </span>
-                  <span className="text-xs font-semibold text-slate-300 truncate max-w-[180px]">
-                    {slide.machineName}
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5 text-[11px] text-emerald-400 font-medium">
-                  <ShieldCheck className="w-3.5 h-3.5" />
-                  <span>Ready Stock</span>
-                </div>
-              </div>
-
-              {/* Machinery Studio Image: Clean, Sharp, No Ghosting */}
-              <div className="relative w-full h-52 sm:h-60 my-auto flex items-center justify-center">
-                <Image
-                  key={slide.image}
-                  src={slide.image}
-                  alt={slide.machineName}
-                  fill
-                  priority
-                  className="object-contain p-2 drop-shadow-2xl transition-all duration-500"
-                />
-              </div>
-
-              {/* Stage Footer Bar */}
-              <div className="w-full pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] sm:text-xs text-slate-400">
-                <span className="flex items-center gap-1">
-                  <Award className="w-3.5 h-3.5 text-[#FF5E14]" />
-                  <span>Factory Tested</span>
-                </span>
-                <span className="text-slate-300 font-semibold">Goregaon East, Mumbai</span>
-                <span className="text-[#FF5E14] font-bold">100% Genuine Parts</span>
-              </div>
+          {/* Right Column: Left clear so the machinery in the banner is completely prominent & visible */}
+          <div className="hidden lg:flex lg:col-span-5 xl:col-span-6 justify-end items-start pt-2 pointer-events-none">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/75 border border-slate-700/60 backdrop-blur-md text-xs text-slate-200 shadow-md">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+              <span className="font-semibold">{slide.machineName}</span>
+              <span className="text-[#FF5E14] font-bold ml-1">Ready Stock</span>
             </div>
-
           </div>
 
         </div>
+      </div>
 
-        {/* Bottom Slider Navigation Controls & Indicators */}
-        <div className="flex items-center justify-between pt-5 sm:pt-6 border-t border-slate-800/80 mt-6 sm:mt-7">
+      {/* Bottom Slider Navigation Controls & Indicators */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-4 sm:pb-6 pt-3">
+        <div className="flex items-center justify-between border-t border-slate-800/60 pt-3">
           
           {/* Slide Dots / Progress Indicators */}
           <div className="flex items-center gap-2.5">
@@ -304,25 +275,25 @@ export default function HeroSlider() {
                 }`}
               />
             ))}
-            <span className="text-xs text-slate-400 ml-2 font-mono">
+            <span className="text-xs text-slate-300 ml-2 font-mono">
               0{currentSlide + 1} / 0{slides.length}
             </span>
           </div>
 
-          {/* Quick Slide Switcher Pill */}
-          <div className="hidden md:flex items-center gap-3 text-xs text-slate-400">
-            <span className="text-slate-500">Machinery Categories:</span>
+          {/* Quick Slide Switcher Pills */}
+          <div className="hidden md:flex items-center gap-3 text-xs text-slate-300">
+            <span className="text-slate-400">Featured Machinery:</span>
             {slides.map((s, idx) => (
               <button
                 key={s.id}
                 onClick={() => setCurrentSlide(idx)}
                 className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all ${
                   idx === currentSlide 
-                    ? "bg-slate-800 text-white border border-slate-700" 
-                    : "hover:text-slate-200"
+                    ? "bg-slate-800/90 text-white border border-slate-700 shadow-xs" 
+                    : "hover:text-white text-slate-400"
                 }`}
               >
-                {idx === 0 ? "Pouch Packaging" : idx === 1 ? "Band & Vacuum Sealing" : "Auger & Coding"}
+                {idx === 0 ? "VFFS Pouch Packaging" : idx === 1 ? "Horizontal Flow-Wrap" : "Carton Strapping"}
               </button>
             ))}
           </div>
@@ -332,21 +303,20 @@ export default function HeroSlider() {
             <button
               onClick={prevSlide}
               aria-label="Previous Slide"
-              className="p-2.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors"
+              className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors shadow-xs"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
             <button
               onClick={nextSlide}
               aria-label="Next Slide"
-              className="p-2.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors"
+              className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors shadow-xs"
             >
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
 
         </div>
-
       </div>
     </section>
   );
