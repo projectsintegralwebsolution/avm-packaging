@@ -133,7 +133,7 @@ export default function HeroSlider() {
 
   return (
     <section 
-      className="relative overflow-hidden bg-[#07111E] text-white min-h-[480px] lg:min-h-[500px] border-b border-slate-800 flex flex-col justify-between"
+      className="relative overflow-hidden bg-[#07111E] text-white h-[580px] sm:h-[530px] md:h-[500px] lg:h-[510px] border-b border-slate-800 flex flex-col justify-between"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       aria-label="Machinery Showcase Slider"
@@ -173,11 +173,11 @@ export default function HeroSlider() {
       />
 
       {/* Foreground Content Container */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-8 sm:pt-10 md:pt-11 pb-4">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-6 sm:pt-8 md:pt-10 pb-4">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
           {/* Left Column: Machine Information & CTAs (Localized subtle backdrop on mobile for readability, completely transparent on desktop) */}
-          <div className="lg:col-span-7 xl:col-span-6 space-y-4 sm:space-y-4.5 bg-[#07111E]/80 sm:bg-[#07111E]/60 lg:bg-transparent p-4 sm:p-5 lg:p-0 rounded-2xl lg:rounded-none backdrop-blur-xs lg:backdrop-blur-none">
+          <div className="lg:col-span-7 xl:col-span-6 space-y-3.5 sm:space-y-4 bg-[#07111E]/80 sm:bg-[#07111E]/60 lg:bg-transparent p-4 sm:p-5 lg:p-0 rounded-2xl lg:rounded-none backdrop-blur-xs lg:backdrop-blur-none">
             
             {/* Top Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold border backdrop-blur-md transition-all duration-300">
@@ -185,18 +185,20 @@ export default function HeroSlider() {
               <span className="text-slate-100">{slide.badge}</span>
             </div>
 
-            {/* Main Headline */}
-            <div className="space-y-1">
-              <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-extrabold tracking-tight leading-tight">
+            {/* Main Headline (Equalized height across all slides) */}
+            <div className="space-y-0.5 min-h-[60px] sm:min-h-[68px] lg:min-h-[72px] flex flex-col justify-center">
+              <h1 className="text-2xl sm:text-3xl lg:text-[32px] xl:text-[34px] font-extrabold tracking-tight leading-tight">
                 <span className="text-white block drop-shadow-sm">{slide.titleLight}</span>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF5E14] via-amber-400 to-[#FF7A00] block mt-0.5">
                   {slide.titleHighlight}
                 </span>
               </h1>
-              <p className="text-slate-200 text-xs sm:text-sm leading-relaxed max-w-xl pt-1 drop-shadow-xs">
-                {slide.description}
-              </p>
             </div>
+
+            {/* Description (Equalized height across all slides) */}
+            <p className="text-slate-200 text-xs sm:text-sm leading-relaxed max-w-xl min-h-[36px] sm:min-h-[40px] drop-shadow-xs flex items-center">
+              {slide.description}
+            </p>
 
             {/* Technical Telemetry Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-0.5">
