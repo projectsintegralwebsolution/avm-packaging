@@ -139,9 +139,7 @@ export default function HeroSlider() {
       aria-label="Machinery Showcase Slider"
     >
       {/* 
-        Hero Banner Images: 100% Crisp, Pure, Authentic.
-        NOTE: ALL dark background overlays, gradients, and darkening pseudo-elements 
-        have been completely removed to keep the banners vibrant and unaltered.
+        Hero Banner Images
       */}
       {slides.map((s, idx) => (
         <div
@@ -162,6 +160,17 @@ export default function HeroSlider() {
           />
         </div>
       ))}
+
+      {/* 
+        20% Navy Blue Overlay:
+        Color: #0B192C at 20% opacity (rgba(11, 25, 44, 0.2)).
+        Positioned above banner images (z-0) and below all text, buttons, and slider controls (z-10).
+      */}
+      <div 
+        className="absolute inset-0 pointer-events-none z-[1]"
+        style={{ backgroundColor: "rgba(11, 25, 44, 0.2)" }}
+        aria-hidden="true"
+      />
 
       {/* Foreground Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-8 sm:pt-10 md:pt-11 pb-4">
