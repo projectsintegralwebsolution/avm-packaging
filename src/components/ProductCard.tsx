@@ -72,7 +72,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             href={`/${product.slug}`}
             className="inline-flex items-center gap-1 text-xs font-bold text-slate-700 hover:text-[#FF5E14] transition-colors"
           >
-            <span>Specs &amp; Details</span>
+            <span>Specs & Details</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
 

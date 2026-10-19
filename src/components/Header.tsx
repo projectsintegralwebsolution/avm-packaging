@@ -281,7 +281,7 @@ export default function Header() {
                       className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-white bg-[#FF5E14] hover:bg-[#E04800] rounded-lg shadow-sm transition-all whitespace-nowrap shrink-0"
                     >
                       <Settings className="w-3 h-3" />
-                      <span>Request Custom Model Quote &rarr;</span>
+                      <span>Request Custom Model Quote →</span>
                     </button>
                   </div>
                 </div>
@@ -437,7 +437,7 @@ export default function Header() {
                               onClick={closeMenu}
                               className="block w-full py-1 px-1.5 rounded-lg bg-orange-50/70 hover:bg-orange-100/90 text-[10.5px] font-bold text-[#FF5E14] text-center transition-colors"
                             >
-                              {viewAllLabels[cat.id] || `View All ${cat.name}`} &rarr;
+                              {viewAllLabels[cat.id] || `View All ${cat.name}`} →
                             </Link>
                           </div>
                         </div>

@@ -136,7 +136,7 @@ export default function ProductDetailPage({ params }: ProductPageProps) {
             <div className="mt-5 flex flex-wrap gap-4 text-xs text-slate-400">
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>In-Stock &amp; Ready for Dispatch</span>
+                <span>In-Stock & Ready for Dispatch</span>
               </span>
               <span className="flex items-center gap-1.5">
                 <Zap className="w-4 h-4 text-[#FF5E14]" />
@@ -144,7 +144,7 @@ export default function ProductDetailPage({ params }: ProductPageProps) {
               </span>
               <span className="flex items-center gap-1.5">
                 <Wrench className="w-4 h-4 text-sky-400" />
-                <span>Pan-India Installation &amp; After-Sales Support</span>
+                <span>Pan-India Installation & After-Sales Support</span>
               </span>
             </div>
           </div>

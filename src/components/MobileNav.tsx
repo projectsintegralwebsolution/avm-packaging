@@ -142,7 +142,7 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
                   ))}
                   {filteredProducts.length === 0 && (
                     <div className="text-center py-4 text-xs text-slate-400">
-                      Try searching &ldquo;pouch&rdquo;, &ldquo;sealing&rdquo;, &ldquo;filling&rdquo;
+                      Try searching &quot;pouch&quot;, &quot;sealing&quot;, &quot;filling&quot;
                     </div>
                   )}
                 </div>
@@ -186,7 +186,7 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
                               onClick={handleClose}
                               className="block py-1 text-[11px] font-bold text-[#FF5E14] hover:underline"
                             >
-                              &bull; View All {cat.name} &rarr;
+                              • View All {cat.name} →
                             </Link>
                             {cat.products.map((prod) => (
                               <Link
