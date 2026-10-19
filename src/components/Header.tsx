@@ -174,20 +174,21 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-44 sm:w-56 h-10 sm:h-12">
+          <Link href="/" className="flex items-center shrink-0 group py-1">
+            <div className="relative w-[185px] sm:w-[210px] md:w-[220px] lg:w-[240px] xl:w-[250px] h-[20px] sm:h-[23px] md:h-[24px] lg:h-[26px] xl:h-[27px]">
               <Image
                 src="/images/avmlogo.png"
-                alt="AVM Packaging System Logo"
+                alt="AVM Packaging Systems Logo"
                 fill
                 priority
-                className="object-contain"
+                unoptimized
+                className="object-contain object-left"
               />
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-700">
+          <nav className="hidden lg:flex items-center gap-5 xl:gap-7 2xl:gap-8 text-sm font-semibold text-slate-700">
             <Link href="/" className="hover:text-[#FF5E14] transition-colors">
               Home
             </Link>
@@ -574,13 +575,14 @@ export default function Header() {
           </nav>
 
           {/* Right Header Actions */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <button
               onClick={() => openModal()}
-              className="btn-primary text-xs sm:text-sm px-4 sm:px-5 py-2.5 shadow-sm"
+              className="btn-primary text-xs sm:text-sm px-3 sm:px-4 xl:px-5 py-2 sm:py-2.5 shadow-sm whitespace-nowrap"
             >
               <Send className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <span>Get Instant Quote</span>
+              <span className="hidden sm:inline">Get Instant Quote</span>
+              <span className="inline sm:hidden">Quote</span>
             </button>
 
             {/* Mobile Hamburger Button */}
