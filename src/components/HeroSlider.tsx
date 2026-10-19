@@ -138,7 +138,7 @@ export default function HeroSlider() {
 
   return (
     <section 
-      className="relative overflow-hidden bg-gradient-to-b from-[#07111E] via-[#0B192C] to-[#0A1628] text-white py-12 md:py-20 border-b border-slate-800"
+      className="relative overflow-hidden bg-gradient-to-b from-[#07111E] via-[#0B192C] to-[#0A1628] text-white py-8 md:py-[45px] border-b border-slate-800"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       aria-label="Machinery Showcase Slider"
@@ -158,55 +158,55 @@ export default function HeroSlider() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Left Column: Machine Information & CTAs */}
-          <div className="lg:col-span-7 space-y-6">
+          <div className="lg:col-span-7 space-y-4 sm:space-y-5">
             
             {/* Top Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold border backdrop-blur-md transition-all duration-300">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold border backdrop-blur-md transition-all duration-300">
               <span className={`inline-block w-2 h-2 rounded-full ${currentSlide === 0 ? "bg-[#FF5E14]" : currentSlide === 1 ? "bg-emerald-400" : "bg-sky-400"} animate-pulse`} />
               <span className="text-slate-200">{slide.badge}</span>
             </div>
 
             {/* Main Headline */}
-            <div className="space-y-2">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
+            <div className="space-y-1.5">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight leading-tight">
                 <span className="text-white block">{slide.titleLight}</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF5E14] via-amber-400 to-[#FF7A00] block mt-1">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF5E14] via-amber-400 to-[#FF7A00] block mt-0.5">
                   {slide.titleHighlight}
                 </span>
               </h1>
-              <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl pt-2">
+              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-2xl pt-1">
                 {slide.description}
               </p>
             </div>
 
             {/* Technical Telemetry Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-0.5">
               {slide.specs.map((spec, idx) => (
                 <div 
                   key={idx} 
-                  className="p-3 rounded-xl bg-slate-900/80 border border-slate-700/60 shadow-inner backdrop-blur-sm"
+                  className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/60 shadow-inner backdrop-blur-sm"
                 >
-                  <span className="text-[11px] font-medium text-slate-400 block uppercase tracking-wider">{spec.label}</span>
-                  <span className="text-xs sm:text-sm font-bold text-white mt-0.5 block truncate">{spec.value}</span>
+                  <span className="text-[10px] font-medium text-slate-400 block uppercase tracking-wider">{spec.label}</span>
+                  <span className="text-xs font-bold text-white mt-0.5 block truncate">{spec.value}</span>
                 </div>
               ))}
             </div>
 
             {/* Trust Highlights Checklist */}
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-slate-300 pt-1">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-slate-300">
               {slide.trustPoints.map((point, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                <div key={idx} className="flex items-center gap-1.5">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                   <span>{point}</span>
                 </div>
               ))}
             </div>
 
             {/* Conversion CTA Group */}
-            <div className="flex flex-wrap items-center gap-4 pt-2">
+            <div className="flex flex-wrap items-center gap-3 pt-1">
               <button
                 onClick={() => openModal(slide.primaryCtaMachine)}
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-[#FF5E14] to-[#E04D0B] text-white shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:-translate-y-0.5 transition-all duration-200"
+                className="inline-flex items-center gap-2 px-5 py-2.5 sm:py-3 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-[#FF5E14] to-[#E04D0B] text-white shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:-translate-y-0.5 transition-all duration-200"
               >
                 <PhoneCall className="w-4 h-4" />
                 <span>{slide.primaryCtaText}</span>
@@ -214,7 +214,7 @@ export default function HeroSlider() {
 
               <Link
                 href={slide.secondaryCtaLink}
-                className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl font-semibold text-sm bg-slate-800/80 hover:bg-slate-700 text-white border border-slate-700 hover:border-slate-600 transition-all duration-200"
+                className="inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl font-semibold text-xs sm:text-sm bg-slate-800/80 hover:bg-slate-700 text-white border border-slate-700 hover:border-slate-600 transition-all duration-200"
               >
                 <span>{slide.secondaryCtaText}</span>
                 <ArrowRight className="w-4 h-4 text-[#FF5E14]" />
@@ -224,10 +224,10 @@ export default function HeroSlider() {
                 href="/avmpackagingsystem.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-3.5 rounded-xl font-semibold text-xs text-slate-300 hover:text-white bg-slate-900/60 hover:bg-slate-800 border border-slate-800 transition-colors"
+                className="inline-flex items-center gap-1.5 px-3.5 py-2.5 sm:py-3 rounded-xl font-semibold text-xs text-slate-300 hover:text-white bg-slate-900/60 hover:bg-slate-800 border border-slate-800 transition-colors"
                 title="Download Official Engineering Brochure"
               >
-                <FileText className="w-4 h-4 text-amber-400" />
+                <FileText className="w-3.5 h-3.5 text-amber-400" />
                 <span className="hidden sm:inline">Catalog PDF (3.2MB)</span>
                 <span className="sm:hidden">Catalog</span>
               </a>
@@ -242,10 +242,10 @@ export default function HeroSlider() {
             <div className="absolute inset-0 bg-gradient-to-tr from-[#FF5E14]/15 via-sky-500/10 to-transparent rounded-3xl blur-2xl pointer-events-none" />
 
             {/* Showcase Stage Frame */}
-            <div className="relative w-full max-w-md aspect-square bg-gradient-to-b from-slate-900/90 to-slate-950/90 p-5 rounded-3xl border border-slate-700/80 shadow-2xl flex flex-col items-center justify-between">
+            <div className="relative w-full max-w-[390px] aspect-square bg-gradient-to-b from-slate-900/90 to-slate-950/90 p-4 sm:p-5 rounded-3xl border border-slate-700/80 shadow-2xl flex flex-col items-center justify-between">
               
               {/* Stage Header Info */}
-              <div className="w-full flex items-center justify-between border-b border-slate-800/80 pb-3">
+              <div className="w-full flex items-center justify-between border-b border-slate-800/80 pb-2.5">
                 <div className="flex items-center gap-2">
                   <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-orange-500/20 text-orange-400 border border-orange-500/30">
                     AVM Model #{slide.id}
@@ -261,7 +261,7 @@ export default function HeroSlider() {
               </div>
 
               {/* Machinery Studio Image: Clean, Sharp, No Ghosting */}
-              <div className="relative w-full h-64 sm:h-72 my-auto flex items-center justify-center">
+              <div className="relative w-full h-52 sm:h-60 my-auto flex items-center justify-center">
                 <Image
                   key={slide.image}
                   src={slide.image}
@@ -273,7 +273,7 @@ export default function HeroSlider() {
               </div>
 
               {/* Stage Footer Bar */}
-              <div className="w-full pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+              <div className="w-full pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] sm:text-xs text-slate-400">
                 <span className="flex items-center gap-1">
                   <Award className="w-3.5 h-3.5 text-[#FF5E14]" />
                   <span>Factory Tested</span>
@@ -288,7 +288,7 @@ export default function HeroSlider() {
         </div>
 
         {/* Bottom Slider Navigation Controls & Indicators */}
-        <div className="flex items-center justify-between pt-8 sm:pt-10 border-t border-slate-800/80 mt-10">
+        <div className="flex items-center justify-between pt-5 sm:pt-6 border-t border-slate-800/80 mt-6 sm:mt-7">
           
           {/* Slide Dots / Progress Indicators */}
           <div className="flex items-center gap-2.5">
