@@ -1701,7 +1701,7 @@ export const products: Product[] = [
   {
     slug: "pedal-sealing-machine",
     name: "Pedal Sealing Machine",
-    h1: "Pedal Sealing Machine Manufacturer in India | Heavy Duty Foot Sealing Machine Supplier & Exporter",
+    h1: "Pedal Sealing Machine Manufacturer in India",
     category: "Sealing & Capping Machinery",
     categoryId: "sealing-machines",
     metaTitle: "Pedal Sealing Machine Manufacturers in India | Heavy Duty Foot Sealer | AVM Packaging",
