@@ -690,7 +690,7 @@ export const products: Product[] = [
   {
     slug: "continuous-sealing-machine",
     name: "Continuous Sealing Machine",
-    h1: "Continuous Sealing Machine Manufacturer in India | Band Sealer Machine Mumbai",
+    h1: "Continuous Sealing Machine Manufacturer in India",
     category: "Sealing & Capping Machinery",
     categoryId: "sealing-machines",
     metaTitle: "Continuous Sealing Machine Manufacturer in India | Band Sealer Machine Mumbai - AVM Packaging System",
