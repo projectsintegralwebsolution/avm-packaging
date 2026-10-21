@@ -8,8 +8,8 @@
   # Redirect disclaimer.php to indexed disclamier.php
   RewriteRule ^disclaimer\.php$ /disclamier.php [R=301,L]
 
-  # Redirect vaccum spelling alias canonically if needed
-  # Keep vaccum-sealing-machine.php working natively
+  # Redirect vaccum spelling alias permanently to correct vacuum-sealing-machine
+  RewriteRule ^vaccum-sealing-machine(\.php)?$ /vacuum-sealing-machine [R=301,L]
 </IfModule>
 
 # Directory Index

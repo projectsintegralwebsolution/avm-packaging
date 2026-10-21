@@ -1,4 +1,6 @@
 <?php
+header("Location: /vacuum-sealing-machine", true, 301);
+exit;
 $page_title = "Vaccum Sealing Machines Manufacturer | Wholesaler | Trader";
 $page_description = "We are a leading Manufacturer, Trader, and Wholesaler of high-performance Vaccum Sealing Machine, Table Top Vacuum Sealing Machine for the packaging industry.";
 $page_keywords = "AVM Packaging Systems, Vacuum Sealing Machine, Vaccum Sealing Machine, table Top Vacuum Sealing Machine, vaccum sealilng Machine supplier, Vaccum Sealing Machine Exporter, Mumbai, India";

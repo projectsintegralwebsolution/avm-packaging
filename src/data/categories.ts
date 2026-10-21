@@ -41,7 +41,6 @@ export const categories: CategoryGroup[] = [
       { name: "Continuous Sealing Machine", slug: "continuous-sealing-machine", shortDesc: "High-speed motorized conveyor sealer" },
       { name: "Band Sealing Machine", slug: "band-sealing-machine", shortDesc: "Horizontal/vertical band sealer" },
       { name: "Vacuum Sealing Machine", slug: "vacuum-sealing-machine", shortDesc: "Commercial tabletop & chamber sealer" },
-      { name: "Vaccum Sealing Machine", slug: "vaccum-sealing-machine", shortDesc: "Table top & single chamber vacuum sealer" },
       { name: "Vacuum Sealers", slug: "vacuum-sealers", shortDesc: "Portable heavy-duty vacuum machines" },
       { name: "Pedal Sealing Machine", slug: "pedal-sealing-machine", shortDesc: "Foot operated heavy bag sealer" },
       { name: "Plastic Tube Sealing Machine", slug: "plastic-tube-sealing-machine", shortDesc: "Cosmetic & pharma tube sealer" },

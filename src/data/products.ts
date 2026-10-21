@@ -2447,69 +2447,6 @@ export const products: Product[] = [
     ]
   },
   {
-    slug: "vaccum-sealing-machine",
-    name: "Vaccum Sealing Machine",
-    h1: "Vaccum Sealing Machine",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Vaccum Sealing Machines Manufacturer | Wholesaler | Trader",
-    metaDescription: "We are a leading Manufacturer, Trader, and Wholesaler of high-performance Vaccum Sealing Machine, Table Top Vacuum Sealing Machine for the packaging industry.",
-    metaKeywords: "AVM Packaging Systems, Vacuum Sealing Machine, Vaccum Sealing Machine, table Top Vacuum Sealing Machine, vaccum sealilng Machine supplier, Vaccum Sealing Machine Exporter, Mumbai, India",
-    canonicalUrl: "https://avmpackagingsystem.com/vacuum-sealing-machine.php",
-    image: "/images/avm/clean/vaccum/single-chamber-vacuum-sealing-machine.jpg",
-    shortDescription: "We are a leading Manufacturer, Trader, and Wholesaler of high-performance Vaccum Sealing Machine, Table Top Vacuum Sealing Machine for the packaging industry.",
-    description: "We are a leading Manufacturer, Trader, and Wholesaler of high-performance Vaccum Sealing Machine, Table Top Vacuum Sealing Machine for the packaging industry.",
-    features: [
-      "This machine is economical & best for house-holds, shops, supermarkets, small industry, light packing",
-      "An absence of air in the pouch: Increases Shelf life, Avoids Spoilage, Reduces the volume of the product, Remove moisture in a pouch, Stops rusting (for metal items packing)",
-      "Operation Systems: After inserting the pouch in the vacuum nozzle of a machine, the sealing jaw is pressed down & the bag is locked in the sealing jaw.",
-      "Then upon pressing red switch, vacuum process (of pulling out air starts)",
-      "Small pump in machine withdraws the air from the pouch",
-      "Once it is seen that vacuum is complete, push center press-bar & the sealing gets done, as per timer set",
-      "Once a seal is completed, the machine emits a beeping sound.",
-    ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
-    ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Weight": "30-35 Kg",
-      "Voltage": "240 V",
-      "Driven Type": "Electric",
-      "Frequency": "50 Hz",
-      "Material": "Plastic",
-      "Usage": "Food Sealing",
-      "Brand": "AVM",
-      "Sealing Length": "400 mm",
-      "Automation Grade": "Semi-Automatic",
-      "Vacuum Pump Power": "1500 W",
-      "Usage/Application": "Food Packaging",
-      "Phase": "Single",
-      "Body Material": "ABS Plastic",
-      "Sealing Capacity": "20-30 pieces/min",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-    },
-    faqs: [
-      {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
-      },
-      {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
-      },
-      {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
-      },
-    ]
-  },
-  {
     slug: "vacuum-sealers",
     name: "Vacuum Sealers",
     h1: "Vacuum Sealers",
