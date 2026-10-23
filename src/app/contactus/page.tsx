@@ -137,16 +137,16 @@ export default function ContactUsPage() {
               <span className="text-xs font-bold uppercase tracking-wider text-[#FF5E14]">Factory Navigation Map</span>
               <span className="text-xs text-slate-400">Goregaon East, Mumbai, Maharashtra</span>
             </div>
-            <div className="w-full h-80">
+            <div className="w-full h-[380px] sm:h-[450px]">
               <iframe
-                title="AVM Packaging System Mumbai Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4239855524314!2d72.85265431490278!3d19.16631898703774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7a6d8d9c3a3%3A0x6b447817eb481e19!2sCama%20Industrial%20Estate%2C%20Goregaon%2C%20Mumbai%2C%20Maharashtra%20400063!5e0!3m2!1sen!2sin!4v1625000000000!5m2!1sen!2sin"
+                title="AVM Packaging factory location map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.008991156806!2d72.6593998!3d23.2561507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2c78eaaaaaab%3A0x4955487cf38d2a42!2sAVM%20PACKAGING!5e1!3m2!1sen!2sin!4v1792735808281!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen={false}
+                allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
               ></iframe>
             </div>
           </div>
