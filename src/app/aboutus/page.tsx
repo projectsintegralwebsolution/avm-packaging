@@ -72,8 +72,8 @@ export default function AboutUsPage() {
             <div className="lg:col-span-6">
               <div className="relative w-full h-[380px] sm:h-[460px] rounded-3xl overflow-hidden shadow-xl border border-slate-200 group bg-slate-900">
                 <Image
-                  src="/images/about/pic5.jpg"
-                  alt="AVM Packaging System Engineering & Manufacturing Facility"
+                  src="/images/about/avm-packaging-machinery-facility.jpg"
+                  alt="Automatic packaging machinery and conveyor sealing systems at AVM Packaging Systems manufacturing facility in Mumbai"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
