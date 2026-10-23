@@ -133,14 +133,14 @@ export default function ContactUsPage() {
 
           {/* Embedded Google Map */}
           <div className="mt-12 bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
-            <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
+            <div className="px-5 py-3.5 sm:py-4 bg-slate-900 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#FF5E14]">Factory Navigation Map</span>
-              <span className="text-xs text-slate-400">Goregaon East, Mumbai, Maharashtra</span>
+              <span className="text-xs text-slate-300 font-medium">Goregaon East, Mumbai, Maharashtra</span>
             </div>
-            <div className="w-full h-[380px] sm:h-[450px]">
+            <div className="w-full h-[300px] sm:h-[340px] md:h-[360px]">
               <iframe
-                title="AVM Packaging factory location map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.008991156806!2d72.6593998!3d23.2561507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2c78eaaaaaab%3A0x4955487cf38d2a42!2sAVM%20PACKAGING!5e1!3m2!1sen!2sin!4v1792735808281!5m2!1sen!2sin"
+                title="AVM Packaging Systems Factory Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.5138934965403!2d72.8553337!3d19.1576389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7da2c7ee2cf%3A0xb19d4b2522946139!2sAVM%20PACKAGING%20SYSTEMS!5e1!3m2!1sen!2sin!4v1792736789652!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
