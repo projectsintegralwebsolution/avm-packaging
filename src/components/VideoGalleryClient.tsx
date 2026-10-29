@@ -288,9 +288,6 @@ export default function VideoGalleryClient() {
                 <h3 className="font-bold text-slate-900 text-base leading-snug group-hover:text-[#FF5E14] transition-colors">
                   {video.title}
                 </h3>
-                <p className="mt-2 text-xs text-slate-600 line-clamp-2 leading-relaxed">
-                  {video.description}
-                </p>
               </div>
 
               {/* Action Buttons */}
