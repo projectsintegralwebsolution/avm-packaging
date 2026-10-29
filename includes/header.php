@@ -69,7 +69,7 @@ if (!isset($active_nav)) $active_nav = "";
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           +91-8928852195
         </a>
-        <a href="tel:+919869911733">+91-9869911733</a>
+        <a href="tel:+919029174133">+91-9029174133</a>
         <a href="mailto:info@avmpackagingsystem.com">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           info@avmpackagingsystem.com
@@ -154,9 +154,7 @@ if (!isset($active_nav)) $active_nav = "";
                   <li><a href="paste-filling-machine.php">Paste & Cream Filling Machine</a></li>
                   <li><a href="liquid-paste-packing-machine.php">Liquid Paste Packing Machine</a></li>
                   <li><a href="weigh-filling-machine.php">Weigh Filling Machine</a></li>
-                  <li><a href="coding-machine.php">Batch Coding Machine</a></li>
                   <li><a href="pad-printing-machine.php">Pad Printing Machine</a></li>
-                  <li><a href="carton-batch-coding-machine.php">Carton Batch Coding Machine</a></li>
                   <li><a href="bottle-sticker-labeling-machine.php">Bottle Sticker Labeling Machine</a></li>
                   <li><a href="strapping-machine.php">Box Strapping Machine</a></li>
                   <li><a href="box-strapping-machine.php">Carton Strapping Solutions</a></li>
@@ -245,7 +243,6 @@ if (!isset($active_nav)) $active_nav = "";
             <a href="liquid-filling-machine.php">• Liquid Filling Machine</a>
             <a href="paste-filling-machine.php">• Paste Filling Machine</a>
             <a href="weigh-filling-machine.php">• Weigh Filling Machine</a>
-            <a href="coding-machine.php">• Batch Coding Machine</a>
             <a href="pad-printing-machine.php">• Pad Printing Machine</a>
             <a href="carton-taping-machine.php">• Carton Taping Machine</a>
             <a href="strapping-machine.php">• Strapping Machine</a>

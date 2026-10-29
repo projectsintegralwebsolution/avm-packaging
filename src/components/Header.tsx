@@ -130,10 +130,10 @@ export default function Header() {
               <span className="font-semibold text-white">+91-8928852195</span>
             </a>
             <a
-              href="tel:+919869911733"
+              href="tel:+919029174133"
               className="hover:text-white transition-colors"
             >
-              +91-9869911733
+              +91-9029174133
             </a>
             <a
               href="mailto:info@avmpackagingsystem.com"
@@ -216,7 +216,7 @@ export default function Header() {
                 aria-controls="mega-menu-machinery"
               >
                 <Layers className="w-4 h-4 text-[#FF5E14]" />
-                <span>All Machinery (38 Models)</span>
+                <span>All Machinery ({allProducts.length} Models)</span>
                 <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isMegaMenuOpen ? "rotate-180" : ""}`} />
               </button>
 
@@ -247,7 +247,7 @@ export default function Header() {
                       Explore Our Packaging Machinery
                     </h3>
                     <p className="text-[11px] text-slate-500 font-medium">
-                      Complete range of 38 models for every packaging need
+                      Complete range of {allProducts.length} models for every packaging need
                     </p>
                   </div>
 
@@ -259,7 +259,7 @@ export default function Header() {
                         type="text"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        placeholder="Search 38 machinery models..."
+                        placeholder={`Search ${allProducts.length} machinery models...`}
                         className="w-full pl-8 pr-7 py-1.5 text-xs text-[#0F172A] bg-[#F8FAFC] border border-[#E5ECF0] rounded-lg focus:outline-none focus:border-[#FF5E14] focus:bg-white focus:ring-2 focus:ring-[#FF5E14]/15 transition-all placeholder:text-slate-400 font-medium"
                       />
                       {searchQuery && (
@@ -349,7 +349,7 @@ export default function Header() {
                             onClick={() => setSearchQuery("")}
                             className="mt-3 px-3.5 py-1 text-xs font-semibold text-white bg-[#0B192C] hover:bg-[#FF5E14] rounded-lg transition-colors"
                           >
-                            Reset Search & View All 38 Models
+                            Reset Search & View All {allProducts.length} Models
                           </button>
                         </div>
                       )}
@@ -523,7 +523,7 @@ export default function Header() {
                       <Settings className="w-3.5 h-3.5" />
                     </div>
                     <div>
-                      <span className="text-[11px] font-bold text-[#0B192C] block leading-tight">38+ Machinery Models</span>
+                      <span className="text-[11px] font-bold text-[#0B192C] block leading-tight">35+ Machinery Models</span>
                       <span className="text-[9.5px] text-slate-500 font-medium block">Complete Packaging Solutions</span>
                     </div>
                   </div>

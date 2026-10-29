@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "Sealing Machine Manufacturer &amp; Supplier in India | Industrial Sealing Machines - AVM Packaging System";
 $page_description = "AVM Packaging System is a trusted sealing machine manufacturer &amp; supplier in Mumbai, India. We offer pedal sealing machines, induction sealing machines, automatic sealing machines, tube sealing machines, and more for food, pharma, cosmetic &amp; industrial use. Get best price today.";
 $page_keywords = "sealing machine, sealing machine manufacturer, sealing machine manufacturer in mumbai, sealing machine suppliers India, automatic sealing machine, induction sealing machine, pedal sealing machine, tube sealing machine, foot sealing machine, heavy duty sealing machine, sealing machine price in india";
@@ -840,14 +840,12 @@ include 'includes/header.php';
 				<h3>Labeling, Coding &amp; Other Packaging Machines</h3>
 				
 					<a href="bottle-sticker-labeling-machine.php"  title="Bottle Sticker Labeling Machine">Bottle Sticker Labeling Machine</a>
-					<a href="carton-batch-coding-machine.php"  title="Carton Batch Coding Machine">Carton Batch Coding Machine</a>
 					<a href="wrapping-machine.php"  title="Shrink Wrapping Machine">Shrink Wrapping Machine</a>
 					<a href="box-strapping-machine.php"  title="Box Strapping Machine">Box Strapping Machine</a>
 					<a href="carton-taping-machine.php"  title="Carton Taping Machine">Carton Taping Machine</a>
 					<a href="shrink-tunnel-machine.php"  title="Shrink Tunnel Machine">Shrink Tunnel Machine</a>
 					<a href="conveyor-system.php"  title="Conveyor Systems">Conveyor Systems</a>
 					<a href="pad-printing-machine.php"  title="Pad Printing Machine">Pad Printing Machine</a>
-					<a href="coding-machine.php"  title="Coding Machine">Coding Machine</a>
 					<a href="manual-crown-capping-machine.php"  title="Manual Crown Capping Machine">Manual Crown Capping Machine</a>
 				
 

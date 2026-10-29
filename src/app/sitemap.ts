@@ -51,7 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // All 38 Machinery Models
+  // All Machinery Models
   const productRoutes: MetadataRoute.Sitemap = products.map((product) => ({
     url: product.canonicalUrl,
     lastModified: now,

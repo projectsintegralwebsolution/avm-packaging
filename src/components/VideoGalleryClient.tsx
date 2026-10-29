@@ -170,15 +170,6 @@ const avmVideos: VideoItem[] = [
     machineName: "Pad Printing Machine"
   },
   {
-    id: "v18",
-    youtubeId: "rLHYKbowRx0",
-    title: "High-Speed Pouch & Carton Batch Coding Machine",
-    category: "Coding & Marking",
-    description: "Automatic friction feeder batch coder printing MRP, expiry dates, and lot numbers on flat cartons and pouches.",
-    machineSlug: "coding-machine",
-    machineName: "Coding Machine"
-  },
-  {
     id: "v19",
     youtubeId: "3eYWc_2QdqE",
     title: "Automatic Round Bottle Sticker Labeling Machine",

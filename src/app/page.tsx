@@ -80,7 +80,7 @@ const structuredData = {
         },
         {
           "@type": "ContactPoint",
-          "telephone": "+91-9869911733",
+          "telephone": "+91-9029174133",
           "contactType": "customer service",
           "areaServed": "IN",
           "availableLanguage": ["English", "Hindi"]
@@ -233,7 +233,7 @@ export default function HomePage() {
               href="/pouch-packaging-machine"
               className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#FF5E14] hover:underline"
             >
-              <span>View All 38 Machinery Models</span>
+              <span>View All {products.length} Machinery Models</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

@@ -426,58 +426,6 @@ export const products: Product[] = [
     ]
   },
   {
-    slug: "carton-batch-coding-machine",
-    name: "Carton Batch Coding Machine",
-    h1: "Carton Batch Coding Machine",
-    category: "Coding & Marking Machinery",
-    categoryId: "coding-marking",
-    metaTitle: "Pad Printing Machine | Automatic Carton Batch Coding Machine",
-    metaDescription: "Pad Printing Machine Trader, Manufacturer of Automatic Carton Batch Coding Machine, Carton Batch Coding Printing Machine offered by AVM Packaging system from Mumbai, Maharashtra. Pad Printing Machine",
-    metaKeywords: "AVM Machine Manufacturer, Automatic Carton Batch Coding Machine, Carton Batch Coding Printing Machine Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/carton-batch-coding-machine.php",
-    image: "/images/avm/clean/all/carton-batch-coding-machine.jpg",
-    shortDescription: "Pad Printing Machine Trader, Manufacturer of Automatic Carton Batch Coding Machine, Carton Batch Coding Printing Machine offered by AVM Packaging system from Mumbai, Maharashtra. Pad Printing Machine",
-    description: "Pad Printing Machine Trader, Manufacturer of Automatic Carton Batch Coding Machine, Carton Batch Coding Printing Machine offered by AVM Packaging system from Mumbai, Maharashtra. Pad Printing Machine",
-    features: [
-      "High-precision batch and date coding on cartons",
-      "Suitable for pharmaceutical, cosmetic, and FMCG industries",
-      "Durable construction with low maintenance",
-      "Easy integration with automatic packaging lines",
-      "Consistent and clear print quality",
-    ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
-    ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Voltage": "240 V",
-      "Driven Type": "Electric",
-      "Body Material": "Mild Steel",
-      "Net Weight": "150 Kg",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-    },
-    faqs: [
-      {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
-      },
-      {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
-      },
-      {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
-      },
-    ]
-  },
-  {
     slug: "carton-taping-machine",
     name: "Carton Taping Machine",
     h1: "Carton Taping Machine",
@@ -519,74 +467,6 @@ export const products: Product[] = [
       "Phase": "Single",
       "Product Details: Minimum Order Quantity": "1 Unit",
       "Product Details: Brand": "AVM",
-    },
-    faqs: [
-      {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
-      },
-      {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
-      },
-      {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
-      },
-    ]
-  },
-  {
-    slug: "coding-machine",
-    name: "Coding Machine",
-    h1: "Coding Machine Manufacturer in India",
-    category: "Coding & Marking Machinery",
-    categoryId: "coding-marking",
-    metaTitle: "Coding Machine Manufacturer in India | Batch Coding Machine | AVM",
-    metaDescription: "AVM Packaging System is a Coding Machine Manufacturer in India for table top, pouch and automatic batch coding machines. Compare specifications and request latest price.",
-    metaKeywords: "coding machine, coding machine manufacturer, coding machine price in india, table top batch coding machine, pouch batch coding machine, automatic batch coding machine, coding machine manufacturer in india, batch coding machine supplier",
-    canonicalUrl: "https://avmpackagingsystem.com/coding-machine.php",
-    image: "/images/avm/clean/labeling/table-top-batch-coding-machine.jpg",
-    shortDescription: "AVM Packaging System is a Coding Machine Manufacturer in India for table top, pouch and automatic batch coding machines. Compare specifications and request latest price.",
-    description: "AVM Packaging System is a Coding Machine Manufacturer in India for table top, pouch and automatic batch coding machines. Compare specifications and request latest price.",
-    features: [
-      "Food & Beverage Processing",
-      "Pharmaceutical & Healthcare",
-      "Cosmetics & Personal Care",
-      "Chemical & Agro-Chemical",
-      "Packaging & Labeling Operations",
-      "Clean the printing head after every production run to maintain print quality",
-      "Store ink ribbons and foils in a cool, dry place away from direct sunlight",
-      "Lubricate moving parts as per machine manual schedule",
-      "Inspect electrical connections monthly for safety and performance",
-    ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
-    ],
-    specifications: {
-      "Brand": "AVM",
-      "Automation Grade": "Automatic",
-      "Voltage": "240 V 240 V Confirm according to configuration",
-      "Frequency": "50 Hz",
-      "Speed": "70 imprints/min",
-      "Driven Type": "Electric",
-      "Body Material": "Mild Steel",
-      "Minimum Order Quantity": "1 Unit",
-      "Weight": "Confirm according to configuration 100–110 Kg 102 Kg",
-      "Phase": "Confirm according to configuration Single Phase 3 Phase",
-      "Motor Power": "1 hp",
-      "Print Speed": "125 -180 per minute",
-      "Usage/Application": "Industrial",
-      "Power": "Confirm according to configuration 1 HP 0.25 HP",
-      "Automation": "Semi-Automatic Automatic Automatic",
-      "Production Speed": "Up to 70 imprints/min Confirm according to configuration 125–180 per minute",
-      "Best Suited For": "Smaller operator-assisted production Pouch coding applications Higher-volume industrial production",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Brand": "AVM Packaging",
     },
     faqs: [
       {

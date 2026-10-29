@@ -68,12 +68,10 @@ export const categories: CategoryGroup[] = [
   {
     id: "coding-marking",
     name: "Coding & Marking Equipment",
-    slug: "coding-machine",
-    description: "Carton batch coding, contact date printers, pad printing machines, and automatic sticker labelers.",
-    image: "/images/avm/clean/all/carton-batch-coding-machine.jpg",
+    slug: "pad-printing-machine",
+    description: "Industrial pad printing machines and automatic bottle sticker labelers for containers, bottles, and products.",
+    image: "/images/avm/clean/all/pad-printing-machine-header.png",
     products: [
-      { name: "Coding Machine", slug: "coding-machine", shortDesc: "MRP, batch & expiry date coders" },
-      { name: "Carton Batch Coding Machine", slug: "carton-batch-coding-machine", shortDesc: "Automatic corrugated box batch printer" },
       { name: "Pad Printing Machine", slug: "pad-printing-machine", shortDesc: "1-2 color precision logo printer" },
       { name: "Bottle Sticker Labeling Machine", slug: "bottle-sticker-labeling-machine", shortDesc: "Round bottle self-adhesive labeler" }
     ]

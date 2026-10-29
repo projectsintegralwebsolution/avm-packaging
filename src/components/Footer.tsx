@@ -71,7 +71,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="tel:+918928852195" className="hover:text-white transition-colors">+91-8928852195</a> / <a href="tel:+919869911733" className="hover:text-white transition-colors">+91-9869911733</a>
+                <a href="tel:+918928852195" className="hover:text-white transition-colors">+91-8928852195</a> / <a href="tel:+919029174133" className="hover:text-white transition-colors">+91-9029174133</a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-sky-400 shrink-0" />

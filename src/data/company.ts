@@ -4,7 +4,7 @@ export const companyInfo: CompanyInfo = {
   name: "AVM Packaging System",
   tagline: "Precision Industrial Packaging & Sealing Machinery",
   phone1: "+91-8928852195",
-  phone2: "+91-9869911733",
+  phone2: "+91-9029174133",
   whatsapp: "+918928852195",
   email: "info@avmpackagingsystem.com",
   address: {

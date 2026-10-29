@@ -73,7 +73,6 @@ export default function ContactUsPage() {
                       <a href="tel:+918928852195" className="hover:text-[#FF5E14] block">+91-8928852195</a>
                       <a href="tel:+919029174133" className="hover:text-[#FF5E14] block">+91-9029174133</a>
                       <a href="tel:+919321485450" className="hover:text-[#FF5E14] block">+91-9321485450</a>
-                      <a href="tel:+919869911733" className="hover:text-[#FF5E14] block">+91-9869911733</a>
                     </div>
                   </div>
 

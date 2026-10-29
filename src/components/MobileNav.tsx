@@ -91,7 +91,7 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
               <div className="px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-slate-400 flex items-center justify-between">
                 <span className="flex items-center gap-1.5">
                   <Layers className="w-3.5 h-3.5 text-[#FF5E14]" />
-                  <span>38 Machinery Models</span>
+                  <span>{allProducts.length} Machinery Models</span>
                 </span>
                 <span className="text-[10px] text-slate-500 font-semibold">5 Categories</span>
               </div>
@@ -103,7 +103,7 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search 38 machinery models..."
+                  placeholder={`Search ${allProducts.length} machinery models...`}
                   className="w-full pl-8 pr-7 py-1.5 text-xs text-white bg-slate-900 border border-slate-800 rounded-lg focus:outline-none focus:border-[#FF5E14] placeholder:text-slate-500"
                 />
                 {searchQuery && (
@@ -259,7 +259,7 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
           <div className="space-y-1 text-[11px] text-slate-400 pt-1">
             <div className="flex items-center gap-2">
               <Phone className="w-3 h-3 text-emerald-400" />
-              <a href="tel:+918928852195">+91-8928852195</a> / <a href="tel:+919869911733">+91-9869911733</a>
+              <a href="tel:+918928852195">+91-8928852195</a> / <a href="tel:+919029174133">+91-9029174133</a>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-3 h-3 text-sky-400" />
