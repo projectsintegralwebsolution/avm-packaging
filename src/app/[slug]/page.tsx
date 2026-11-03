@@ -77,40 +77,70 @@ export default function ProductDetailPage({ params }: ProductPageProps) {
     .filter((p) => p.slug !== product.slug)
     .slice(0, 4);
 
-  // Schema.org Product Structured Data
-  const productSchema = {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    name: product.name,
-    image: `https://avmpackagingsystem.com${product.image}`,
-    description: product.description,
-    brand: {
-      "@type": "Brand",
-      name: "AVM Packaging System",
-    },
-    manufacturer: {
-      "@type": "Organization",
-      name: "AVM Packaging System",
-    },
-    offers: {
-      "@type": "AggregateOffer",
-      priceCurrency: "INR",
-      lowPrice: "25000",
-      highPrice: "950000",
-      offerCount: "1",
-      availability: "https://schema.org/InStock",
-      seller: {
+  // Multi-graph Schema.org Structured Data (Product + FAQPage)
+  const schemaGraph: any[] = [
+    {
+      "@type": "Product",
+      name: product.name,
+      image: `https://avmpackagingsystem.com${product.image}`,
+      description: product.description,
+      brand: {
+        "@type": "Brand",
+        name: "AVM Packaging System",
+      },
+      manufacturer: {
         "@type": "Organization",
-        name: "AVM Packaging System Mumbai",
+        name: "AVM Packaging System",
+        url: "https://avmpackagingsystem.com",
+        telephone: "+91-8928852195",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "C Wing, Gala No 13, Sanjay Nagar, Near Cama Estate, Opp. Kusum Masala, Goregaon East",
+          addressLocality: "Mumbai",
+          addressRegion: "Maharashtra",
+          postalCode: "400063",
+          addressCountry: "IN",
+        },
+      },
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "INR",
+        lowPrice: "35000",
+        highPrice: "950000",
+        offerCount: "1",
+        availability: "https://schema.org/InStock",
+        seller: {
+          "@type": "Organization",
+          name: "AVM Packaging System Mumbai",
+        },
       },
     },
+  ];
+
+  if (product.faqs && product.faqs.length > 0) {
+    schemaGraph.push({
+      "@type": "FAQPage",
+      mainEntity: product.faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    });
+  }
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": schemaGraph,
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
       {/* Breadcrumb Trail */}

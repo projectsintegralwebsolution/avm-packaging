@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description: "Contact AVM Packaging System in Goregaon East, Mumbai for automatic pouch packing machines, sealing machinery, and filling equipment. Direct phone: +91-8928852195.",
   keywords: "Contact AVM Packaging, Packaging Machine Manufacturer Mumbai, Packaging Machine Enquiry Mumbai, Goregaon Packaging Machinery",
   alternates: {
-    canonical: "https://avmpackagingsystem.com/contactus.php",
+    canonical: "https://avmpackagingsystem.com/contactus",
   },
   openGraph: {
     title: "Contact Us - AVM Packaging System Mumbai India",
     description: "Contact AVM Packaging System in Goregaon East, Mumbai for automatic pouch packing machines, sealing machinery, and filling equipment.",
-    url: "https://avmpackagingsystem.com/contactus.php",
+    url: "https://avmpackagingsystem.com/contactus",
     type: "website",
   },
 };

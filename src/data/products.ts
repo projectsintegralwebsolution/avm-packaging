@@ -2,2591 +2,2174 @@ import { Product } from "@/types";
 
 export const products: Product[] = [
   {
-    slug: "auger-filling-machine",
-    name: "Auger Filling Machine",
-    h1: "Auger Filling Machine Manufacturers in India",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Auger Filling Machine Manufacturer in India | Automatic Powder Filling Machine | AVM Packaging",
-    metaDescription: "Looking for a trusted Auger Filling Machine Manufacturer in India? AVM Packaging System offers automatic powder filling machines with high accuracy, customized solutions, factory pricing, installation support, and Pan India service.",
-    metaKeywords: "auger filling machine, auger filling machine manufacturers, auger filling machine manufacturers in india, automatic auger filling machine, powder filling machine, powder filling machine manufacturer in india, auger powder filling machine, servo auger filling machine, volumetric powder filling machine, pharmaceutical powder filling machine",
-    canonicalUrl: "https://avmpackagingsystem.com/auger-filling-machine.php",
-    image: "/images/avm/clean/all/powder-filling-machine.jpg",
-    shortDescription: "Looking for a trusted Auger Filling Machine Manufacturer in India? AVM Packaging System offers automatic powder filling machines with high accuracy, customized solutions, factory pricing, installation support, and Pan India service.",
-    description: "Looking for a trusted Auger Filling Machine Manufacturer in India? AVM Packaging System offers automatic powder filling machines with high accuracy, customized solutions, factory pricing, installation support, and Pan India service.",
-    features: [
-      "Pharmaceutical Powder Filling",
-      "Protein Powder Filling",
-      "Milk Powder Filling",
-      "Spice Powder Packaging",
-      "Chemical Powder Filling",
-      "Agriculture Powder Filling",
-      "Pesticide Powder Filling",
-      "Nutraceutical Powder Filling",
-      "Cosmetic Powder Filling",
-      "Food Ingredient Packaging",
-      "High accuracy powder filling with minimal error",
-      "Suitable for both free-flowing and non-free-flowing powders",
-      "Fast and efficient production output",
-      "Hygienic stainless steel design for food and pharma use",
-      "Easy operation with low maintenance requirement",
-      "Reduces product wastage and improves packaging efficiency",
-      "Semi Automatic Auger Filling Machine",
-      "Automatic Auger Filling Machine",
-      "Servo Based Auger Filling Machine",
-      "High Speed Powder Filling Machine",
-      "15+ Years Manufacturing Experience",
-      "Customized Machine Design",
-      "High Filling Accuracy",
-      "PLC Automation",
-      "Servo Controlled Filling",
-      "Stainless Steel Construction",
-      "Pan India Installation",
-      "Training for Operators",
-      "Quick Spare Parts Availability",
-      "After Sales Service Support",
-      "Competitive Factory Pricing",
-      "Reliable Technical Assistance",
-      "High filling accuracy with auger screw technology",
-      "Suitable for free-flowing and non-free-flowing powders",
-      "Robust stainless steel construction",
-      "Low maintenance and easy operation",
-      "Ideal for pharmaceutical and food-grade applications",
-      "High accuracy powder filling technology",
-      "Suitable for pharma, food & chemical industries",
-      "Stainless steel hygienic construction",
-      "Low maintenance and long life performance",
-      "Custom-built machines for production needs",
-      "Pan India installation & support",
-      "Manual filling: Low accuracy ? Auger machine: High precision",
-      "Manual filling: Slow production ? Auger machine: High speed automation",
-      "Manual filling: More wastage ? Auger machine: Minimal wastage",
-      "Production Capacity",
-      "Powder Density",
-      "Container Size",
-      "Automation Requirement",
-      "Available Factory Space",
+    "slug": "auger-filling-machine",
+    "name": "Auger Filling Machine",
+    "h1": "Auger Filling Machine Manufacturer in India",
+    "category": "Filling & Dosing Machinery",
+    "categoryId": "filling-machines",
+    "metaTitle": "Auger Filling Machine Manufacturer in India | Factory Price | AVM",
+    "metaDescription": "AVM Packaging System is a premier auger filling machine manufacturer in India. High-precision servo powder filling for spices, flour & pharma. Get factory quote.",
+    "metaKeywords": "auger filling machine manufacturer in india, automatic powder filling machine, servo auger filler mumbai, spice powder packaging, powder dosing machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/auger-filling-machine",
+    "image": "/images/avm/clean/all/powder-filling-machine.jpg",
+    "shortDescription": "Precision servo-driven auger powder filling machine designed for accurate dosing of free-flowing and non-free-flowing powders in food, pharma, and chemical sectors.",
+    "description": "AVM Packaging System manufactures heavy-duty automatic and semi-automatic Auger Filling Machines in Mumbai, India. Engineered with advanced servo screw dosing and PLC touchscreen controls, our auger fillers guarantee ±1% filling accuracy across a wide range of powders including spices, flour, protein supplements, milk powder, and pharmaceutical chemicals.",
+    "speed": "20 - 50 bottles/min",
+    "capacity": "10g - 1000g (Customizable up to 5kg)",
+    "power": "1.5 kW, 220V/415V, 50 Hz",
+    "features": [
+      "Precision servo motor driven auger screw for ±1% dosing accuracy",
+      "Food and pharmaceutical grade SS 304 / SS 316 contact parts",
+      "Touchscreen HMI with PLC program recipe storage",
+      "Continuous slow-speed anti-bridging agitator in product hopper",
+      "Tool-less quick release hopper for rapid cleaning and product changeover",
+      "Integrated dust collection shroud to maintain clean packaging environment",
+      "Compatible with automatic conveyor lines or semi-automatic foot pedals",
+      "Available with optical level sensor for automatic bulk feeder control"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Spice Powders (Turmeric, Chilli, Coriander, Garam Masala)",
+      "Food Powders (Wheat Flour, Besan, Starch, Cocoa Powder)",
+      "Dairy & Beverages (Milk Powder, Coffee Powder, Tea Dust)",
+      "Health & Nutraceuticals (Protein Powder, Collagen, Herbal Churna)",
+      "Pharmaceuticals (Antibiotic Powders, Bulk Drug Formulations)",
+      "Chemicals & Agro (Detergent Powder, Pesticides, Talcum Powder)"
     ],
-    specifications: {
-      "Machine Type": "Auger Filling Machine",
-      "Filling Range": "5 gm to 5 Kg",
-      "Accuracy": "±1%",
-      "Body Material": "Stainless Steel",
-      "Power Supply": "220–240 V",
-      "Control System": "PLC + HMI Touch Screen",
-      "Servo Motor": "Available",
-      "Applications": "Powder Filling",
-      "Product Details Brand": "AVM Packaging",
-      "Application": "Powder Filling",
+    "specifications": {
+      "Filling Range": "10 gm to 1000 gm (Optional up to 5 kg)",
+      "Dosing Accuracy": "± 1% (depending on product characteristics)",
+      "Production Speed": "20 to 50 fillings per minute",
+      "Hopper Capacity": "35 to 50 Liters with transparent acrylic window",
+      "Automation Grade": "Automatic / Semi-Automatic available",
+      "Control System": "PLC with 7-inch Color Touchscreen HMI",
+      "Contact Parts": "Stainless Steel 304 / SS 316 (Food & Pharma Grade)",
+      "Drive System": "Precision Digital Servo Motor & Drive",
+      "Power Supply": "220V AC Single Phase / 415V 3 Phase, 50 Hz",
+      "Machine Weight": "Approx. 180 kg to 250 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does an auger filling machine work?",
+        "answer": "An auger filling machine measures and dispenses powder using a precision-machined rotating auger screw. The number of revolutions of the servo-driven screw directly corresponds to the exact fill volume, ensuring consistent and repeatable weight dosing into containers or pouches."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can an auger filler handle non-free-flowing powders like flour and starch?",
+        "answer": "Yes. Our machines feature an independent counter-rotating agitator blade inside the conical hopper that breaks lumps and prevents powder bridging, ensuring a uniform density and steady feed into the auger screw even for sticky or non-free-flowing powders."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What is the typical price range of an auger filling machine in India?",
+        "answer": "Prices in India generally start from ₹1.2 Lakh for semi-automatic tabletop models and range between ₹2.5 Lakh to ₹6.5 Lakh for fully automatic high-speed servo-driven lines, depending on capacity, automation grade, and SS316 customization."
       },
+      {
+        "question": "Does AVM Packaging provide on-site commissioning and training?",
+        "answer": "Yes, every AVM packaging machine is backed by comprehensive on-site installation, commissioning, and hands-on operator training across all Indian industrial states, supported by prompt spare parts availability."
+      }
     ]
   },
   {
-    slug: "automatic-pouch-packing-machine",
-    name: "Automatic Pouch Packing Machine",
-    h1: "Automatic Pouch Packing Machine Manufacturers in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Automatic Pouch Packing Machine Manufacturers in India | AVM",
-    metaDescription: "AVM Packaging System manufactures fully automatic pouch packing machines in India for powders, granules, spices, tea, snacks and liquids. Get a quote.",
-    metaKeywords: "Automatic Pouch Packing Machine, Automatic Pouch Packing Machine Manufacturer, Automatic Pouch Packing Machine Manufacturers, Automatic Pouch Packing Machine Manufacturers in India, Automatic Packaging Machine, Fully Automatic Pouch Packing Machine, Automatic Pouch Filling Machine, Industrial Pouch Packing Machine, VFFS Machine, Pouch Packaging Machine, Powder Pouch Packing Machine, Liquid Pouch Packing Machine, Granule Packing Machine, Packaging Machine Manufacturer India",
-    canonicalUrl: "https://avmpackagingsystem.com/automatic-pouch-packing-machine.php",
-    image: "/images/avm/clean/product/automatic-pouch-packing-machine.jpg",
-    shortDescription: "AVM Packaging System manufactures fully automatic pouch packing machines in India for powders, granules, spices, tea, snacks and liquids. Get a quote.",
-    description: "AVM Packaging System manufactures fully automatic pouch packing machines in India for powders, granules, spices, tea, snacks and liquids. Get a quote.",
-    features: [
-      "PLC controlled operation for precise, repeatable performance",
-      "High-speed output: 1080 to 1500 pouches per hour",
-      "Low maintenance design with long service life",
-      "Accurate filling and consistent heat sealing",
-      "Suitable for multiple pouch sizes and product types",
-      "Stainless steel construction for durable and corrosion-resistant operation",
-      "Product type and filling characteristics",
-      "Required pouch size and filling range",
-      "Production speed and hourly output",
-      "Auger, volumetric, weighing or liquid dosing system",
-      "PLC and control configuration",
-      "Packaging film and sealing requirements",
-      "Optional coding, conveyor or other automation requirements",
-      "10+ Years Manufacturing Experience – Field-proven machines trusted by businesses across India",
-      "Pan India Supply and Delivery – Fast machine dispatch to Maharashtra, Gujarat, Karnataka, Tamil Nadu, Delhi, and all other states",
-      "Customised Packaging Solutions – Machines configured to your product, pouch size, and production capacity",
-      "Free Installation and Operator Training – On-site commissioning included with every machine",
-      "Genuine Spare Parts Availability – Quick supply of all machine components to minimise downtime",
-      "Strong After-Sales Support – AMC options and technical assistance throughout machine life",
-      "Competitive Pricing – Transparent quotations with no hidden charges",
-      "Food Packaging Industry – Grains, pulses, flour, namkeen, snacks",
-      "Spices & Masala Packaging – Chilli powder, turmeric, blended masala, garam masala",
-      "Namkeen & Snacks Packaging – Bhujia, sev, chips, fried snacks",
-      "Tea & Coffee Packaging – Loose leaf tea, tea dust, instant coffee, filter coffee powder",
-      "Pharmaceutical Packaging – Granule sachets, powder medicines, nutraceuticals",
-      "Chemical Powder Packaging – Agricultural chemicals, industrial powders",
-      "Detergent Powder Packaging – Washing powder, dish wash powder",
-      "Laminated Film",
-      "Polyester Film",
-      "Metalized Film",
-      "Multi Layer Packaging Film",
-      "Food Grade Packaging Film",
-      "Vacuum Pouch Film",
-      "High Production Output – Up to 1,500 pouches per hour with consistent quality",
-      "Reduced Manual Labour – PLC automation eliminates operator dependency for each cycle",
-      "Accurate Filling and Sealing – Dosing systems maintain consistent fill weights within tight tolerances",
-      "Low Product Wastage – Precise dosing reduces material giveaway",
-      "Consistent Pouch Quality – Uniform seals and fills across thousands of pouches per shift",
-      "Low Maintenance Cost – Robust construction minimises part replacement frequency",
-      "Energy-Efficient Operation – Optimised motor and heating systems reduce power consumption",
-      "Long Service Life – Durable stainless steel construction and quality components support reliable long-term operation",
+    "slug": "automatic-pouch-packing-machine",
+    "name": "Automatic Pouch Packing Machine",
+    "h1": "Automatic Pouch Packing Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Automatic Pouch Packing Machine Manufacturer in India | AVM",
+    "metaDescription": "AVM Packaging manufactures high-speed automatic pouch packing machines in India for snacks, powders, liquids & granules. Heavy-duty SS304. Direct factory quote.",
+    "metaKeywords": "automatic pouch packing machine manufacturer in india, high speed pouch packaging machine, VFFS pouch packer mumbai, automatic pouch filling machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/automatic-pouch-packing-machine",
+    "image": "/images/avm/clean/product/automatic-pouch-packing-machine.jpg",
+    "shortDescription": "Fully automated vertical form-fill-seal (VFFS) pouch packing machine engineered for continuous, high-speed packaging of food, agricultural, and industrial products.",
+    "description": "AVM Packaging System is a recognized manufacturer of Automatic Pouch Packing Machines in Mumbai, India. Built with heavy-duty stainless steel frames, advanced PLC logic, and precision servo film pull mechanisms, our machines convert flat roll stock film into formed, accurately dosed, and hermetically sealed pouches at speeds of up to 1,500 pouches per hour.",
+    "speed": "25 - 60 pouches/min (1080 - 1500 pouches/hr)",
+    "capacity": "10g to 1000g",
+    "power": "2.5 kW - 3.5 kW, 240V / 415V",
+    "features": [
+      "Microcontroller or PLC automation with touch HMI for complete cycle control",
+      "Pneumatic or motorized center-seal, 3-side seal, or 4-side seal configurations",
+      "Compatible with auger fillers, multi-head weighers, cup fillers, or liquid pumps",
+      "Digital PID temperature controllers for uniform and leak-proof hermetic seals",
+      "Photoelectric eye-mark sensor for accurate printed film registration",
+      "Low product wastage and rapid bag length adjustments without gear change",
+      "Option for batch coding (ribbon coder / inkjet) and nitrogen gas flushing",
+      "Food contact parts manufactured in compliant Stainless Steel 304"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Snack Foods & Namkeen (Potato Chips, Sev, Kurkure, Fryums)",
+      "Spices & Seasonings (Chilli Powder, Turmeric, Masala Blends)",
+      "Grains & Pulses (Rice, Dals, Sugar, Salt, Seed Granules)",
+      "Tea & Coffee (CTC Tea Leaves, Green Tea, Instant Coffee)",
+      "Chemicals & Agro (Detergent Powder, Fertilizer Granules)",
+      "Liquids & Pastes (Edible Oil, Tomato Paste, Shampoo Sachets)"
     ],
-    specifications: {
-      "Pouch Capacity": "10 – 1000 grams",
-      "Machine Capacity": "1080 – 1500 pouches per hour",
-      "Automation Grade": "Fully Automatic",
-      "Brand": "AVM Packaging",
-      "Body Material": "Stainless Steel",
-      "Voltage": "240 V",
-      "Frequency": "50 Hz",
-      "Powder Pouch Packing Machine": "Spices, flour, milk powder, detergent powder, chemical powders Auger-based automatic pouch filling system",
-      "Granule Packing Machine": "Pulses, grains, seeds, sugar and free-flowing granules Volumetric or weighing system",
-      "Snacks & Namkeen Packing": "Namkeen, chips, fryums and similar snack products Weighing or multi-head configuration",
-      "Liquid Pouch Packing Machine": "Water, edible oil, juice and other suitable free-flowing liquids Liquid dosing and sealing configuration",
-      "Tea & Coffee Packaging": "Tea leaves, tea dust, coffee and similar products Volumetric or weighing configuration depending on product characteristics",
-      "Masala Packaging": "Chilli powder, turmeric, coriander powder and blended spices Auger-based powder filling configuration",
-      "Operator Involvement": "Required per cycle Minimal – PLC controlled",
-      "Production Speed": "Depends on machine model and operator involvement AVM model shown on this page: 1080–1500 pouches/hour",
-      "Labour Cost": "Higher Lower",
-      "Initial Investment": "Lower Higher",
-      "Best Suited For": "Small to medium production runs High-volume continuous production",
-      "Filling Consistency": "Moderate High – PLC-controlled dosing",
+    "specifications": {
+      "Packaging Speed": "1080 to 1500 pouches per hour (up to 60 ppm)",
+      "Filling Range": "10 gm to 1000 gm",
+      "Pouch Formats": "Center Seal (Pillow Bag), 3-Side Seal, 4-Side Seal",
+      "Sealing Type": "Pneumatic / Mechanical Heat Sealing",
+      "Film Material": "Heat sealable laminated films, BoPP, Polyester, Alu-foil",
+      "Max Roll Width": "Up to 450 mm",
+      "Automation Grade": "Fully Automatic Form-Fill-Seal (FFS)",
+      "Air Consumption": "6 CFM at 6 kg/cm²",
+      "Machine Body": "Heavy-duty Mild Steel frame with Stainless Steel cladding",
+      "Dimensions": "Approx. 1200 x 950 x 1850 mm"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What products can be packed on an automatic pouch packing machine?",
+        "answer": "Our automatic pouch packing machines can be customized to pack a wide variety of products by attaching different dosing units: auger fillers for powders, multi-head weighers for snacks and dry fruits, volumetric cup fillers for free-flowing granules, or piston pumps for viscous liquids."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can the machine handle nitrogen flushing for potato chips and snacks?",
+        "answer": "Yes, we integrate high-speed pneumatic nitrogen flushing systems directly into the pouch forming collar to displace oxygen and ensure crispness and extended shelf life for namkeen and snack foods."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How difficult is it to change pouch sizes on this machine?",
+        "answer": "Pouch width changes require replacing the forming collar (which takes approximately 10-15 minutes), while pouch length is adjusted instantly via the digital touchscreen interface without mechanical retooling."
       },
+      {
+        "question": "What is the warranty period and spare parts availability?",
+        "answer": "All AVM machines include a 12-month standard warranty. We manufacture and maintain standard spare parts (heating elements, thermocouples, seal jaws, pneumatic cylinders) at our Goregaon, Mumbai factory for immediate Pan-India dispatch."
+      }
     ]
   },
   {
-    slug: "band-sealing-machine",
-    name: "Band Sealing Machine",
-    h1: "Band Sealing Machine Manufacturer in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Band Sealing Machine Manufacturer in India | Continuous Band Sealer Machine | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Band Sealing Machine manufacturer in India offering horizontal, vertical & continuous band sealers for pouch sealing applications. Durable, high-speed & industrial-grade machines available across India.",
-    metaKeywords: "Band Sealing Machine, Band Sealing Machine Manufacturer, Continuous Band Sealer Machine, Horizontal Band Sealer, Vertical Band Sealer Machine, Pouch Sealing Machine, Continuous Sealing Machine, Industrial Band Sealer, Band Sealer Manufacturer India, Band Sealing Machine Mumbai",
-    canonicalUrl: "https://avmpackagingsystem.com/band-sealing-machine.php",
-    image: "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Band Sealing Machine manufacturer in India offering horizontal, vertical & continuous band sealers for pouch sealing applications. Durable, high-speed & industrial-grade machines available across India.",
-    description: "AVM Packaging System is a leading Band Sealing Machine manufacturer in India offering horizontal, vertical & continuous band sealers for pouch sealing applications. Durable, high-speed & industrial-grade machines available across India.",
-    features: [
-      "Reliable sealing, high efficiency, low power consumption, small in size and elegant.",
-      "Equipped with automatic temperature controlling device and a step less speed",
-      "The control system, for uniform heating and adjustable speed.",
-      "Food Packaging Industry",
-      "Pharmaceutical Industry",
-      "Chemical Packaging",
-      "FMCG Product Packaging",
-      "Spices & Powder Packaging",
-      "Snacks & Namkeen Packaging",
-      "Tea & Coffee Packaging",
-      "High-quality industrial-grade machines",
-      "Strong and airtight sealing performance",
-      "Low maintenance and energy-efficient design",
-      "Suitable for continuous production lines",
-      "Competitive pricing",
-      "Pan India supply and export support",
-      "Experienced packaging machine manufacturer",
+    "slug": "band-sealing-machine",
+    "name": "Band Sealing Machine",
+    "h1": "Band Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Band Sealing Machine Manufacturer in India | Continuous Band Sealer | AVM",
+    "metaDescription": "AVM Packaging manufactures continuous band sealing machines in India. Horizontal & vertical models with nitrogen flushing & conveyor. Direct factory pricing.",
+    "metaKeywords": "band sealing machine manufacturer in india, continuous band sealer mumbai, vertical band sealer machine, pouch sealing machine, continuous pouch sealer",
+    "canonicalUrl": "https://avmpackagingsystem.com/band-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "High-speed continuous band sealer designed for hermetic heat sealing of pre-made thermoplastic and laminated bags with integrated conveyor.",
+    "description": "AVM Packaging System is a premier manufacturer of Continuous Band Sealing Machines in Mumbai, India. Available in horizontal configurations for dry solid items and vertical configurations for liquids and heavy bags, our continuous band sealers deliver consistent, wrinkle-free hermetic seals with adjustable conveyor speeds and digital temperature regulation.",
+    "speed": "0 - 12 meters per minute",
+    "capacity": "Pouches up to 5kg on conveyor (10kg on heavy model)",
+    "power": "500W - 750W, 220V Single Phase, 50 Hz",
+    "features": [
+      "Continuous motorized operation for high packaging throughput",
+      "Digital PID temperature controller with dual heating and cooling blocks",
+      "Convertible from horizontal to vertical orientation for liquid pouches",
+      "Adjustable conveyor height and depth to fit various pouch sizes",
+      "Embossing or dry-ink coding wheel for simultaneous expiry/batch date printing",
+      "Teflon sealing belts with rapid changeover mechanism",
+      "Emergency stop switch and safety earth grounding",
+      "Optional nitrogen gas flushing attachment for food freshness preservation"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Food Industry (Spices, Grains, Flour, Dry Fruits, Seeds)",
+      "Snacks & Confectionery (Biscuits, Wafers, Namkeen, Candies)",
+      "Pharmaceuticals & Healthcare (Medical Pouches, Surgical Kits)",
+      "Chemical & Industrial (Fertilizers, Detergents, Plastic Hardware)",
+      "Liquids & Powders (Edible Oil Pouches, Milk Sachets, Chemicals)"
     ],
-    specifications: {
-      "Brand": "AVM",
-      "Material": "Mild Steel",
-      "Voltage": "240 V",
-      "Usage/Application": "Industrial",
-      "Driven Type": "Electric",
-      "Automation Grade": "Semi-Automatic",
-      "Operational Mode": "Horizontal",
-      "Packaging Packet Size": "50 gm -2 Kg",
-      "Speed": "Up to 30 Packet/Min",
-      "Capacity": "30 pouch per minute",
-      "Is It Portable": "Portable",
-      "Type": "Vertical",
-      "Product Details: Brand": "AVM Packaging",
-      "Product Details: Operational Mode": "Horizontal",
+    "specifications": {
+      "Sealing Speed": "0 to 12 meters per minute (Stepless variable speed)",
+      "Sealing Width": "8 mm to 12 mm standard (Optional diamond knurling)",
+      "Temperature Range": "0 to 300°C Digital Control",
+      "Conveyor Max Load": "5 kg on standard bed, up to 15 kg on heavy-duty bed",
+      "Film Thickness": "0.02 mm to 0.8 mm (Single layer)",
+      "Orientation": "Horizontal (standard) / Vertical (liquid packaging)",
+      "Power Consumption": "650 Watts",
+      "Dimensions": "Approx. 850 x 420 x 360 mm",
+      "Net Weight": "Approx. 32 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What is the difference between horizontal and vertical band sealers?",
+        "answer": "Horizontal band sealers lay pouches flat on the conveyor, ideal for dry products like powders, snacks, and hardware. Vertical band sealers stand pouches upright, which is essential for packaging liquids, oils, pastes, and bulky items to prevent spillage before sealing."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can a band sealer print manufacturing date and MRP?",
+        "answer": "Yes, our band sealing machines feature an integrated solid-ink or embossing coder wheel that stamps manufacturing dates, expiry dates, and batch codes directly into the sealed pouch seam in a single pass."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What materials can be sealed on a band sealer?",
+        "answer": "The machine seals virtually all heat-sealable pouch materials including Polyethylene (PE), Polypropylene (PP), laminated aluminum foil pouches, stand-up kraft pouches, and barrier films."
       },
+      {
+        "question": "How long do Teflon sealing belts last?",
+        "answer": "Under normal daily production, a quality Teflon belt lasts several weeks to months. We supply replacement belts in cost-effective multipacks that can be swapped by the operator in under two minutes."
+      }
     ]
   },
   {
-    slug: "bottle-sticker-labeling-machine",
-    name: "Bottle Sticker Labeling Machine",
-    h1: "Bottle Sticker Labeling Machine Manufacturers in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Bottle Sticker Labeling Machine Manufacturers in India | AVM",
-    metaDescription: "AVM Packaging System manufactures automatic and semi automatic bottle sticker labeling machines in India for PET, plastic and glass bottles. Get a quote.",
-    metaKeywords: "Bottle Sticker Labeling Machine, Bottle Sticker Labeling Machine Manufacturers, Bottle Sticker Labeling Machine Manufacturers in India, Automatic Bottle Sticker Labeling Machine, Semi Automatic Bottle Labeling Machine, Round Bottle Labeling Machine, Industrial Labeling Machine, Bottle Labeling Machine Manufacturer India, Sticker Labeling Machine, Labeling Machine Manufacturers",
-    canonicalUrl: "https://avmpackagingsystem.com/bottle-sticker-labeling-machine.php",
-    image: "/images/avm/clean/labeling/bottle-sticker-labeling-machine.jpg",
-    shortDescription: "AVM Packaging System manufactures automatic and semi automatic bottle sticker labeling machines in India for PET, plastic and glass bottles. Get a quote.",
-    description: "AVM Packaging System manufactures automatic and semi automatic bottle sticker labeling machines in India for PET, plastic and glass bottles. Get a quote.",
-    features: [
-      "Easy to change label application height",
-      "User-friendly label placing adjustment",
-      "High-speed automatic bottle labeling machines",
-      "Precision label placement with zero wrinkles",
-      "Custom-built industrial labeling solutions",
-      "Strong after-sales support and service",
-      "Export quality manufacturing standards",
-      "Pharmaceutical bottle packaging",
-      "Cosmetic product labeling",
-      "Food and beverage industry",
-      "Chemical bottle labeling",
-      "FMCG packaging lines",
-      "Bottle Type: Confirm whether you are labeling PET, plastic or glass bottles.",
-      "Bottle Shape: Identify whether the application involves round, flat or oval bottles.",
-      "Production Capacity: Match the machine output to your current and expected production volume.",
-      "Automation Level: A Semi Automatic Bottle Labeling Machine may suit lower-volume operations, while an Automatic Bottle Sticker Labeling Machine is better suited to continuous production.",
-      "Label Requirement: Confirm label dimensions and placement requirements before finalising the machine.",
-      "Line Integration: Consider whether the labeling machine needs to operate with filling, coding or other packaging equipment.",
-      "High-speed labeling performance",
-      "Accurate sticker placement",
-      "Reduced labor costs",
-      "Improved packaging consistency",
-      "Minimal label wastage",
-      "Suitable for various bottle sizes",
-      "Low maintenance operation",
-      "Increased production efficiency",
+    "slug": "bottle-sticker-labeling-machine",
+    "name": "Bottle Sticker Labeling Machine",
+    "h1": "Bottle Sticker Labeling Machine Manufacturer in India",
+    "category": "Coding & Marking Equipment",
+    "categoryId": "coding-marking",
+    "metaTitle": "Bottle Sticker Labeling Machine Manufacturer in India | AVM",
+    "metaDescription": "Automatic bottle sticker labeling machine manufacturer in India. High-precision self-adhesive labeler for round bottles, jars & vials. Factory pricing Mumbai.",
+    "metaKeywords": "bottle sticker labeling machine manufacturer in india, automatic bottle labeler mumbai, round bottle labeling machine, self adhesive sticker labeler",
+    "canonicalUrl": "https://avmpackagingsystem.com/bottle-sticker-labeling-machine",
+    "image": "/images/avm/clean/all/pad-printing-machine-header.png",
+    "shortDescription": "High-speed automatic self-adhesive sticker labeling machine designed for precise wraparound labeling on round, oval, and flat bottles.",
+    "description": "AVM Packaging System manufactures heavy-duty automatic and semi-automatic Bottle Sticker Labeling Machines in Mumbai, India. Engineered for pharmaceuticals, beverages, cosmetics, and agrochemicals, our machines apply self-adhesive roll-form labels to glass, PET, HDPE, and aluminum containers with exceptional registration accuracy.",
+    "speed": "30 - 120 bottles/min (depending on bottle diameter)",
+    "capacity": "Bottle diameter 20mm to 120mm",
+    "power": "1.2 kW, 220V Single Phase, 50 Hz",
+    "features": [
+      "Microprocessor or PLC controlled with optical label detection sensor",
+      "Stepper or servo motor driven label dispenser for ±1mm label placement accuracy",
+      "Wraparound roller station ensures bubble-free and wrinkle-free labeling",
+      "Suitable for glass, plastic, PET, HDPE, and tinplate bottles and jars",
+      "No bottle - No label interlock mechanism prevents label wastage",
+      "Synchronized motorized conveyor belt with adjustable guide rails",
+      "Option to integrate online batch coding printer (inkjet or thermal transfer)",
+      "Stainless Steel 304 construction adhering to cGMP pharma standards"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Pharmaceutical Vials, Syrups & Medicine Bottles",
+      "Beverages, Packaged Drinking Water, Soft Drinks & Liquors",
+      "Cosmetics, Shampoos, Lotions, Perfumes & Sanitizer Bottles",
+      "Food Products, Edible Oil Jars, Honey, Sauces & Condiments",
+      "Chemicals, Pesticides, Lubricants & Motor Oil Bottles"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Frequency": "50 Hz",
-      "Motor Power": "1-2 hp",
-      "Voltage": "220 V",
-      "Brand": "AVM",
-      "Body Material": "Stainless Steel",
-      "Capacity": "30-35 pc/min",
-      "Usage/Application": "Labeling",
-      "Bottle Type": "PET",
-      "Automation Grade": "Automatic",
-      "Phase Type": "Single",
-      "Power": "415 V",
-      "Bottle Diameter": "27-100 mm",
-      "Height": "35 - 270 mm",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Usage/Application": "Labeling",
+    "specifications": {
+      "Output Speed": "Up to 120 bottles per minute",
+      "Bottle Diameter": "20 mm to 120 mm",
+      "Label Length": "20 mm to 300 mm",
+      "Label Height": "10 mm to 150 mm",
+      "Labeling Accuracy": "± 1 mm",
+      "Label Roll Core": "76 mm (3 inches)",
+      "Label Roll Max OD": "300 mm",
+      "Construction": "Stainless Steel 304 and Anodized Aluminum",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Machine Weight": "Approx. 280 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Can this labeling machine handle transparent clear-on-clear labels?",
+        "answer": "Yes, by equipping the label dispensing head with a specialized ultrasonic or capacitive sensor, the machine effortlessly detects transparent labels on clear bottles with extreme precision."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How long does changeover take between different bottle sizes?",
+        "answer": "Changeovers require simple hand-wheel adjustments of the guide rails and dispensing height, taking less than 10 minutes without requiring complex change parts."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can this machine be integrated into an existing filling line?",
+        "answer": "Yes, our automatic bottle labelers are designed with height-adjustable motorized slat conveyors that connect seamlessly downstream from liquid filling and capping machines."
       },
+      {
+        "question": "Does AVM Packaging offer semi-automatic tabletop models for small businesses?",
+        "answer": "Yes, we also manufacture economical semi-automatic tabletop round bottle labelers ideal for craft breweries, cosmetic startups, and boutique food manufacturers."
+      }
     ]
   },
   {
-    slug: "box-strapping-machine",
-    name: "Box Strapping Machine",
-    h1: "Box Strapping Machine Manufacturer in India",
-    category: "End-of-Line Machinery",
-    categoryId: "end-of-line",
-    metaTitle: "Box Strapping Machine Manufacturer in India | Semi & Automatic Carton Strapping Machine",
-    metaDescription: "Buy high-quality Box Strapping Machine for carton packaging. Semi & automatic models available. Manufacturer in India. Get best price today.",
-    metaKeywords: "Box Strapping Machine, Box Strapping Machine Manufacturer, Carton Strapping Machine, Packaging Machine Mumbai, AVM Packaging System, box strapping machine manufacturer in Mumbai, semi automatic box strapping machine Mumbai, carton strapping machine supplier Mumbai",
-    canonicalUrl: "https://avmpackagingsystem.com/box-strapping-machine.php",
-    image: "/images/avm/clean/strapping/box-strapping-machine.jpg",
-    shortDescription: "Buy high-quality Box Strapping Machine for carton packaging. Semi & automatic models available. Manufacturer in India. Get best price today.",
-    description: "Buy high-quality Box Strapping Machine for carton packaging. Semi & automatic models available. Manufacturer in India. Get best price today.",
-    features: [
-      "Check your daily packaging volume",
-      "Choose between semi or fully automatic based on speed",
-      "Ensure compatibility with strap width",
-      "Look for strong build quality and durability",
-      "Consider maintenance and service support",
-      "Warehousing & Logistics",
-      "Manufacturing Units",
-      "E-commerce Packaging",
-      "Food & Beverage Packaging",
-      "Pharmaceutical & Industrial Packaging",
-      "High durability and long service life",
-      "Low maintenance cost",
-      "Strong and consistent strapping performance",
-      "Suitable for multiple industries",
-      "Quick installation and support",
-      "Free consultation",
-      "Best price guarantee",
-      "Fast delivery across India",
-      "After-sales support",
+    "slug": "box-strapping-machine",
+    "name": "Box Strapping Machine",
+    "h1": "Box Strapping Machine Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Box Strapping Machine Manufacturer in India | Carton Strapping | AVM",
+    "metaDescription": "AVM Packaging manufactures heavy-duty automatic and semi-automatic box strapping machines in India for cartons, packages & bundles. Factory direct price.",
+    "metaKeywords": "box strapping machine manufacturer in india, carton strapping machine mumbai, semi automatic strapping machine, automatic carton bundler",
+    "canonicalUrl": "https://avmpackagingsystem.com/box-strapping-machine",
+    "image": "/images/avm/clean/all/carton-taping-machine.jpg",
+    "shortDescription": "Rugged carton strapping machine designed for fast, tension-controlled heat-seal strapping of corrugated boxes, parcels, and bundles.",
+    "description": "AVM Packaging System is a leading manufacturer and supplier of Box Strapping Machines in Mumbai, India. Designed for heavy industrial packaging, warehousing, and e-commerce logistics, our strapping machines secure corrugated cartons, bundles, paper reams, and wooden crates with high-tensile polypropylene (PP) strapping band.",
+    "speed": "1.5 - 2.5 seconds per strap",
+    "capacity": "Max bundle weight 50kg - 80kg on table",
+    "power": "250W, 220V Single Phase, 50 Hz",
+    "features": [
+      "Instant heating blade produces strong, smoke-free friction heat seals",
+      "External mechanical tension knob for quick strap tightness adjustment",
+      "Auto-motor stop timer after 60 seconds of inactivity to save energy",
+      "Enclosed strap dispenser with ball-bearing reel for smooth unwinding",
+      "Heavy-duty stainless steel work table resists scratches and dents",
+      "Swivel caster wheels with foot brakes for effortless shop-floor mobility",
+      "Compatible with economical 6mm to 15mm Polypropylene (PP) straps",
+      "Zero oiling design with sealed self-lubricating ball bearings"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Corrugated Carton Box Reinforcement & Bundling",
+      "E-commerce Fulfillment Centers & Logistics Hubs",
+      "Printing, Publishing & Paper Ream Bundling",
+      "Apparel, Textile & Garment Baling",
+      "Ceramic Tiles, Hardware, Metal Pipes & Wooden Flooring",
+      "Food, FMCG & Consumer Electronics Export Packaging"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Machine Weight": "100 Kg",
-      "Body Material": "Mild Steel",
-      "Surface Finishing": "Painted",
-      "Power Source": "Electric",
-      "Speed": "Medium High",
-      "Manual Effort": "Required Minimal",
-      "Cost": "Lower Higher",
-      "Best For": "Small Businesses Large Industries",
-      "Product Details Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Cycle Time": "1.5 seconds per strapping cycle",
+      "Strap Width": "6 mm to 15 mm (User adjustable)",
+      "Strap Tension": "15 kg to 50 kg (Easily adjustable)",
+      "Table Height": "750 mm (Standard ergonomics)",
+      "Strap Core Size": "200 mm diameter",
+      "Sealing Method": "Instant Thermal Heat Seal",
+      "Table Load Capacity": "Up to 80 kg",
+      "Power Supply": "220V AC, 50 Hz, Single Phase (250W)",
+      "Dimensions": "895 x 565 x 735 mm",
+      "Machine Weight": "Approx. 85 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does a semi-automatic box strapping machine operate?",
+        "answer": "The operator places the carton on the stainless steel table, manually loops the strap over the box, and inserts the strap tip into the intake slot. The machine automatically tensions the strap, heat-seals the joint, cuts the strap, and advances the next strap length in under two seconds."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "What strap thickness and width does the machine require?",
+        "answer": "Our machines work reliably with standard virgin or recycled Polypropylene (PP) straps ranging from 6 mm to 15 mm in width and 0.5 mm to 0.8 mm in thickness."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What routine maintenance is needed?",
+        "answer": "Maintenance is minimal: regularly blow away strap dust with compressed air, clean the heating blade surface once a week, and ensure the strap roll is loaded with proper core tension."
       },
+      {
+        "question": "Is this machine portable?",
+        "answer": "Yes, the machine is mounted on four heavy-duty industrial swivel casters with step-locks, allowing single-operator mobility across warehouses and packing stations."
+      }
     ]
   },
   {
-    slug: "carton-taping-machine",
-    name: "Carton Taping Machine",
-    h1: "Carton Taping Machine",
-    category: "End-of-Line Machinery",
-    categoryId: "end-of-line",
-    metaTitle: "Automatic carton sealing machines Manufacturer",
-    metaDescription: "We are a Machine Manufacturer from Mumbai. Our product range includes fully automatic carton sealing machines, carton sealing machines, and carton taping machines.",
-    metaKeywords: "AVM Packaging System, fully automatic carton sealing machines, carton sealing machines, and carton taping machines.",
-    canonicalUrl: "https://avmpackagingsystem.com/carton-taping-machine.php",
-    image: "/images/avm/clean/all/carton-taping-machine.jpg",
-    shortDescription: "We are a Machine Manufacturer from Mumbai. Our product range includes fully automatic carton sealing machines, carton sealing machines, and carton taping machines.",
-    description: "We are a Machine Manufacturer from Mumbai. Our product range includes fully automatic carton sealing machines, carton sealing machines, and carton taping machines.",
-    features: [
-      "Automatic top and bottom carton taping operation",
-      "Adjustable height and width to accommodate various carton sizes",
-      "Heavy-duty mild steel construction for long service life",
-      "Low power consumption with minimal maintenance requirements",
-      "Stable, smooth, and noise-free operation",
+    "slug": "carton-taping-machine",
+    "name": "Carton Taping Machine",
+    "h1": "Carton Taping Machine Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Carton Taping Machine Manufacturer in India | Box Taping | AVM",
+    "metaDescription": "Industrial carton taping machine manufacturer in India. Top and bottom drive automatic carton box sealing machines for fast packing. Direct factory price.",
+    "metaKeywords": "carton taping machine manufacturer in india, automatic carton sealer mumbai, box taping machine, top bottom drive carton taper, case sealer india",
+    "canonicalUrl": "https://avmpackagingsystem.com/carton-taping-machine",
+    "image": "/images/avm/clean/all/carton-taping-machine.jpg",
+    "shortDescription": "Automatic top and bottom drive carton box taping machine designed for uniform, wrinkle-free adhesive tape application on uniform boxes.",
+    "description": "AVM Packaging System manufactures high-efficiency Carton Taping Machines in Mumbai, India. Engineered for continuous industrial dispatch lines, our case sealers apply adhesive BOPP tape simultaneously to the top and bottom flaps of cartons, drastically increasing dispatch speed while eliminating tape wastage.",
+    "speed": "15 - 20 cartons/min (approx. 20m/min conveyor)",
+    "capacity": "Carton size up to 500x500x500 mm (Custom sizes available)",
+    "power": "200W, 220V Single Phase, 50 Hz",
+    "features": [
+      "Simultaneous top and bottom flap sealing in a single pass",
+      "Side belt or top/bottom belt drive options for heavy or tall cartons",
+      "Tool-less hand crank height and width adjustment for fast carton changes",
+      "Precision tape heads with cutter blade guards for operator safety",
+      "Smooth tape application without wrinkles, air bubbles, or edge lift",
+      "Heavy-duty conveyor rollers on infeed and outfeed tables",
+      "Equipped with lockable industrial caster wheels for floor flexibility",
+      "Compatible with standard 48mm (2-inch), 60mm, and 72mm (3-inch) BOPP tape"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "FMCG, Food & Beverage Product Dispatch Packing",
+      "Pharmaceutical & Healthcare Carton Sealing",
+      "E-commerce Warehousing, 3PL & Fulfillment Operations",
+      "Consumer Electronics, Appliances & Lighting Packaging",
+      "Chemicals, Agrochemicals, Paint & Lubricant Boxes",
+      "Automobile Ancillary & Hardware Export Shipping"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Frequency": "50 Hz",
-      "Sealing Capacity": "10-20 pieces/min",
-      "Voltage": "240 V",
-      "Power Consumption": "0.5 Kwh",
-      "Body Material": "Mild Steel",
-      "Automation Grade": "Automatic",
-      "Usage": "Carton Sealing",
-      "Sealing Speed": "5-10 carton/min",
-      "Phase": "Single",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Brand": "AVM",
+    "specifications": {
+      "Sealing Speed": "Up to 20 meters per minute (15-20 boxes/min)",
+      "Max Carton Size": "W 500 x H 500 x L Unlimited mm",
+      "Min Carton Size": "W 150 x H 120 x L 150 mm",
+      "Tape Width": "48 mm, 60 mm, 72 mm (2\" or 3\")",
+      "Conveyor Drive": "Dual Top & Bottom Motorized Belts",
+      "Table Height": "Adjustable 600 mm to 780 mm",
+      "Power Supply": "220V AC, 50 Hz, Single Phase, 200W",
+      "Machine Dimensions": "1630 x 800 x 1400 mm",
+      "Net Weight": "Approx. 120 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does a top-and-bottom carton taping machine work?",
+        "answer": "As an operator pushes a closed carton into the machine, motorized side or top belts pull the carton through. Simultaneously, specialized tape heads apply pressure-sensitive BOPP tape along the center seam of both the top and bottom flaps, wipe it down, and cleanly cut the tape with a spring-loaded blade."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can the machine handle random different box sizes automatically?",
+        "answer": "The standard model is manually adjusted in seconds via hand cranks for uniform box batches. For facilities with randomly mixed carton sizes on the same conveyor, we also manufacture random automatic carton sealers that adjust height and width pneumatically per box."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Does the tape cutter pose any risk to operators?",
+        "answer": "No, our tape applicators are fitted with protective safety cutter guards that only expose the serrated blade at the exact moment of tape slicing, ensuring complete operator safety."
       },
+      {
+        "question": "Can this taper be hooked up to an existing gravity conveyor?",
+        "answer": "Yes, our machines include standardized infeed and outfeed roller tables that align directly with gravity roller conveyors or motorized transport lines."
+      }
     ]
   },
   {
-    slug: "collar-type-packaging-machine",
-    name: "Collar Type Filling Machine",
-    h1: "Collar Type Filling Machine Manufacturer in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Collar Type Filling Machine Manufacturer in India | AVM",
-    metaDescription: "AVM Packaging System is a leading Collar Type Filling Machine Manufacturer in India offering automatic collar type filling machines with accurate filling, high-speed packaging and reliable performance.",
-    metaKeywords: "Collar Type Filling Machine, Collar Type Filling Machine Manufacturers, Collar Type Filling Machine Manufacturers in India, Automatic Collar Type Filling Machine, Collar Type Packaging Machine, Collar Type Packing Machine, Automatic Filling Machine, VFFS Collar Type Machine, Vertical Form Fill Seal Machine, Granule Packing Machine, Sugar Packing Machine, Rice Packing Machine, Dal Packing Machine, Tea Packing Machine, Spice Packing Machine, Food Packaging Machine, Automatic Packaging Machine, Packaging Machine Manufacturer, Packaging Machine Manufacturer India, Industrial Packaging Machine",
-    canonicalUrl: "https://avmpackagingsystem.com/collar-type-packaging-machine.php",
-    image: "/images/avm/clean/all/collar-type-packaging-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Collar Type Filling Machine Manufacturer in India offering automatic collar type filling machines with accurate filling, high-speed packaging and reliable performance.",
-    description: "AVM Packaging System is a leading Collar Type Filling Machine Manufacturer in India offering automatic collar type filling machines with accurate filling, high-speed packaging and reliable performance.",
-    features: [
-      "Detergent Powder",
-      "Animal Feed",
-      "15+ Years Manufacturing Experience",
-      "Premium Quality Components",
-      "Customized Machine Solutions",
-      "Pan India Installation",
-      "Quick Technical Support",
-      "Low Maintenance Design",
-      "High Production Efficiency",
-      "Affordable Price",
-      "Spare Parts Availability",
-      "Excellent After Sales Service",
-      "High packaging speed and efficiency",
-      "Accurate filling with minimal wastage",
-      "Strong and reliable pouch sealing",
-      "Lower operational costs",
-      "User-friendly PLC based operation",
-      "Ideal for medium and large-scale production",
-      "Sugar Packaging",
-      "Dal & Pulses Packaging",
-      "Rawa & Grains Packaging",
-      "Tea & Spice Packaging",
-      "Namkeen & Snacks Packaging",
-      "Detergent Powder Packaging",
-      "Food Processing Industries",
-      "FMCG & Commercial Packaging Units",
-      "PLC or Microprocessor Based Control System",
-      "Touch Screen HMI Display",
-      "High Packaging Accuracy",
-      "Digital PID Temperature Controller",
-      "Stepper Motor for Paper Pulling",
-      "Automatic Batch Cutting System",
-      "I-Mark Sensor for Accurate Pouch Cutting",
-      "Low Maintenance & Energy Efficient Design",
+    "slug": "collar-type-packaging-machine",
+    "name": "Collar Type Packaging Machine",
+    "h1": "Collar Type Packaging Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Collar Type Packaging Machine Manufacturer in India | AVM",
+    "metaDescription": "Collar type packaging machine manufacturer in India. Pneumatic & servo vertical form fill seal collar machines for namkeen, chips & spices. Factory quote.",
+    "metaKeywords": "collar type packaging machine manufacturer in india, collar type form fill seal, pneumatic collar packing machine mumbai, snack food collar packer",
+    "canonicalUrl": "https://avmpackagingsystem.com/collar-type-packaging-machine",
+    "image": "/images/avm/clean/product/fryums-pouch-packing machine.jpg",
+    "shortDescription": "High-speed vertical form-fill-seal collar-type packaging machine engineered for pillow pouches, gusset bags, and center-sealed snack packaging.",
+    "description": "AVM Packaging System manufactures heavy-duty Collar Type Packaging Machines in Mumbai, India. Designed for high-volume snack, namkeen, and powder packaging, our collar-type machines utilize precision CNC-machined forming collars, pneumatic horizontal sealing jaws, and servo-driven film pull belts to produce immaculate center-sealed pouches at speeds of up to 70 pouches per minute.",
+    "speed": "30 - 70 pouches per minute",
+    "capacity": "50g to 1000g pouches",
+    "power": "3.5 kW - 4.5 kW, 415V 3-Phase, 50 Hz",
+    "features": [
+      "Precision-engineered stainless steel forming collar for smooth, low-friction film transit",
+      "Servo motor driven twin film pulling belts ensure exact pouch length calibration",
+      "Pneumatically operated horizontal and vertical seal jaws with digital PID heat control",
+      "Integrated color touchscreen PLC for complete recipe management and diagnostics",
+      "Nitrogen gas flushing apparatus for extending snack freshness and crunchiness",
+      "Heavy vibration-free structural frame with food-grade SS 304 cladding",
+      "Supports center-seal pillow bags, side gusseted bags, and euro-slot punch holes",
+      "Seamless integration with 10/14-head multi-head weighers or volumetric cup fillers"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Potato Chips, Banana Chips, Namkeen, Sev, Bhujia & Fryums",
+      "Dry Fruits, Cashews, Almonds, Pistachios & Raisins",
+      "Extruded Snacks, Popcorn, Puffed Rice & Kurkure",
+      "Spices, Masala Blends, Flour & Granular Chemical Powders",
+      "Confectionery, Wrapped Candies, Toffees & Jelly Bites"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Piece",
-      "Brand": "AVM",
-      "Packaging Speed": "13 to 14 bags per minute (based on Product & Qty.)",
-      "Power Consumption": "15 amps. / Single Phase,230V AC",
-      "Compressor Air Required": "Yes",
-      "Automation Grade": "Automatic",
-      "Filling Range": "250 Gm To 2 Kg",
-      "Usage/Application": "Sugar, Rice, Dal, Pulses, Tea, Coffee, Spices, Grains, Seeds, Namkeen, Detergent Powder and Granules",
-      "Country of Origin": "Made in India",
-      "Product Details: Minimum Order Quantity": "1 Piece",
+    "specifications": {
+      "Packaging Speed": "30 to 70 pouches per minute (product dependent)",
+      "Filling Range": "50 gm to 1000 gm",
+      "Film Roll Width": "Up to 450 mm",
+      "Pouch Length": "80 mm to 300 mm",
+      "Pouch Styles": "Center-Seal Pillow Pouch, Gusseted Pouch, D-cut / Euro-punch",
+      "Control System": "PLC with 7\" Touchscreen HMI (Siemens / Delta)",
+      "Air Consumption": "8 CFM at 6 kg/cm²",
+      "Power Supply": "415V AC, 3-Phase, 50 Hz",
+      "Machine Weight": "Approx. 650 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Why choose a collar-type machine over a conventional chute machine?",
+        "answer": "A collar-type machine feeds the packaging roll smoothly over a conical collar with significantly lower film tension. This enables higher packaging speeds (up to 70 ppm), prevents film tearing on delicate laminate materials, and produces clean, wrinkle-free center seals."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can I produce gusseted pouches on a collar-type machine?",
+        "answer": "Yes, our collar-type machines can be fitted with an optional pneumatic gusseting attachment that pushes in the pouch sides before horizontal sealing, creating stand-up block bottom gusset bags."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What filling systems can be mounted on top of this machine?",
+        "answer": "Depending on your product, we can mount Multi-head combination weighers (for snacks/chips), Volumetric cup fillers (for free-flowing grains/pulses), or Servo auger fillers (for fine spices and powders)."
       },
+      {
+        "question": "Do you supply customized forming collars for different pouch widths?",
+        "answer": "Yes, we custom CNC-machine extra forming collars at our Mumbai facility so you can easily switch between 50g, 100g, and 500g pouch widths."
+      }
     ]
   },
   {
-    slug: "continuous-sealing-machine",
-    name: "Continuous Sealing Machine",
-    h1: "Continuous Sealing Machine Manufacturer in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Continuous Sealing Machine Manufacturer in India | Band Sealer Machine Mumbai - AVM Packaging System",
-    metaDescription: "AVM Packaging System is a leading Continuous Sealing Machine Manufacturer in India offering vertical & horizontal band sealers for food, pharma & industrial packaging. Durable, high-speed and energy-efficient machines. Enquire now for best price in Mumbai & India.",
-    metaKeywords: "Continuous Sealing Machine, Continuous Sealing Machine Manufacturer in India, Band Sealer Machine India, Vertical Continuous Sealing Machine, Horizontal Continuous Sealing Machine, Continuous Sealer Mumbai, Industrial Sealing Machine Manufacturer, Pouch Sealing Machine India",
-    canonicalUrl: "https://avmpackagingsystem.com/continuous-sealing-machine.php",
-    image: "/images/avm/clean/printing/vertical-continuous-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Continuous Sealing Machine Manufacturer in India offering vertical & horizontal band sealers for food, pharma & industrial packaging. Durable, high-speed and energy-efficient machines. Enquire now for best price in Mumbai & India.",
-    description: "AVM Packaging System is a leading Continuous Sealing Machine Manufacturer in India offering vertical & horizontal band sealers for food, pharma & industrial packaging. Durable, high-speed and energy-efficient machines. Enquire now for best price in Mumbai & India.",
-    features: [
-      "Reliable sealing, high efficiency, low power consumption, small in size and elegant.",
-      "Equipped with automatic temperature controlling device and a step less speed",
-      "The control system, for uniform heating and adjustable speed.",
-      "Ideal for all types of light to medium weight packets (upto 50 gm to 2 kg wt.).",
-      "Adjustable sealing speed of upto 20 packets per minute, which can be adjusted depending on pack size & operator capacity.",
-      "Reliable sealing, high efficiency, low power consumption, small in size and elegant.",
-      "Equipped with automatic temperature controlling device and a step less speed",
-      "The control system, for uniform heating and adjustable speed.",
-      "Consistent and uniform sealing for leak-proof packaging",
-      "High-speed operation for continuous production lines",
-      "Adjustable temperature and conveyor speed control",
-      "Low power consumption with minimal maintenance",
-      "Available in vertical and horizontal configurations",
+    "slug": "continuous-sealing-machine",
+    "name": "Continuous Sealing Machine",
+    "h1": "Continuous Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Continuous Sealing Machine Manufacturer in India | Band Sealer | AVM",
+    "metaDescription": "Manufacturer of continuous heat sealing machines in India. Motorized conveyor pouch sealers for foil, plastic & laminated bags. Fast delivery from Mumbai.",
+    "metaKeywords": "continuous sealing machine manufacturer in india, continuous band sealer mumbai, motorized pouch sealer, continuous heat sealer machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/continuous-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Industrial motorized continuous pouch heat sealer engineered for rapid, airtight sealing of multi-layer laminate, plastic, and barrier pouches.",
+    "description": "AVM Packaging System manufactures high-performance Continuous Sealing Machines in Mumbai, India. Designed for packaging facilities requiring continuous, non-stop sealing throughput, our machines feed pouches seamlessly through dual brass heating blocks and forced-air cooling blocks, ensuring hermetic, leak-proof seals on thousands of pouches per shift.",
+    "speed": "0 - 12 meters per minute",
+    "capacity": "Pouches up to 5kg on standard conveyor",
+    "power": "650W, 220V Single Phase, 50 Hz",
+    "features": [
+      "Continuous conveyorized sealing eliminates manual pedal operation",
+      "High-conductivity pure brass heating blocks with precision electronic thermostat",
+      "Forced-air rapid cooling section solidifies seal immediately to prevent delamination",
+      "Adjustable conveyor speed and height to accommodate diverse pouch dimensions",
+      "Sturdy Teflon sealing belts that handle high temperatures without sticking",
+      "Built-in date and batch code embossing wheel",
+      "Rugged all-metal body with corrosion-resistant finish",
+      "Horizontal model for dry packages; convertible vertical model for liquid pouches"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Spices, Flours, Salt, Sugar & Grain Pouches",
+      "Snacks, Namkeen, Bakery Goods & Dry Fruit Bags",
+      "Seeds, Fertilizers, Agro Powders & Soil Nutrients",
+      "Pharma Powders, Medical Devices & Surgical Sterile Pouches",
+      "Detergents, Chemicals & Industrial Small Parts"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Orientation": "Vertical",
-      "Frequency": "50 Hz",
-      "Phase": "Single",
-      "Voltage": "240 V",
-      "Sealing Speed": "0-12 Mtr. Per min",
-      "Machine Weight": "35-50 Kg",
-      "Body Material": "Stainless Steel",
-      "Model": "FR 900",
-      "Brand": "AVM",
-      "Power Supply": "220V/50 Hz",
-      "Temperature Range": "0- 300 Degree C",
-      "Power Consumption": "500 W",
-      "Conveyor Load": "5 Kgs",
-      "Machine Dimension": "L 90 x W 48 x H 38 cm",
-      "Operational Mode": "Horizontal",
-      "Material": "Mild Steel",
-      "Driven Type": "Electric",
-      "Speed": "Up to 30 Packet/Min",
-      "Packaging Packet Size": "50 gm -2 Kg",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Sealing Speed": "0 to 12 m/min variable",
+      "Seal Width": "8 mm to 12 mm",
+      "Temperature Range": "0 to 300°C",
+      "Conveyor Bed Size": "840 x 150 mm",
+      "Single Pouch Weight": "Up to 1 kg",
+      "Total Conveyor Load": "Up to 5 kg",
+      "Power Consumption": "650 Watts",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Machine Weight": "Approx. 35 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does a continuous sealing machine differ from a pedal sealer?",
+        "answer": "A pedal sealer seals one pouch per foot press, maxing out at roughly 8-12 pouches per minute with operator fatigue. A continuous sealing machine features a motorized conveyor belt where the operator simply feeds pouches into the guide, yielding 30-50 pouches per minute with zero effort."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Will this machine seal aluminum foil and kraft paper pouches?",
+        "answer": "Yes, our dual brass heating blocks provide sufficient thermal transfer to seal heavy 3-ply and 4-ply laminated aluminum foil, kraft paper pouches with PE lining, and barrier films."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can the sealing temperature be adjusted for different plastic thicknesses?",
+        "answer": "Yes, the digital PID temperature controller allows precise degree-by-degree temperature adjustment between 0°C and 300°C to perfectly match your specific film thickness."
       },
+      {
+        "question": "Are spare parts like Teflon belts and heating elements readily available?",
+        "answer": "Yes, we maintain extensive stock of Teflon bands, heating elements, drive belts, and temperature sensors at our Mumbai warehouse with dispatch across India within 24 hours."
+      }
     ]
   },
   {
-    slug: "conveyor-systems",
-    name: "Conveyor Systems",
-    h1: "Conveyor Systems Manufacturer in India",
-    category: "End-of-Line Machinery",
-    categoryId: "end-of-line",
-    metaTitle: "Conveyor Systems Manufacturer in India | Industrial Conveyors | AVM",
-    metaDescription: "AVM Packaging System manufactures industrial conveyor systems in India, including belt, inclined and packaging conveyors for material handling and automation. Get a quote.",
-    metaKeywords: "Conveyor Systems, Conveyor Systems Manufacturer, Industrial Conveyor Systems, Conveyor Manufacturer, Conveyor Belt Systems, Belt Conveyor Manufacturer, Material Handling Conveyor, Conveyor Equipment, Conveyor Solutions, Conveyor Automation Systems, Packaging Conveyor Systems, Industrial Conveyor Manufacturer India",
-    canonicalUrl: "https://avmpackagingsystem.com/conveyor-systems.php",
-    image: "/images/avm/clean/all/belt-conveyor.jpg",
-    shortDescription: "AVM Packaging System manufactures industrial conveyor systems in India, including belt, inclined and packaging conveyors for material handling and automation. Get a quote.",
-    description: "AVM Packaging System manufactures industrial conveyor systems in India, including belt, inclined and packaging conveyors for material handling and automation. Get a quote.",
-    features: [
-      "Product Type & Dimensions: Identify the size, shape and surface of the product or package.",
-      "Load Requirement: Confirm the approximate weight per product and total load expected on the conveyor.",
-      "Required Output: Match conveyor speed with the production or packaging-line capacity.",
-      "Conveyor Length & Width: Select dimensions according to production layout and product size.",
-      "Belt Material: Choose a belt suitable for the product, operating environment and handling requirement.",
-      "Elevation: Confirm whether material needs to move horizontally or between different heights.",
-      "Operating Environment: Consider dust, moisture, temperature and other process conditions where relevant.",
-      "Automation: Decide whether the conveyor will operate independently or communicate with other machines in the line.",
-      "Product or material being conveyed",
-      "Product dimensions and approximate weight",
-      "Required conveyor length and width",
-      "Expected production speed or throughput",
-      "Required horizontal or inclined movement",
-      "Available floor space and production-line layout",
-      "Required belt material, if already specified",
-      "Machines that need to be connected before or after the conveyor",
-      "Drive Motor",
-      "Conveyor Belt",
-      "Supporting Frame",
-      "Guide Rails",
-      "Control Panel",
-      "Variable Speed Drive",
-      "Safety Guards",
-      "Faster product transportation",
-      "Reduced manpower",
-      "Lower production cost",
-      "Continuous workflow",
-      "Improved workplace safety",
-      "Better production efficiency",
-      "Easy integration with automation",
-      "Low maintenance",
-      "Increased productivity",
-      "Reduced product damage",
-      "Reduces production downtime",
-      "Improves product handling accuracy",
-      "Supports continuous manufacturing",
-      "Reduces labor costs",
-      "Improves worker safety",
-      "Enhances operational efficiency",
-      "Supports industrial automation",
-      "Minimizes product damage",
-      "Increases production output",
-      "Optimizes factory workflow",
-      "Food Processing – Product and packaged-food transfer",
-      "Pharmaceutical Manufacturing – Movement between suitable processing and packaging operations",
-      "Beverage Production – Bottle and packaged-product handling",
-      "Cosmetics & FMCG – Product movement through filling and packaging lines",
-      "Packaging Industries – Integration with filling, sealing, labeling and secondary packaging equipment",
-      "Logistics & Warehousing – Movement of cartons and packaged goods",
-      "General Manufacturing – Material and component transfer between production stages",
-      "Improves production speed and efficiency",
-      "Minimizes product damage during transfer",
-      "Ensures smooth workflow in production lines",
-      "Supports automation in industrial environments",
-      "Customized Conveyor Design – Configuration based on product dimensions, load, speed and layout",
-      "Multiple Conveyor Applications – Solutions for material handling and packaging-line requirements",
-      "Packaging Automation Experience – Conveyor integration with related AVM filling, sealing and packaging equipment",
-      "Application-Based Belt Selection – Belt options selected according to operating requirements",
-      "Technical Assistance – Support for conveyor selection and production-line planning",
-      "Pan-India Supply – Conveyor equipment supplied from Mumbai for industrial applications across India",
+    "slug": "conveyor-systems",
+    "name": "Conveyor Systems",
+    "h1": "Industrial Conveyor Systems Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Conveyor Systems Manufacturer in India | Industrial Conveyors | AVM",
+    "metaDescription": "Industrial conveyor systems manufacturer in India. Motorized belt, roller & slat chain conveyors for packaging, sorting & assembly lines. Factory price Mumbai.",
+    "metaKeywords": "conveyor systems manufacturer in india, motorized belt conveyor mumbai, industrial roller conveyor, stainless steel packaging conveyor",
+    "canonicalUrl": "https://avmpackagingsystem.com/conveyor-systems",
+    "image": "/images/avm/clean/all/carton-taping-machine.jpg",
+    "shortDescription": "Custom-engineered motorized belt, stainless steel slat, and roller conveyor systems for packaging automation, product sorting, and dispatch lines.",
+    "description": "AVM Packaging System is a premier manufacturer of Industrial Conveyor Systems in Mumbai, India. We engineer custom motorized flat belt conveyors, modular plastic belt conveyors, stainless steel slat chain bottle conveyors, and heavy-duty carton roller lines designed to optimize material flow between packaging machinery, inspection points, and dispatch stations.",
+    "speed": "5 - 30 meters per minute (VFD adjustable)",
+    "capacity": "Load capacity from 20 kg/m up to 150 kg/m",
+    "power": "0.5 HP to 3.0 HP Geared Motor",
+    "features": [
+      "Custom length, width, and elevation tailored to your factory layout",
+      "Available in Food Grade Stainless Steel (SS 304/316) or Powder Coated Mild Steel",
+      "Variable Frequency Drive (VFD) for seamless line speed synchronization",
+      "High-tensile PVC/PU food-grade belts or heavy-duty motorized zinc-plated steel rollers",
+      "Adjustable side guide rails for bottles, jars, cans, and corrugated cartons",
+      "Emergency pull-cord and stop switches for complete operator safety",
+      "Low noise, high-efficiency helical geared motor drives",
+      "Easy maintenance design with quick belt tensioning brackets"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Food & Beverage Packaging & Bottling Lines",
+      "Pharmaceutical Cleanroom Conveyance & Visual Inspection",
+      "Carton Box & Parcel Transport to End-of-Line Taping & Strapping",
+      "Warehousing, 3PL & E-commerce Sorting Stations",
+      "Heavy Industrial Component & Hardware Assembly"
     ],
-    specifications: {
-      "Capacity": "1-50 kg per feet",
-      "Material": "Mild Steel",
-      "Belt Material": "PVC / Teflon / Endless 2 Ply Sandwich",
-      "Structure": "MS Powder Coated / Painted",
-      "Application": "Industrial Material Handling",
-      "Customization": "Available as per application requirement",
-      "Product Details: Capacity": "1-50 kg per feet",
-      "Product Details Capacity": "1-50 kg per feet",
+    "specifications": {
+      "Conveyor Length": "1 meter to 30 meters (Modular custom builds)",
+      "Belt / Roller Width": "200 mm to 1200 mm",
+      "Conveyor Speed": "5 to 30 m/min with variable speed control",
+      "Frame Material": "Stainless Steel 304 / Mild Steel with epoxy powder coating",
+      "Belt Type": "Food Grade PVC / PU / SS Slat Chain / Gravity Roller",
+      "Drive Mechanism": "Direct shaft-mounted Geared Motor with VFD",
+      "Working Height": "Adjustable 750 mm ± 50 mm (Customizable)",
+      "Power Supply": "415V 3-Phase / 220V Single Phase, 50 Hz"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Can your conveyors be customized to fit my existing factory floor plan?",
+        "answer": "Yes, all our conveyor systems are custom-fabricated based on your factory measurements, floor elevations, packaging line layout, and specific container or carton dimensions."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "What conveyor type is best for bottles and liquid containers?",
+        "answer": "For bottles, jars, and vials, we recommend our Stainless Steel Slat Chain or Modular Plastic Belt conveyors. They provide a stable, vibration-free platform that prevents bottle tipping at high speeds."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Are your belt conveyors certified for direct food contact?",
+        "answer": "Yes, for food, bakery, and meat handling, we install FDA-approved food-grade white PVC or PU antimicrobial belts mounted on complete SS 304 washdown frames."
       },
+      {
+        "question": "Can the conveyor speed be synchronized with our filling and labeling machines?",
+        "answer": "Yes, every conveyor is equipped with an electronic Variable Frequency Drive (VFD) that allows operators to dial in the exact line speed required to match upstream and downstream equipment."
+      }
     ]
   },
   {
-    slug: "crown-cap-sealing-machine",
-    name: "Crown Cap Sealing Machine",
-    h1: "Crown Cap Sealing Machine",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Crown Capping Machine Manufacturer, Trader, Exporter",
-    metaDescription: "We are a Prominent and Leading Manufacturer, Trader, Exporter. We Offer you a complete choice of products which include Crown Capping Machine.",
-    metaKeywords: "AVM packing machine Manufacturer, Crown Capping Machine Manufacturer, Manual Crown Capping Machine Mumbai, Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/crown-cap-sealing-machine.php",
-    image: "/images/avm/clean/all/manual-crown-capping-machine.jpg",
-    shortDescription: "We are a Prominent and Leading Manufacturer, Trader, Exporter. We Offer you a complete choice of products which include Crown Capping Machine.",
-    description: "We are a Prominent and Leading Manufacturer, Trader, Exporter. We Offer you a complete choice of products which include Crown Capping Machine.",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "crown-cap-sealing-machine",
+    "name": "Crown Cap Sealing Machine",
+    "h1": "Crown Cap Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Crown Cap Sealing Machine Manufacturer in India | AVM",
+    "metaDescription": "Heavy-duty crown cap sealing machine manufacturer in India. Pneumatic & semi-automatic bottle crown cappers for glass beverage bottles. Factory price Mumbai.",
+    "metaKeywords": "crown cap sealing machine manufacturer in india, bottle crown capper mumbai, beer bottle capping machine, glass bottle crown sealer",
+    "canonicalUrl": "https://avmpackagingsystem.com/crown-cap-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Heavy-duty pneumatic crown capping machine designed for hermetic crimping of standard 26mm crown caps on glass beverage and sauce bottles.",
+    "description": "AVM Packaging System manufactures heavy-duty Crown Cap Sealing Machines in Mumbai, India. Engineered for craft breweries, soft drink bottling plants, cideries, and glass-bottled condiment makers, our capping machines deliver uniform, leak-proof 360-degree crown crimps that maintain carbonation and preserve product freshness.",
+    "speed": "20 - 40 bottles per minute",
+    "capacity": "Glass bottles 150ml to 1000ml (Height 100mm - 350mm)",
+    "power": "Pneumatic air operated (4-6 bar), 220V for sensor control",
+    "features": [
+      "Hardened steel magnetic capping collet securely holds 26mm crown caps",
+      "Pneumatic crimping stroke provides uniform downward pressure without glass breakage",
+      "Height adjustable bottle platform with centering nest for bottle stabilization",
+      "Foot pedal or dual safety push-button cycle actuation",
+      "Rugged cast iron and stainless steel construction for decades of service",
+      "No slippage or cap deformation, ensuring 100% leak-proof carbonation seal",
+      "Accommodates bottle heights from 100 mm to 350 mm with simple hand wheel",
+      "Low maintenance with zero complex gearboxes"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Beer, Cider & Craft Brewery Glass Bottles",
+      "Carbonated Soft Drinks, Soda & Tonic Water Bottles",
+      "Glass-Bottled Ketchup, Sauces, Vinegar & Syrups",
+      "Cold-Pressed Juices, Flavored Milk & Kombucha",
+      "Ayurvedic & Pharmaceutical Glass Tonic Bottles"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Usage/Application": "Crown Cap sealing",
-      "Brand": "AVM Packaging",
-      "Material": "Iron Casting",
-      "Automation Grade": "Manual",
-      "Cap Size": "28 mm diameter",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Capping Output": "20 to 40 bottles per minute (operator dependent)",
+      "Cap Specification": "Standard 26 mm Crown Caps (Optional 29 mm)",
+      "Bottle Height Range": "100 mm to 350 mm",
+      "Bottle Diameter": "Up to 100 mm",
+      "Operating Pressure": "4 to 6 Bar compressed air",
+      "Air Consumption": "2 to 3 CFM",
+      "Frame Material": "Cast Steel structure with Stainless Steel cover",
+      "Dimensions": "Approx. 450 x 400 x 950 mm",
+      "Net Weight": "Approx. 48 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Does the pneumatic pressure risk breaking glass bottles?",
+        "answer": "No, the machine features an adjustable pneumatic pressure regulator and a spring-cushioned bottle base that applies firm, controlled downward pressure around the bottle lip, preventing bottle fracture."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How does the machine hold the crown cap before crimping?",
+        "answer": "The capping collet contains a permanent neodymium magnet that holds the crown cap firmly in position while the operator places the bottle beneath the head."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can this machine handle non-standard bottle heights?",
+        "answer": "Yes, the main column has a threaded hand-wheel height adjustment allowing you to transition between 200ml soda bottles and 750ml wine/beer bottles in under a minute."
       },
+      {
+        "question": "Do you supply the air compressor required for operation?",
+        "answer": "We can supply a matched silent air compressor alongside the machine, or you can connect it directly to your plant's existing 6-bar compressed air line."
+      }
     ]
   },
   {
-    slug: "dry-fruit-packing-machine",
-    name: "Dry Fruit Packing Machine",
-    h1: "Dry Fruit Packing Machine Manufacturer in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Dry Fruit Packing Machine Manufacturer | Dry Fruit Packing Machine Suppliers in India",
-    metaDescription: "AVM Packaging System is a leading Dry Fruit Packing Machine Manufacturer in India. We supply high-quality dry fruit packing machines for almonds, cashews, pistachios & more with accurate weighing and strong sealing. Enquire now for best price.",
-    metaKeywords: "Dry Fruit Packing Machine, Dry Fruit Packing Machine Manufacturer, Dry Fruit Packing Machine Suppliers in India, Dry Fruit Packing Machine Trader, Automatic Dry Fruit Packing Machine, Dry Fruit Packaging Machine India",
-    canonicalUrl: "https://avmpackagingsystem.com/dry-fruit-packing-machine.php",
-    image: "/images/avm/clean/all/dry-fruit-packing-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Dry Fruit Packing Machine Manufacturer in India. We supply high-quality dry fruit packing machines for almonds, cashews, pistachios & more with accurate weighing and strong sealing. Enquire now for best price.",
-    description: "AVM Packaging System is a leading Dry Fruit Packing Machine Manufacturer in India. We supply high-quality dry fruit packing machines for almonds, cashews, pistachios & more with accurate weighing and strong sealing. Enquire now for best price.",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "dry-fruit-packing-machine",
+    "name": "Dry Fruit Packing Machine",
+    "h1": "Dry Fruit Packing Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Dry Fruit Packing Machine Manufacturer in India | AVM",
+    "metaDescription": "Automatic dry fruit packing machine manufacturer in India. Multi-head weigher pouch packaging for cashews, almonds & nuts with nitrogen flushing. Factory price.",
+    "metaKeywords": "dry fruit packing machine manufacturer in india, cashew nut packaging machine mumbai, almond pouch packing machine, dry fruit nitrogen packing",
+    "canonicalUrl": "https://avmpackagingsystem.com/dry-fruit-packing-machine",
+    "image": "/images/avm/clean/product/fryums-pouch-packing machine.jpg",
+    "shortDescription": "High-accuracy automated pouch packing machine with multi-head weighing and nitrogen flushing for premium packaging of cashews, almonds, and dry fruits.",
+    "description": "AVM Packaging System is a premier manufacturer of Dry Fruit Packing Machines in Mumbai, India. Designed specifically to protect high-value nuts and dried fruits from moisture and rancidity, our machines combine combination multi-head weighers (±0.5g accuracy), nitrogen gas flushing, and hermetic center-seal pouches to deliver immaculate retail packaging for premium brands.",
+    "speed": "25 - 60 pouches per minute",
+    "capacity": "25g to 1000g pouch sizes",
+    "power": "3.5 kW, 415V 3-Phase, 50 Hz",
+    "features": [
+      "Multi-head combination computer weigher for extreme ±0.5g weight precision",
+      "Dimpled stainless steel product contact surfaces prevent sticky dried fruit adhesion",
+      "Built-in nitrogen gas flushing mechanism eliminates oxygen to preserve nut freshness",
+      "Touchscreen HMI with pre-programmed recipes for cashews, almonds, and mixed nuts",
+      "Produces center-seal pillow bags, side gusseted stand-up pouches, or euro-slot packs",
+      "Full Stainless Steel 304 construction conforming to FSSAI food hygiene norms",
+      "Servo-driven film draw belts ensure consistent, wrinkle-free pouch formation",
+      "Optional inline metal detector and checkweigher integration"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Cashew Nuts (Whole, Split, Roasted & Salted)",
+      "Almonds (Raw, Smoked, Roasted & Flavored)",
+      "Pistachios, Walnuts, Pecans & Pine Nuts",
+      "Raisins, Dried Cranberries, Blueberries, Figs & Apricots",
+      "Trail Mixes, Nut & Seed Blends, Roasted Makhana"
     ],
-    specifications: {
-      "Packaging Material": "Dry Fruits",
-      "Frequency": "50 Hz",
-      "Brand": "AVM Packaging",
-      "Bowl Material": "SS",
-      "Driven Type": "Electrical",
-      "Pouch Capacity": "10-200 gm",
-      "Contact Part": "Stainless Steel",
-      "Product Details: Packaging Material": "Dry Fruits",
+    "specifications": {
+      "Packaging Speed": "25 to 60 pouches per minute",
+      "Weighing Accuracy": "± 0.2 gm to 0.8 gm",
+      "Filling Range": "25 gm to 1000 gm",
+      "Film Roll Width": "Up to 450 mm",
+      "Pouch Formats": "Center Seal, Gusseted Pouch, Euro-Slot Punch",
+      "Control System": "PLC with 10-inch Color Touchscreen",
+      "Gas Flushing": "High-purity Nitrogen Injection Manifold",
+      "Contact Material": "Stainless Steel 304 with Dimple Finish",
+      "Power Supply": "415V AC, 3-Phase, 50 Hz",
+      "Machine Weight": "Approx. 850 kg (with Weigher and Platform)"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Why is nitrogen flushing crucial for dry fruit packaging?",
+        "answer": "Dry fruits like cashews and walnuts contain natural oils that oxidize and become rancid in the presence of atmospheric oxygen. Nitrogen flushing displaces oxygen inside the pouch to under 1%, preserving crisp texture, natural flavor, and extending shelf life up to 12 months."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can sticky dry fruits like raisins and dates be packed on this machine?",
+        "answer": "Yes, our weighers use specialized dimpled/embossed stainless steel weigh buckets and steep-angle discharge chutes that prevent sticky sugary fruits from adhering to the contact surfaces."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How accurate is the multi-head weighing system?",
+        "answer": "The computer combination weigher computes thousands of weight combinations in milliseconds, achieving target fill accuracy within ±0.5 grams, practically eliminating product giveaway on expensive nuts."
       },
+      {
+        "question": "What support does AVM Packaging provide for machine setup?",
+        "answer": "We deliver full turnkey support: equipment delivery, mezzanine support platform installation, pneumatic hookup, calibration with your dry fruits, and operator training across India."
+      }
     ]
   },
   {
-    slug: "form-filling-machine",
-    name: "Form Filling Machine",
-    h1: "Form Filling Machine Manufacturers in India",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Form Filling Machine Manufacturer in India | Automatic Form Fill Seal Machine | AVM Packaging",
-    metaDescription: "Looking for a trusted Form Filling Machine Manufacturer in India? AVM Packaging System offers automatic Form Fill Seal machines for powder, liquid and granule packaging with customized solutions, factory pricing and Pan India installation support.",
-    metaKeywords: "Plastic Form Filling Machine, Form Filling Machine Manufacturers, Plastic FFS Machine India, Automatic Form Filling Machine, Pouch Filling Machine Manufacturer, Form Fill Seal Machine India",
-    canonicalUrl: "https://avmpackagingsystem.com/form-filling-machine.php",
-    image: "/images/avm/clean/sealing/vertical-form-fill-sealing-machine.jpg",
-    shortDescription: "Looking for a trusted Form Filling Machine Manufacturer in India? AVM Packaging System offers automatic Form Fill Seal machines for powder, liquid and granule packaging with customized solutions, factory pricing and Pan India installation support.",
-    description: "Looking for a trusted Form Filling Machine Manufacturer in India? AVM Packaging System offers automatic Form Fill Seal machines for powder, liquid and granule packaging with customized solutions, factory pricing and Pan India installation support.",
-    features: [
-      "Faster packaging",
-      "Reduced labour dependency",
-      "Accurate filling",
-      "Better hygiene",
-      "Less wastage",
-      "Accurate and consistent filling",
-      "Automatic operation with low maintenance",
-      "Suitable for powders, granules and solids",
-      "Compact and robust construction",
-      "Easy to operate and clean",
-      "PLC Controlled Automation",
-      "Touch Screen Interface",
-      "Servo Driven Film Pulling",
-      "Automatic Temperature Control",
-      "No Film No Filling System",
-      "Easy Changeover",
-      "Low Power Consumption",
-      "High Speed Packaging",
-      "Continuous Operation",
-      "Minimal Maintenance",
-      "Food Processing Industry",
-      "Spice Packaging Industry",
-      "Dairy Industry",
-      "Pharmaceutical Industry",
-      "Nutraceutical Industry",
-      "Chemical Industry",
-      "Cosmetic Industry",
-      "Tea & Coffee Industry",
-      "FMCG Manufacturing",
-      "Film Roll Loading",
-      "Pouch Forming",
-      "Product Filling",
-      "Heat Sealing",
-      "Finished Pouch Discharge",
-      "Customized Machine Design",
-      "Factory Direct Pricing",
-      "Pan India Installation",
-      "Operator Training",
-      "Fast Spare Parts Support",
-      "Low Maintenance Design",
-      "High Production Efficiency",
-      "Excellent Build Quality",
-      "Production Capacity",
-      "Product Type",
-      "Packaging Material",
-      "Automation Requirement",
-      "Custom machine configuration",
-      "Installation & support",
-      "Suitable for powder, liquid & granules",
-      "PAN India delivery",
+    "slug": "form-filling-machine",
+    "name": "Form Filling Machine",
+    "h1": "Form Filling Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Form Filling Machine Manufacturer in India | FFS Machines | AVM Packaging",
+    "metaDescription": "Form filling machine (FFS) manufacturer in India. Automatic vertical form fill seal packaging machinery for powders, granules & snacks. Direct factory price.",
+    "metaKeywords": "form filling machine manufacturer in india, automatic form fill seal, FFS packaging machine mumbai, vertical form fill seal VFFS india",
+    "canonicalUrl": "https://avmpackagingsystem.com/form-filling-machine",
+    "image": "/images/avm/clean/product/automatic-pouch-packing-machine.jpg",
+    "shortDescription": "High-productivity vertical form-fill-seal (VFFS) machine that automatically forms pouches from film, fills product, and seals in one continuous cycle.",
+    "description": "AVM Packaging System is a recognized manufacturer of Form Filling Machines (FFS) in Mumbai, India. Built to deliver rugged 24/7 industrial performance, our vertical form-fill-seal machines convert continuous flexible packaging film rolls into perfectly formed pouches, accurately dose powders, granules, or liquids, and hermetically seal them at high cycle speeds.",
+    "speed": "25 - 65 pouches per minute",
+    "capacity": "10g to 1000g pouches",
+    "power": "2.5 kW - 3.5 kW, 220V/415V",
+    "features": [
+      "Complete Form-Fill-Seal automation reduces packaging labor by up to 80%",
+      "Modular design accepts auger fillers, cup volumetric dosers, or multi-head weighers",
+      "Pneumatically actuated horizontal sealing jaws with dual temperature zones",
+      "Servo-driven friction pull belts ensure precise, jitter-free pouch length indexing",
+      "High-sensitivity optical photo-sensor for exact printed eye-mark registration",
+      "Touchscreen HMI with customizable parameter storage for up to 50 recipes",
+      "Constructed with food-grade SS 304 contact parts and robust industrial frame",
+      "Integrated date coding (hot foil / TTO) and nitrogen gas flushing attachments"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Spices, Seasonings, Salt, Sugar & Flour Packaging",
+      "Namkeen, Chips, Fryums, Extruded Snacks & Popcorn",
+      "Pulses, Rice, Grains, Seeds & Agricultural Granules",
+      "Tea Powder, CTC Tea, Coffee Beans & Drink Mixes",
+      "Detergent Powders, Fertilizer Granules & Chemical Pellets"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Automation Grade": "Automatic",
-      "Pouch Capacity": "10 gm – 2 Kg",
-      "Machine Power": "1 – 2 HP",
-      "Body Material": "Stainless Steel",
-      "Automation": "Automatic / Semi Automatic",
-      "Pouch Width": "50-350 mm",
-      "Pouch Length": "50-450 mm",
-      "Packaging Speed": "20-80 Pouches/Minute",
-      "Material": "SS304 / SS316",
-      "PLC": "Available",
-      "Servo System": "Available",
-      "Applications": "Powder Liquid Granules",
-      "Product Details Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Cycle Speed": "25 to 65 pouches per minute",
+      "Filling Range": "10 gm to 1000 gm",
+      "Pouch Formats": "Center Seal, Pillow Bag, 3-Side Seal, 4-Side Seal",
+      "Packaging Film": "Laminated heat-sealable films, BoPP, Met-PET, Polyethylene",
+      "Max Roll Width": "Up to 450 mm",
+      "Control System": "PLC with Touchscreen Display",
+      "Air Requirement": "6 Bar, 6 to 8 CFM",
+      "Power Supply": "220V Single Phase / 415V 3 Phase, 50 Hz",
+      "Machine Weight": "Approx. 450 kg to 650 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What is the difference between FFS and pre-made pouch packing?",
+        "answer": "A Form-Fill-Seal (FFS) machine creates pouches directly from an economical continuous roll of flat laminate film, which is up to 40% cheaper than buying pre-made pouches. It automatically forms the bag, fills the product, and seals it in a single continuous cycle."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can an FFS machine be used for both powder and granules?",
+        "answer": "Yes, by designing the machine with interchangeable top dosing heads, you can mount an auger filler for powders or swap to a volumetric cup filler for granules on the same base packaging frame."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What safety features are incorporated in the machine?",
+        "answer": "Our machines feature interlocked acrylic safety doors, emergency stop buttons, blade safety guards, and heater over-temperature alarms to ensure total operator protection."
       },
+      {
+        "question": "How reliable is the pouch length control?",
+        "answer": "With digital servo motor film pulling and optical eye-mark scanning, pouch length accuracy is maintained within ±0.5 mm, ensuring printed graphics and text are never misaligned."
+      }
     ]
   },
   {
-    slug: "horizontal-flow-wrap-machine",
-    name: "Horizontal Flow Wrap Machine",
-    h1: "Horizontal Flow Wrap Machine Manufacturer & Supplier in India",
-    category: "Wrapping & Flow Wrap",
-    categoryId: "wrapping-flow-wrap",
-    metaTitle: "Horizontal Flow Wrap Machine Manufacturer & Supplier in India | AVM Packaging System",
-    metaDescription: "AVM Packaging System is a leading Horizontal Flow Wrap Machine Manufacturer & Supplier in Mumbai, India. High-speed tabletop flow wrapper for biscuits, cakes, chocolates, chikki, soaps, napkins. Get best price & free quote today.",
-    metaKeywords: "Horizontal Flow Wrap Machine, Horizontal Flow Wrap Machine Manufacturer, Horizontal Flow Wrap Machine Suppliers in India, Flow Wrap Machine, Tabletop Flow Wrap Machine, Biscuit Packing Machine, Chocolate Packing Machine, Chikki Packing Machine, Flow Wrap Machine India",
-    canonicalUrl: "https://avmpackagingsystem.com/horizontal-flow-wrap-machine.php",
-    image: "/images/avm/clean/all/table-top-horizontal-flow-wrap-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Horizontal Flow Wrap Machine Manufacturer & Supplier in Mumbai, India. High-speed tabletop flow wrapper for biscuits, cakes, chocolates, chikki, soaps, napkins. Get best price & free quote today.",
-    description: "AVM Packaging System is a leading Horizontal Flow Wrap Machine Manufacturer & Supplier in Mumbai, India. High-speed tabletop flow wrapper for biscuits, cakes, chocolates, chikki, soaps, napkins. Get best price & free quote today.",
-    features: [
-      "High Speed: Up to 60 pouches/minute for increased production.",
-      "Compact Design: Saves floor space, unlike bulky continuous sealing machines.",
-      "Center Sealing: Provides tight, tamper-proof seals.",
-      "Easy Operation: User-friendly digital controls.",
-      "Low Maintenance: Durable components for continuous use.",
-      "Pan-India Support: Free installation and training included.",
-      "Bakery – Biscuits, Cookies, Cakes",
-      "Confectionery – Chocolates, Chikki, Candies",
-      "Snack Foods – Wafers, Namkeen",
-      "Personal Care – Soap Bars, Napkins",
-      "Also explore: Plastic tube sealing machines for cosmetics, vacuum sealing machines for food preservation",
-      "Stainless steel construction for hygiene",
-      "Adjustable film roll holder (max 300mm)",
-      "Digital temperature controller",
-      "Variable AC motor drive",
-      "Photo-cell registration for printed film",
-      "End seal and center seal mechanism",
-      "Low noise, energy-efficient operation",
-      "Emergency stop and safety guards",
-      "Portable tabletop with castor wheels",
-      "1 year comprehensive warranty",
-      "Free installation & training",
+    "slug": "horizontal-flow-wrap-machine",
+    "name": "Horizontal Flow Wrap Machine",
+    "h1": "Horizontal Flow Wrap Machine Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Horizontal Flow Wrap Machine Manufacturer in India | AVM",
+    "metaDescription": "Horizontal flow wrap machine manufacturer in India. High-speed HFFS pillow pack packaging for biscuits, soap bars, chocolates & bakery. Factory pricing Mumbai.",
+    "metaKeywords": "horizontal flow wrap machine manufacturer in india, HFFS flow wrapper mumbai, biscuit packing machine, soap bar wrapping machine india",
+    "canonicalUrl": "https://avmpackagingsystem.com/horizontal-flow-wrap-machine",
+    "image": "/images/avm/clean/product/fryums-pouch-packing machine.jpg",
+    "shortDescription": "High-speed horizontal form-fill-seal (HFFS) flow wrap machine engineered for pillow-pack packaging of solid items, biscuits, bars, and bakery products.",
+    "description": "AVM Packaging System is a premier manufacturer of Horizontal Flow Wrap Machines in Mumbai, India. Designed for high-speed continuous packaging of solid individual or grouped items, our flow wrappers feed products horizontally into a film tube, form a fin seal underneath, and slice/seal the ends with rotary cross-cut jaws at speeds up to 150 packs per minute.",
+    "speed": "40 - 150 packs per minute",
+    "capacity": "Product length 50mm - 250mm, width up to 120mm",
+    "power": "2.8 kW, 220V Single Phase, 50 Hz",
+    "features": [
+      "Dual or triple servo drive technology for synchronized feeding, pulling, and cutting",
+      "Touchscreen HMI with digital parameter settings for product length and speed",
+      "No product - No pack sensor prevents empty bag formation and film wastage",
+      "Rotary heat sealing jaws with precision temperature control for airtight end seals",
+      "Stainless Steel 304 infeed conveyor bed for hygienic food and pharma handling",
+      "Adjustable folding box accommodates multiple product widths with quick changeover",
+      "Automatic roll unwinding with optical eye-mark tracking for printed films",
+      "Optional date coding printer and nitrogen gas injection attachments"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Bakery & Confectionery (Biscuits, Cookies, Bread Loaves, Rusk, Cakes)",
+      "Snack Bars, Energy Bars, Chocolate Bars & Nougat",
+      "Personal Care & Hygiene (Soap Bars, Toothbrushes, Wet Wipe Packs)",
+      "Pharmaceutical Blister Packs, Medical Kits & Syringes",
+      "Industrial Components, Bearings, Hardware, Stationery & Kitchen Sponges"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Piece",
-      "Packaging Type": "Automatic (Flow Wrap)",
-      "Brand": "AVM",
-      "Sealing Type": "Centre Sealing",
-      "Production Capacity": "60 Pouches per Minute",
-      "Power Supply": "220V / Single Phase",
+    "specifications": {
+      "Packaging Speed": "40 to 150 packs per minute",
+      "Product Length": "50 mm to 250 mm",
+      "Product Width": "20 mm to 120 mm",
+      "Product Height": "Up to 60 mm",
+      "Max Film Width": "Up to 380 mm",
+      "Sealing Type": "Longitudinal Center Fin Seal + Rotary Transverse End Seal",
+      "Film Material": "Heat-sealable BOPP, laminated films, PVC, CPP",
+      "Machine Dimensions": "Approx. 3800 x 950 x 1500 mm",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Machine Weight": "Approx. 550 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does a horizontal flow wrap machine work?",
+        "answer": "Products are placed onto an infeed lug conveyor that pushes them into a continuous tube of packaging film. A bottom fin wheel seals the longitudinal seam underneath, and rotary cross-sealing jaws cut and seal the front and back of each pack, ejecting a crisp pillow pack."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can this machine handle fragile bakery items like cookies without crushing?",
+        "answer": "Yes, our servo-controlled infeed pusher lugs and synchronized film feed gently guide delicate cookies and biscuits into the film pouch without impact or product breakage."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How fast can we change over from one product size to another?",
+        "answer": "By utilizing an adjustable folding former and digital bag length entry on the touchscreen, mechanical changeover between different chocolate or soap sizes takes under 15 minutes."
       },
+      {
+        "question": "Can the machine pack with nitrogen gas flushing?",
+        "answer": "Yes, we integrate nitrogen lance injection directly into the film forming tube to displace oxygen for extended shelf life of bakery goods and snack bars."
+      }
     ]
   },
   {
-    slug: "induction-sealing-machine",
-    name: "Induction Sealing Machine",
-    h1: "Induction Sealing Machine Manufacturer in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Induction Sealing Machine Manufacturer in India | Automatic Bottle Sealing Machine",
-    metaDescription: "Leading induction sealing machine manufacturer in India offering automatic bottle and cap sealing machines for pharma, food & chemical industries. High-performance, leak-proof sealing with reliable support from AVM Packaging System.",
-    metaKeywords: "",
-    canonicalUrl: "https://avmpackagingsystem.com/induction-sealing-machine.php",
-    image: "/images/avm/clean/sealing/induction-sealing-machine.jpg",
-    shortDescription: "Leading induction sealing machine manufacturer in India offering automatic bottle and cap sealing machines for pharma, food & chemical industries. High-performance, leak-proof sealing with reliable support from AVM Packaging System.",
-    description: "Leading induction sealing machine manufacturer in India offering automatic bottle and cap sealing machines for pharma, food & chemical industries. High-performance, leak-proof sealing with reliable support from AVM Packaging System.",
-    features: [
-      "Leak-proof and tamper-evident sealing",
-      "Compact and portable design",
-      "Low power consumption",
-      "Suitable for plastic and glass bottles",
-      "Easy operation and maintenance",
-      "Automatic Induction Sealing Machine",
-      "Manual Induction Sealing Machine",
-      "Portable Induction Sealer",
-      "Continuous Induction Sealing Machine",
-      "Pharmaceutical bottle sealing",
-      "Food and beverage packaging",
-      "Chemical and lubricant containers",
-      "High-speed sealing performance",
-      "Leak-proof and tamper-evident sealing",
-      "Suitable for pharma, food & chemical industries",
-      "Energy efficient and low maintenance design",
-      "Available in portable and automatic models",
+    "slug": "induction-sealing-machine",
+    "name": "Induction Sealing Machine",
+    "h1": "Induction Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Induction Sealing Machine Manufacturer in India | Cap Sealer | AVM",
+    "metaDescription": "Induction sealing machine manufacturer in India. Electromagnetic aluminum foil bottle cap sealers for pharma, lube oils & FMCG. Factory direct price Mumbai.",
+    "metaKeywords": "induction sealing machine manufacturer in india, bottle induction cap sealer mumbai, aluminum foil bottle sealer, continuous induction sealer india",
+    "canonicalUrl": "https://avmpackagingsystem.com/induction-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Electromagnetic induction cap sealing machine designed for non-contact hermetic bonding of aluminum foil liners onto plastic and glass bottle necks.",
+    "description": "AVM Packaging System manufactures advanced Induction Sealing Machines in Mumbai, India. Available in manual hand-held, semi-automatic, and high-speed online conveyor models, our induction sealers generate controlled electromagnetic fields to fuse foil liners to container rims, providing 100% leak-proof, tamper-evident, and freshness-preserving seals.",
+    "speed": "Up to 100 bottles per minute (on online conveyor models)",
+    "capacity": "Bottle neck diameter 20mm to 120mm",
+    "power": "1.5 kW - 2.5 kW, 220V Single Phase, 50 Hz",
+    "features": [
+      "Non-contact electromagnetic induction heating leaves plastic caps undamaged",
+      "Hermetic, 100% leak-proof seal protects against liquid spillage during transit",
+      "Tamper-evident barrier prevents unauthorized product opening and counterfeiting",
+      "Solid-state power electronics with built-in air/water cooling for continuous duty",
+      "Automatic bottle rejection system for missing foil liners or stalled bottles",
+      "Stainless Steel 304 housing suitable for clean pharmaceutical environments",
+      "Digital power level adjustment for diverse foil liner thicknesses and bottle resins",
+      "Height adjustable induction sealing coil accommodates various bottle heights"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Pharmaceutical Syrups, Tablet Bottles & Health Supplements",
+      "Agrochemicals, Pesticides, Fertilizers & Seed Containers",
+      "Automotive Lubricants, Engine Oils & Coolant Bottles",
+      "Food Products (Honey, Edible Oils, Peanut Butter Jars, Pickles)",
+      "Cosmetics, Lotions, Creams, Shampoos & Sanitizers"
     ],
-    specifications: {
-      "Brand": "AVM Packaging",
-      "Voltage": "220 V",
-      "Frequency": "50 Hz",
-      "Sealing Diameter": "20 – 50 mm",
-      "Machine Weight": "8 – 10 Kg",
-      "Application": "Bottle & Container Sealing",
-      "Product Details Brand": "AVM Packaging",
+    "specifications": {
+      "Sealing Neck Diameter": "20 mm to 120 mm (Custom coils for larger jars)",
+      "Sealing Speed": "Up to 100 bottles/min (Online) / 20-30 bpm (Manual)",
+      "Output Power": "1500W to 2500W adjustable",
+      "Operating Frequency": "50 to 80 kHz Solid-State Induction",
+      "Cooling System": "Air-Cooled (standard) / Water-Cooled (heavy continuous)",
+      "Container Compatibility": "HDPE, PET, PP, LDPE, PVC and Glass with special liner",
+      "Construction": "Stainless Steel 304 chassis and enclosure",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Weight": "Approx. 45 kg (Online head with stand)"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does induction cap sealing work?",
+        "answer": "A cap containing an aluminum foil liner with a heat-seal polymer coating is screwed onto the filled bottle. When passing beneath the induction coil, an electromagnetic field heats only the aluminum foil layer instantly, melting the polymer and hermetically bonding the foil to the bottle lip without touching the bottle."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can induction sealing seal glass bottles?",
+        "answer": "Yes, provided a specialized glass-bonding induction liner (which includes a specialized bonding polymer for glass) is used and the bottle lip is clean and flat."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What happens if a bottle without a foil liner passes through?",
+        "answer": "Our online conveyor models can be fitted with an optional foil-detection optical sensor that identifies missing liners and automatically activates a pneumatic pusher to reject the unsealed bottle."
       },
+      {
+        "question": "Does induction sealing melt the plastic screw cap?",
+        "answer": "No. The electromagnetic field only interacts with conductive aluminum foil. The surrounding plastic cap is completely unaffected and remains cool to the touch."
+      }
     ]
   },
   {
-    slug: "liquid-filling-machine",
-    name: "Liquid Filling Machine",
-    h1: "Liquid Filling Machine",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Liquid Filling Machine Manufacturer in India | Automatic Bottle Filling Machine Supplier – AVM Packaging",
-    metaDescription: "Leading Liquid Filling Machine Manufacturer in India offering automatic, piston & volumetric filling machines for food, pharma, cosmetic & chemical industries. High-speed, accurate bottle filling solutions. Get best price from AVM Packaging System.",
-    metaKeywords: "liquid filling machine manufacturer, liquid filling machine, automatic liquid filling machine, bottle filling machine, liquid filling machine supplier India, AVM Packaging System",
-    canonicalUrl: "https://avmpackagingsystem.com/liquid-filling-machine.php",
-    image: "/images/avm/clean/all/liquid-filling-machine.jpg",
-    shortDescription: "Leading Liquid Filling Machine Manufacturer in India offering automatic, piston & volumetric filling machines for food, pharma, cosmetic & chemical industries. High-speed, accurate bottle filling solutions. Get best price from AVM Packaging System.",
-    description: "Leading Liquid Filling Machine Manufacturer in India offering automatic, piston & volumetric filling machines for food, pharma, cosmetic & chemical industries. High-speed, accurate bottle filling solutions. Get best price from AVM Packaging System.",
-    features: [
-      "Pharmaceutical Industry",
-      "Food and Beverage Industry",
-      "Cosmetic Industry",
-      "Chemical Industry",
-      "Oil and Lubricant Industry",
-      "FMCG Manufacturing Units",
-      "High filling accuracy",
-      "Low maintenance design",
-      "Stainless steel construction",
-      "Long operational life",
-      "Easy machine operation",
-      "Customized filling solutions",
-      "PAN India machine supply",
-      "Installation and support available",
+    "slug": "liquid-filling-machine",
+    "name": "Liquid Filling Machine",
+    "h1": "Liquid Filling Machine Manufacturer in India",
+    "category": "Filling & Dosing Machinery",
+    "categoryId": "filling-machines",
+    "metaTitle": "Liquid Filling Machine Manufacturer in India | Bottle Filler | AVM",
+    "metaDescription": "Automatic liquid filling machine manufacturer in India. Volumetric piston & gravity bottle fillers for oils, juices, pharma liquids & chemicals. Factory quote.",
+    "metaKeywords": "liquid filling machine manufacturer in india, automatic bottle liquid filler mumbai, volumetric piston filling machine, oil bottle filling machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/liquid-filling-machine",
+    "image": "/images/avm/clean/all/powder-filling-machine.jpg",
+    "shortDescription": "High-accuracy automatic volumetric piston liquid filling machine engineered for precision dispensing of free-flowing and viscous liquids into bottles.",
+    "description": "AVM Packaging System manufactures heavy-duty Automatic and Semi-Automatic Liquid Filling Machines in Mumbai, India. Built with food and pharmaceutical grade Stainless Steel 316 contact parts, our volumetric piston fillers deliver ±0.5% dosing precision for edible oils, syrups, juices, liquid soaps, disinfectants, and industrial chemicals.",
+    "speed": "20 - 80 bottles per minute (Multi-head configurations)",
+    "capacity": "Filling range from 50ml up to 1000ml (5000ml optional)",
+    "power": "1.5 kW - 3.0 kW, 220V/415V",
+    "features": [
+      "Precision volumetric piston dosing cylinders provide ±0.5% fill accuracy",
+      "Pneumatically operated diving nozzles prevent foaming and liquid bubbling",
+      "Positive shut-off drip-free nozzle design prevents container staining",
+      "All product contact parts fabricated in Stainless Steel 316 with sanitary fittings",
+      "PLC control with color touchscreen HMI for synchronized conveyor operations",
+      "No Bottle - No Fill interlock sensor avoids liquid spillage and wastage",
+      "Easy volumetric adjustment using calibrated hand wheels or servo drives",
+      "CIP (Clean-In-Place) compatible design for fast sanitization and washdown"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Edible Oils, Mustards, Olive Oils & Ghee",
+      "Beverages, Fruit Juices, Syrups, Flavored Milk & Liquors",
+      "Pharmaceutical Liquid Syrups, Suspensions & Oral Drops",
+      "Liquid Detergents, Shampoos, Handwash & Sanitizers",
+      "Agrochemicals, Liquid Fertilizers & Pesticides",
+      "Lubricants, Engine Oils, Brake Fluids & Chemical Reagents"
     ],
-    specifications: {
-      "Driven Type": "Electric",
-      "Type": "Liquid Filling",
-      "Material": "Stainless Steel",
-      "Usage/Application": "Industrial",
-      "Machine Type": "Automatic",
-      "Brand": "AVM Packaging",
-      "Frequency": "50Hz",
-      "Product Details: Driven Type": "Electric",
-      "Juices, Water, Soft drinks": "LowVolumetric / Gravity filler",
-      "Syrups, Oils, Shampoos": "MediumPiston / Servo filler",
-      "Pastes, Lotions, Gels": "HighHeavy duty piston filler",
+    "specifications": {
+      "Filling Volume Range": "50 ml to 1000 ml (Expandable up to 5 Liters)",
+      "Number of Nozzles": "2, 4, 6 or 8 Heads (Custom configurations)",
+      "Filling Accuracy": "± 0.5% to ± 1%",
+      "Output Capacity": "Up to 80 bottles per minute (8-head model)",
+      "Contact Parts Material": "Stainless Steel 316 (Food / Pharma Grade)",
+      "Structure": "Stainless Steel 304 tubular frame",
+      "Control System": "PLC with Touchscreen Interface",
+      "Air Consumption": "5 to 6 CFM at 6 kg/cm²",
+      "Power Supply": "415V 3-Phase / 220V Single Phase, 50 Hz"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does the machine handle foaming liquids like detergents or fruit juice?",
+        "answer": "We equip the machine with pneumatic bottom-up diving nozzles. The nozzles plunge to the bottom of the bottle before filling starts and rise slowly as the liquid level rises, preventing liquid turbulence and foaming."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Is the machine compatible with corrosive chemical liquids?",
+        "answer": "Yes, for acids, bleach, or corrosive chemicals, we manufacture specialized models utilizing non-metallic contact parts (PVDF, PTFE, and PVC) with sealed pneumatic controls to prevent corrosion."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How difficult is cleaning and sanitizing between product batches?",
+        "answer": "Our piston cylinders, valves, and tubing use quick-release sanitary tri-clover clamps that allow tool-free disassembly for thorough cleaning, or integration with your CIP (Clean-In-Place) washing system."
       },
+      {
+        "question": "Can I fill both glass and PET plastic bottles on the same machine?",
+        "answer": "Yes, the conveyor guide rails, nozzle heights, and bottle centering starwheels are fully adjustable to accommodate diverse bottle materials, shapes, and neck diameters."
+      }
     ]
   },
   {
-    slug: "liquid-paste-packing-machine",
-    name: "Liquid Paste Packing Machine",
-    h1: "Liquid Paste Packing Machine",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Liquid Paste Packing Machine, Manual Paste Filling Machine",
-    metaDescription: "We are Machines Manufacturer of Automatic Paste Filling Machine, Liquid Paste Packing Machine Having good quality, durable product. Mumbai, Maharashtra, India.",
-    metaKeywords: "AVM machine Manufacturer, Liquid Paste Packing Machine, Manual Paste Filling Machine, Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/liquid-paste-packing-machine.php",
-    image: "/images/avm/clean/all/manual-paste-filling-machine.jpg",
-    shortDescription: "We are Machines Manufacturer of Automatic Paste Filling Machine, Liquid Paste Packing Machine Having good quality, durable product. Mumbai, Maharashtra, India.",
-    description: "We are Machines Manufacturer of Automatic Paste Filling Machine, Liquid Paste Packing Machine Having good quality, durable product. Mumbai, Maharashtra, India.",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "liquid-paste-packing-machine",
+    "name": "Liquid Paste Packing Machine",
+    "h1": "Liquid Paste Packing Machine Manufacturer in India",
+    "category": "Filling & Dosing Machinery",
+    "categoryId": "filling-machines",
+    "metaTitle": "Liquid Paste Packing Machine Manufacturer in India | AVM",
+    "metaDescription": "Manufacturer of liquid paste pouch packing machines in India. Automated pouch packaging for viscous liquids, ketchup, shampoo & creams. Factory price Mumbai.",
+    "metaKeywords": "liquid paste packing machine manufacturer in india, viscous liquid pouch packing, ketchup pouch packaging machine mumbai, cream sachet packing machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/liquid-paste-packing-machine",
+    "image": "/images/avm/clean/product/fryums-pouch-packing machine.jpg",
+    "shortDescription": "Automated vertical form-fill-seal pouch packing machine equipped with positive displacement piston pump for viscous pastes, sauces, and gels.",
+    "description": "AVM Packaging System manufactures heavy-duty Liquid Paste Packing Machines in Mumbai, India. Designed for challenging viscous, sticky, and semi-solid products, our machines combine heated jacketed hoppers, rotary valves, and positive displacement piston dosers to produce center-sealed and 3/4-side sealed sachets for ketchup, pastes, creams, and gels.",
+    "speed": "25 - 50 pouches per minute",
+    "capacity": "10ml to 250ml per pouch",
+    "power": "2.5 kW - 3.5 kW, 220V/415V",
+    "features": [
+      "Precision volumetric piston pump specifically built for high-viscosity pastes",
+      "Jacketed hopper with temperature control and motorized stirrer for thick pastes",
+      "Anti-drip rotary shut-off nozzle prevents product seal contamination and leaks",
+      "Produces center-seal pillow sachets, 3-side seal, or 4-side seal formats",
+      "Stainless Steel 316 contact parts compliant with food safety and cosmetic norms",
+      "Programmable PLC with digital touchscreen for bag length and speed calibration",
+      "Photoelectric sensor for accurate film registration on printed laminates",
+      "Continuous heat sealing jaws with digital PID temperature regulation"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Food Pastes (Tomato Ketchup, Mayonnaise, Mustard, Ginger-Garlic Paste)",
+      "Dairy & Fats (Ghee, Butter, Peanut Butter, Chocolate Paste)",
+      "Cosmetics & Toiletries (Hair Shampoo, Conditioner, Face Creams, Lotions)",
+      "Pharmaceutical Gels, Ointments, Antiseptic Creams & Herbal Pastes",
+      "Industrial Greases, Lubricants, Adhesives & Silicone Sealants"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Piece",
-      "Capacity": "10 gm to 100 gm",
-      "Power Consumption": "Manual",
-      "Material": "Mild Steel",
-      "Usage/Application": "Pharma",
-      "Machine Type": "Manual",
-      "Brand": "AVM",
-      "Country of Origin": "Made in India",
-      "Product Details: Minimum Order Quantity": "1 Piece",
+    "specifications": {
+      "Filling Range": "10 ml to 250 ml (Customizable up to 500 ml)",
+      "Packaging Speed": "25 to 50 pouches per minute",
+      "Pouch Style": "3-Side Seal, 4-Side Seal, Center Seal Pillow Pouch",
+      "Dosing Accuracy": "± 1%",
+      "Hopper Capacity": "30 to 50 Liters with optional heating jacket",
+      "Contact Material": "Stainless Steel 316",
+      "Control System": "PLC with 7\" Color Touchscreen HMI",
+      "Power Supply": "220V Single Phase / 415V 3-Phase, 50 Hz",
+      "Machine Weight": "Approx. 420 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Can this machine handle hot-fill pastes like warm tomato sauce or ghee?",
+        "answer": "Yes, our machines can be built with heated jacketed hoppers and heat-resistant food-grade seals that maintain product temperature up to 85°C during the filling and sealing cycle."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How do you prevent viscous paste from dripping onto the sealing area?",
+        "answer": "We utilize specialized rotary positive cut-off nozzles with reverse-suction (suck-back) action that cleanly breaks paste stringing before the horizontal sealing jaws close, preventing leaky seals."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What packaging film works best with liquid paste sachets?",
+        "answer": "Multi-layer barrier films such as Polyester/Alu-Foil/Poly or Polyester/Polyethylene are recommended to provide moisture barriers and ensure robust hermetic heat seals."
       },
+      {
+        "question": "What maintenance is required for the piston dosing pump?",
+        "answer": "Routine flushing of the hopper and piston with warm water/cleaning solution after every production shift, along with monthly inspection of food-grade Teflon/silicone O-rings."
+      }
     ]
   },
   {
-    slug: "manual-crown-capping-machine",
-    name: "Manual Crown Capping Machine",
-    h1: "Manual Crown Capping Machine",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Manual Crown Capping Machine Mumbai, Maharashtra, India",
-    metaDescription: "We are a Prominent and Leading Machine Manufacturer, Exporter, and Trader from Mumbai, Maharashtra, India. We offer a Manual Crown Capping Machine all over India.",
-    metaKeywords: "AVM machine Manufacturer, Manual Crown Capping Machine Mumbai, Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/manual-crown-capping-machine.php",
-    image: "/images/avm/clean/all/manual-crown-capping-machine.jpg",
-    shortDescription: "We are a Prominent and Leading Machine Manufacturer, Exporter, and Trader from Mumbai, Maharashtra, India. We offer a Manual Crown Capping Machine all over India.",
-    description: "We are a Prominent and Leading Machine Manufacturer, Exporter, and Trader from Mumbai, Maharashtra, India. We offer a Manual Crown Capping Machine all over India.",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "manual-crown-capping-machine",
+    "name": "Manual Crown Capping Machine",
+    "h1": "Manual Crown Capping Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Manual Crown Capping Machine in Mumbai, India | AVM",
+    "metaDescription": "Economical manual crown capping machine manufacturer in Mumbai, India. Hand operated bottle crown cappers for glass beverage bottles. Factory price.",
+    "metaKeywords": "manual crown capping machine mumbai, hand operated bottle capper, beverage crown sealer india, small business bottle capper",
+    "canonicalUrl": "https://avmpackagingsystem.com/manual-crown-capping-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Heavy-duty hand-lever operated manual crown capping machine designed for small batch bottling of beer, soda, juices, and sauces in glass bottles.",
+    "description": "AVM Packaging System manufactures rugged Manual Crown Capping Machines in Mumbai, India. Engineered for startup microbreweries, beverage artisans, lab testing, and small-batch bottlers, our benchtop manual cappers provide smooth mechanical leverage and magnetic cap retention for airtight crimping on standard 26mm glass bottles.",
+    "speed": "10 - 20 bottles per minute (operator dependent)",
+    "capacity": "Standard 26mm crown caps on bottles up to 350mm height",
+    "power": "100% Manual Hand Operated (Zero Electricity)",
+    "features": [
+      "Zero electricity required - operate anywhere with pure mechanical lever advantage",
+      "Hardened magnetic capping collet securely holds crown cap during positioning",
+      "Heavy cast iron base with pre-drilled holes for secure workbench mounting",
+      "Smooth rack-and-pinion height adjustment to handle diverse bottle sizes",
+      "Anti-skid rubber base plate protects glass bottle bottoms from cracking",
+      "Ergonomic handle with non-slip grip minimizes operator hand fatigue",
+      "Precision crimping dies ensure 100% leak-proof carbonation containment",
+      "Compact footprint, virtually zero maintenance, and lifetime durability"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Craft Breweries & Home Brewing Operations",
+      "Small-Scale Soft Drink, Soda & Flavored Water Bottling",
+      "Artisanal Sauces, Vinegar, Ketchup & Condiments in Glass",
+      "Cold Brew Coffee, Kombucha & Herbal Tonic Bottling",
+      "Laboratory Product Sampling & Quality Testing Stations"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Capacity": "10-15 pc/min",
-      "Brand": "AVM",
-      "Body Material": "Mild Steel",
-      "Operation Mode": "Manual",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Operation Mode": "Manual Hand-Lever Operated",
+      "Cap Size": "Standard 26 mm Crown Caps",
+      "Bottle Height": "100 mm to 350 mm Adjustable",
+      "Capping Rate": "10 to 20 bottles per minute",
+      "Collet Mechanism": "Hardened tool steel with Neodymium magnet",
+      "Base Construction": "Cast Iron with anti-skid rubber padding",
+      "Dimensions": "Approx. 200 x 180 x 520 mm",
+      "Net Weight": "Approx. 8.5 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Does operating this manual capper require significant physical strength?",
+        "answer": "No, the high mechanical leverage ratio of our precision-engineered lever arm allows operators to achieve a tight, factory-grade crimp with gentle downward hand pressure."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can it cap both short soda bottles and tall beer bottles?",
+        "answer": "Yes, the main support column features an easy-to-use spring-loaded lock pin that lets you adjust the capping head height in seconds to fit 200ml up to 750ml glass bottles."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Does it come with a magnetic head?",
+        "answer": "Yes, the capping cup features a built-in permanent magnet that holds the crown cap firmly in place before you pull the lever down over the bottle neck."
       },
+      {
+        "question": "What is the warranty and lifespan of this manual machine?",
+        "answer": "Our manual cappers are constructed with solid cast iron and hardened tool steel with an expected operational lifespan of well over 10 years with practically zero maintenance."
+      }
     ]
   },
   {
-    slug: "packaging-machine",
-    name: "Packaging Machine",
-    h1: "Packaging Machine Manufacturer in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Packaging Machine Manufacturer in India | Automatic Pouch Packing Machine | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Packaging Machine Manufacturer in India offering Automatic Pouch Packing Machines, Dry Fruit Packaging Machines, Chips Packaging Machines and Vacuum Packing Machines for food and FMCG industries. Get best price and enquiry today.",
-    metaKeywords: "Packaging Machine, Packaging Machine Manufacturer, Packaging Machine Manufacturers, Automatic Pouch Packing Machine, Dry Fruit Packaging Machine, Chips Packaging Machine, Automatic Packing Machine, Pouch Packing Machine Manufacturer India, Vacuum Packing Machine, AVM Packaging System",
-    canonicalUrl: "https://avmpackagingsystem.com/packaging-machine.php",
-    image: "/images/avm/clean/vaccum/potato-chips-packaging-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Packaging Machine Manufacturer in India offering Automatic Pouch Packing Machines, Dry Fruit Packaging Machines, Chips Packaging Machines and Vacuum Packing Machines for food and FMCG industries. Get best price and enquiry today.",
-    description: "AVM Packaging System is a leading Packaging Machine Manufacturer in India offering Automatic Pouch Packing Machines, Dry Fruit Packaging Machines, Chips Packaging Machines and Vacuum Packing Machines for food and FMCG industries. Get best price and enquiry today.",
-    features: [
-      "Potato Chips & Snacks Packaging",
-      "Namkeen Packaging",
-      "Dry Fruit Packaging",
-      "Spices Packaging",
-      "Powder & Granule Packaging",
-      "FMCG Product Packaging",
-      "Pharmaceutical Packaging",
-      "Chemical Product Packaging",
-      "Durable industrial-grade vacuum sealing machines",
-      "Strong airtight sealing performance",
-      "Low maintenance and energy-efficient operation",
-      "Food-grade hygienic packaging solutions",
-      "Customized machine options available",
-      "Pan India supply and export support",
-      "Experienced vacuum sealing machine manufacturer",
+    "slug": "packaging-machine",
+    "name": "Industrial Packaging Machine",
+    "h1": "Packaging Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Packaging Machine Manufacturer in India | Factory Price | AVM",
+    "metaDescription": "AVM Packaging System is a premier packaging machine manufacturer in India. Automatic pouch packaging, sealing, filling & end-of-line machinery in Mumbai.",
+    "metaKeywords": "packaging machine manufacturer in india, automatic packaging machinery mumbai, industrial packing machines, food packaging equipment india",
+    "canonicalUrl": "https://avmpackagingsystem.com/packaging-machine",
+    "image": "/images/avm/clean/vaccum/potato-chips-packaging-machine.jpg",
+    "shortDescription": "Flagship industrial packaging machinery engineered for automated pouch forming, filling, sealing, and secondary packaging across food, FMCG, and pharma industries.",
+    "description": "AVM Packaging System is a premier Packaging Machine Manufacturer in Mumbai, India. We design, fabricate, and commission high-speed automatic packaging lines including Form-Fill-Seal (FFS) pouch packaging machines, continuous band sealers, vacuum packaging chambers, auger powder fillers, liquid bottle fillers, and carton taping lines tailored to your exact manufacturing requirements.",
+    "speed": "Up to 3,000 units per hour (depending on machine line)",
+    "capacity": "Customized for micro-sachets up to 50kg industrial sacks",
+    "power": "Single Phase 220V or 3-Phase 415V configurations",
+    "features": [
+      "Complete end-to-end packaging automation from raw dosing to final carton taping",
+      "Food-grade Stainless Steel 304 / SS 316 construction meeting ISO and cGMP standards",
+      "Microcontroller and PLC systems with intuitive touchscreen HMI interfaces",
+      "Modular design allowing seamless expansion as your production volume scales",
+      "Drastically reduces manual packaging labor, giveaway, and packaging time",
+      "Heavy-duty industrial build designed for continuous 24/7 operational reliability",
+      "Comprehensive factory testing and customer pre-dispatch inspection in Mumbai",
+      "Pan-India installation, operator training, and lifetime technical support"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Snack Foods, Potato Chips, Namkeen, Bakery & Confectionery",
+      "Spices, Flours, Grain, Pulses, Rice, Sugar & Salt",
+      "Edible Oils, Sauces, Ghee, Beverages, Water & Liquid Detergents",
+      "Pharmaceuticals, Nutraceuticals, Medical Powders & Vials",
+      "Chemicals, Agrochemicals, Fertilizers, Paints & Lubricants",
+      "Hardware, Fasteners, Plastic Components & Consumer Goods"
     ],
-    specifications: {
-      "Brand": "AVM Packaging",
-      "Automation Grade": "Semi-Automatic",
-      "Phase": "Three Phase",
-      "Packaging Application": "Customize",
-      "Pouch Counter": "Yes",
-      "Temperature Controller": "Yes",
-      "I Deal In": "New Only",
-      "Minimum Order Quantity": "1 Unit",
-      "Usage/Application": "Chips Packaging",
-      "Applicable Industry": "Food",
-      "Driven Type": "Electric",
-      "Body Material": "Stainless Steel",
-      "Country of Origin": "Made in India",
-      "Sealing Type": "Center Seal",
-      "Capacity": "25-30 pouch per minute",
-      "Model Name/Number": "DZ260",
-      "Chamber Type": "Single",
-      "Voltage": "240 V",
-      "Frequency": "50 Hz",
-      "Potato Chips Packaging Machine": "Automatic pouch packaging of chips and snack products",
-      "Automatic Chips Packing Machine": "Continuous food and snack packaging operations",
-      "4 Head Chips Packaging Machine": "Higher-output chips packaging with controlled pouch production",
-      "Table Top Vacuum Packing Machine": "Compact semi-automatic vacuum packaging requirements",
-      "Product Details: Brand": "AVM Packaging Systems",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Model Name/Number": "DZ260",
+    "specifications": {
+      "Machine Categories": "Pouch Packing (FFS), Sealing, Filling, Coding, End-of-Line",
+      "Automation Grade": "Semi-Automatic and Fully Automatic lines",
+      "Production Speeds": "Up to 3,000 packages per hour",
+      "Packaging Formats": "Pillow Pouches, 3-Side / 4-Side Sachets, Bottles, Cartons",
+      "Contact Material": "Stainless Steel 304 / SS 316",
+      "Control Systems": "Delta / Siemens PLC with Color Touchscreen",
+      "Power Options": "220V Single Phase / 415V 3-Phase, 50 Hz",
+      "Warranty": "12 Months Comprehensive Factory Warranty",
+      "Service Reach": "Pan-India Installation & Global Exports"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How do I choose the right packaging machine for my product?",
+        "answer": "Selecting the optimal machine depends on your product's physical state (powder, granule, liquid, or solid), desired pouch or container format, required packages per minute, and budget. Our engineering team in Mumbai provides free technical consultation and packaging feasibility analysis."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "What after-sales service and spare parts support does AVM provide?",
+        "answer": "We provide complete turnkey support: on-site machine commissioning, operator training at your plant, 12 months comprehensive warranty, and ready inventory of genuine mechanical and electrical spares dispatched immediately from Mumbai."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can AVM Packaging build custom-dimension packaging machines?",
+        "answer": "Yes, customization is our core strength. We tailor machine frames, forming collars, filling ranges, conveyor layouts, and electrical components specifically to fit your product specs and plant floor space."
       },
+      {
+        "question": "What is the typical delivery timeline for an automatic packaging line?",
+        "answer": "Standard standalone models (band sealers, vacuum sealers, tabletop fillers) are ready for dispatch within 3-7 days. Customized automated pouch packing lines typically ship within 2 to 4 weeks."
+      }
     ]
   },
   {
-    slug: "packing-machine",
-    name: "Packing Machines",
-    h1: "Packing Machines",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Automatic Spice Packing Machine Exporter, Supplier, Trader Mumbai",
-    metaDescription: "We are an Exporter, Supplier, and Trader of high-performance automatic Spice Packing Machines, Chips Packing Machine for the packaging industry all over India",
-    metaKeywords: "AVM Packaging System, Automatic Spice Packaging Machines, Chips Packing Machine,  Automatic tea packing machine, tea packing machine, wafer packaging machine, Peanuts Packing Machine, automatic chips packing machine, Snack Packing Machine, automatic pouch packing machine",
-    canonicalUrl: "https://avmpackagingsystem.com/packing-machine.php",
-    image: "/images/avm/clean/packing/automatic-spice-packaging-machine.jpg",
-    shortDescription: "We are an Exporter, Supplier, and Trader of high-performance automatic Spice Packing Machines, Chips Packing Machine for the packaging industry all over India",
-    description: "We are an Exporter, Supplier, and Trader of high-performance automatic Spice Packing Machines, Chips Packing Machine for the packaging industry all over India",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "pad-printing-machine",
+    "name": "Pad Printing Machine",
+    "h1": "Pad Printing Machine Manufacturer in India",
+    "category": "Coding & Marking Equipment",
+    "categoryId": "coding-marking",
+    "metaTitle": "Pad Printing Machine Manufacturer in India | 1-2 Color | AVM",
+    "metaDescription": "Pad printing machine manufacturer in India. Pneumatic 1-color & 2-color pad printers with sealed ink cups for bottle caps, plastic & metal. Factory price Mumbai.",
+    "metaKeywords": "pad printing machine manufacturer in india, 1 color pad printer mumbai, 2 color pad printing machine, sealed ink cup pad printer india",
+    "canonicalUrl": "https://avmpackagingsystem.com/pad-printing-machine",
+    "image": "/images/avm/clean/all/pad-printing-machine-header.png",
+    "shortDescription": "High-precision 1-color and 2-color pneumatic pad printing machine with sealed ink cup technology for sharp printing on curved, textured, and flat surfaces.",
+    "description": "AVM Packaging System is a recognized manufacturer of Pad Printing Machines in Mumbai, India. Utilizing sealed ink cup systems and high-resilience silicone pads, our pneumatic pad printers deliver crisp, durable, high-opacity logos, batch codes, scales, and graphics onto uneven, cylindrical, spherical, and textured plastic, glass, and metal substrates.",
+    "speed": "800 - 1500 impressions per hour",
+    "capacity": "Plate size 100x200 mm, Ink cup 90mm diameter",
+    "power": "Pneumatic operation (5-6 bar), 220V 50W control",
+    "features": [
+      "Sealed ink cup design prevents solvent evaporation, odors, and ink drying",
+      "High-grade silicone transfer pads conform to irregular and curved surfaces",
+      "Pneumatically operated with precision micro-regulators for uniform pad stroke",
+      "Microprocessor control with independent pad delay and multi-print options",
+      "Cast aluminum alloy construction ensures vibration-free printing accuracy",
+      "Available in 1-color single pad and 2-color shuttle table configurations",
+      "XYR micro-adjustable fixture table for pinpoint multi-color registration",
+      "Low ink consumption and fast cliché plate changeovers"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Bottle Caps, Jar Lids, Beverage Closures & Cosmetics Jars",
+      "Electronic Housings, Switches, Relay Bodies & Mobile Accessories",
+      "Automotive Dashboards, Knobs, Dials & Plastic Trims",
+      "Medical Syringes, Vials, Catheters & Diagnostic Devices",
+      "Stationery, Pens, Rulers, Toys, Promotional Gifts & Golf Balls"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Driven Type": "Electric",
-      "Voltage": "220V",
-      "Frequency": "50 Hz",
-      "Body Material": "Stainless Steel",
-      "Automation Grade": "Automatic",
-      "Pouch Capacity": "10-200 gm",
-      "Brand": "AVM",
-      "Capacity": "8-9 pouch/min",
-      "Usage/Application": "Industrial",
-      "Pouch Size": "20-100 gm",
-      "Pouch Length": "4",
-      "Application": "Industrial",
-      "Phase": "Three Phase",
-      "Packaging Application": "Customize",
-      "Packaging Range": "50 gm - 250 gm",
-      "Country of Origin": "Made in India",
-      "I Deal In": "New Only",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Brand": "AVM Packaging",
-      "Product Details: Automation Grade": "Automatic",
-      "Product Details: Driven Type": "Electric",
+    "specifications": {
+      "Printing Capacity": "Up to 1500 impressions per hour",
+      "Ink Cup Diameter": "90 mm Sealed Magnetic Ink Cup",
+      "Standard Cliché Plate": "100 mm x 200 mm (Steel / Polymer)",
+      "Max Print Area": "Approx. 75 mm x 75 mm (Round 80mm)",
+      "Colors Supported": "1 Color (Standard) / 2 Colors (Shuttle model)",
+      "Pad Vertical Stroke": "75 mm to 100 mm Adjustable",
+      "Operating Air Pressure": "5 to 6 Bar",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Net Weight": "Approx. 95 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What is the advantage of a sealed ink cup over an open inkwell?",
+        "answer": "Sealed ink cups use a ceramic doctor ring that seals directly against the printing plate. This prevents 90% of solvent evaporation, maintains consistent ink viscosity throughout the day, eliminates solvent fumes in the shop, and saves significant ink costs."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can pad printing print on curved surfaces like bottle caps and syringe barrels?",
+        "answer": "Yes, that is the primary superpower of pad printing! The flexible silicone pad deforms around complex 3D contours, spheres, cones, and textures, depositing ink flawlessly where flat screen printing cannot reach."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What types of ink are used?",
+        "answer": "Depending on your substrate, we supply 1-component or 2-component solvent-based inks specifically formulated for high adhesion and scratch resistance on PP, PE, ABS, acrylic, glass, and coated metals."
       },
+      {
+        "question": "How long does a steel cliché plate last?",
+        "answer": "A hardened thin steel cliché plate typically delivers between 100,000 to 500,000 impressions before requiring replacement, making it ideal for high-volume serial production."
+      }
     ]
   },
   {
-    slug: "pad-printing-machine",
-    name: "Pad Printing Machine",
-    h1: "Pad Printing Machine Manufacturer & Manufacturers in india",
-    category: "Coding & Marking Machinery",
-    categoryId: "coding-marking",
-    metaTitle: "Pad Printing Machine Manufacturer & Manufacturers in India | Automatic Pad Printing Machine | AVM Packaging",
-    metaDescription: "AVM Packaging System is one of the leading Pad Printing Machine Manufacturers in India offering automatic, electric, motorized and industrial pad printing machines for plastic, glass, metal and rubber. Get the best price with installation and PAN India delivery.",
-    metaKeywords: "Pad Printing Machine, Pad Printing Machine Manufacturers, Pad Printing Machine Manufacturer, Pad Printing Machine Manufacturers in India, Pad Printing Machine India, Automatic Pad Printing Machine, Electric Pad Printing Machine, Industrial Pad Printing Machine, Logo Printing Machine, Pad Printing Machine Price, Pad Printing Machine Supplier",
-    canonicalUrl: "https://avmpackagingsystem.com/pad-printing-machine.php",
-    image: "/images/avm/clean/printing/electric-pad-printing-machine.jpg",
-    shortDescription: "AVM Packaging System is one of the leading Pad Printing Machine Manufacturers in India offering automatic, electric, motorized and industrial pad printing machines for plastic, glass, metal and rubber. Get the best price with installation and PAN India delivery.",
-    description: "AVM Packaging System is one of the leading Pad Printing Machine Manufacturers in India offering automatic, electric, motorized and industrial pad printing machines for plastic, glass, metal and rubber. Get the best price with installation and PAN India delivery.",
-    features: [
-      "Glass Bottles & Jars – logos, batch codes, and brand identity printing on curved glass surfaces",
-      "Plastic Containers & Caps – product labels, brand marks on HDPE, PP, and PET containers",
-      "Metal Components – part numbers, logos, and markings on automotive or industrial metal parts",
-      "Electronic Devices – PCB markings, control panel labels, device body printing",
-      "Ceramic & Porcelain Items – mugs, tiles, kitchenware logo printing",
-      "Pharmaceutical Packaging – blister packs, tablet strips, and vial markings",
-      "Cosmetic Packaging – lipstick tubes, perfume caps, cream jar lids",
-      "Pharmaceutical Industry – compliant marking on medicine packaging",
-      "Automotive Industry – part number and logo printing on components",
-      "FMCG & Consumer Goods – high-speed logo printing on retail packaging",
-      "Electronics & Electrical – marking on housings, panels, and components",
-      "Food & Beverage Packaging – glass bottle pad printing, cap marking",
-      "Cosmetics & Personal Care – brand printing on premium packaging",
-      "Stationery & Gifts – logo printing on promotional items, pens, diaries",
-      "Medical Devices – identification marking on equipment components",
-      "ABS Plastic",
-      "Single Color Pad Printing Machine",
-      "Multi Color Pad Printing Machine",
-      "Semi Automatic Pad Printing Machine",
-      "Fully Automatic Pad Printing Machine",
-      "Electric Pad Printing Machine",
-      "Pneumatic Pad Printing Machine",
-      "Clean silicone pad after every production run to maintain print quality",
-      "Store inks in sealed containers away from direct sunlight",
-      "Lubricate moving parts as per machine manual schedule",
-      "Check electrical connections monthly for safety and performance",
-      "High Precision Printing",
-      "Excellent Ink Transfer",
-      "Heavy Duty Industrial Construction",
-      "High Speed Production",
-      "Low Maintenance Cost",
-      "Easy Machine Operation",
-      "Energy Efficient Design",
-      "Compact Footprint",
-      "Suitable for Continuous Production",
-      "Long Machine Life",
-      "Precision silicone pad printing",
-      "Uniform ink transfer",
-      "Adjustable printing pressure",
-      "High production efficiency",
-      "Quick setup",
-      "Low vibration",
-      "Excellent repeat accuracy",
-      "Suitable for continuous production",
-      "Printing Area",
-      "Automation Level",
-      "Production Capacity",
-      "Ink Compatibility",
-      "Machine Speed",
-      "Number of Colours",
-      "Power Consumption",
-      "Maintenance Cost",
-      "Spare Parts Availability",
-      "Manufacturer Support",
+    "slug": "paste-filling-machine",
+    "name": "Paste Filling Machine",
+    "h1": "Paste Filling Machine Manufacturer in India",
+    "category": "Filling & Dosing Machinery",
+    "categoryId": "filling-machines",
+    "metaTitle": "Paste Filling Machine Manufacturer in India | Viscous Filler | AVM",
+    "metaDescription": "Paste filling machine manufacturer in India. Pneumatic piston filling machines for cosmetics, creams, pastes, gels & sauces. Direct factory pricing Mumbai.",
+    "metaKeywords": "paste filling machine manufacturer in india, viscous paste filler mumbai, cosmetic cream filling machine, pneumatic piston paste filler",
+    "canonicalUrl": "https://avmpackagingsystem.com/paste-filling-machine",
+    "image": "/images/avm/clean/all/powder-filling-machine.jpg",
+    "shortDescription": "Precision pneumatic volumetric piston filling machine engineered for dispensing viscous pastes, cosmetic creams, ointments, and thick food sauces.",
+    "description": "AVM Packaging System manufactures high-precision Paste Filling Machines in Mumbai, India. Designed to overcome the flow challenges of high-viscosity liquids, our pneumatic volumetric piston fillers feature Stainless Steel 316 contact parts, positive shut-off nozzles, and conical product hoppers with optional heating and agitation to fill jars, bottles, and tubes with ±1% accuracy.",
+    "speed": "15 - 35 fills per minute (semi-automatic)",
+    "capacity": "Filling range from 50ml to 1000ml (customizable up to 5000ml)",
+    "power": "Pneumatic air operated (4-6 bar), 220V 50W for sensor/pedal",
+    "features": [
+      "Heavy-duty pneumatic piston cylinder for smooth dispensing of thick, non-flowing pastes",
+      "All contact parts constructed from food and pharma grade Stainless Steel 316",
+      "Rotary valve and anti-drip positive shut-off nozzle prevent stringing and tailing",
+      "Conical hopper with optional motorized scraper agitator and heating jacket",
+      "Tool-less quick release clamps for rapid disassembly and sanitization",
+      "Volume adjustment using precision calibrated screw with millimeter scale",
+      "Operable via automatic cycling or ergonomic foot pedal switch",
+      "Pneumatically driven components eliminate electrical fire hazards with flammable bases"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Cosmetics (Cold Creams, Face Masks, Shampoos, Conditioners, Hair Gels)",
+      "Pharmaceuticals (Medicinal Ointments, Antibiotic Creams, Petroleum Jelly)",
+      "Food Products (Tomato Ketchup, Mayonnaise, Ghee, Chocolate Spread, Jam)",
+      "Chemicals (Silicone Sealants, Tile Adhesives, Putty, Resins, Polishes)",
+      "Automotive & Hardware (Bearing Grease, Cutting Pastes, Valve Grinding Pastes)"
     ],
-    specifications: {
-      "Capacity": "20/min",
-      "Voltage": "220 V",
-      "Printing Speed": "0 - 60 Impressions / minute",
-      "Automation Grade": "Automatic",
-      "Weight": "33 Kg",
-      "Frequency": "50 Hz",
-      "Model Type": "TDY 380",
-      "Minimum Order Quantity": "1 Unit",
-      "Speed": "0 - 60 Impressions / minute",
-      "Model/Type": "TDY 380",
-      "Brand": "AVM",
-      "Power": "70 W",
-      "Color Printing": "Yes",
-      "Voltage (V)": "220 V",
-      "Product Details: Capacity": "40-50 pad",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Filling Range": "50 ml to 1000 ml (Options: 10-100ml, 50-500ml, 100-1000ml)",
+      "Dosing Accuracy": "± 0.5% to ± 1%",
+      "Filling Speed": "15 to 35 containers per minute",
+      "Hopper Volume": "30 to 50 Liters (Conical Stainless Steel)",
+      "Contact Material": "Stainless Steel 316 (Sanitary mirror polish)",
+      "Non-Contact Material": "Stainless Steel 304",
+      "Operating Air Pressure": "4 to 6 Bar",
+      "Dimensions": "Approx. 1050 x 380 x 1150 mm",
+      "Net Weight": "Approx. 45 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Can this machine handle very thick pastes that do not self-level?",
+        "answer": "Yes, for extremely dense pastes like heavy grease or cold honey, we equip the conical hopper with a motorized scraper agitator that continuously forces the paste downward into the piston intake valve without cavitation."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How do you adjust the fill volume?",
+        "answer": "Volume is adjusted in seconds by turning a calibrated handwheel along a linear scale on the piston stroke shaft. Tightening a locking knob ensures volume remains locked and repeatable."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Is the machine safe for pharmaceutical cleanrooms?",
+        "answer": "Yes, the machine features high-polish SS 316 sanitary contact parts with FDA-compliant silicone/PTFE seals and quick-clamp tri-clover connections that meet rigorous cGMP pharma standards."
       },
+      {
+        "question": "Can this machine fill both bottles, jars, and squeeze tubes?",
+        "answer": "Yes, we provide interchangeable filling nozzles in various diameters (6mm to 25mm) to suit small tube orifices, narrow bottle necks, or wide-mouth cosmetic jars."
+      }
     ]
   },
   {
-    slug: "paste-filling-machine",
-    name: "Paste Filling Machine",
-    h1: "Paste Filling Machine Manufacturer in India",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Paste Filling Machine Manufacturer in India | Automatic Paste Filling Machine Supplier | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Paste Filling Machine Manufacturer in India offering automatic paste filling machines for cream, gel, ointment, sauce, jam & viscous products. High accuracy, stainless steel body, low maintenance & industrial performance. Enquiry now.",
-    metaKeywords: "Paste Filling Machine, Paste Filling Machine Manufacturer, Paste Filling Machine Manufacturer in India, Automatic Paste Filling Machine, Paste Filling Machine Supplier, Viscous Liquid Filling Machine, Cream Filling Machine, Gel Filling Machine, Ointment Filling Machine, Industrial Paste Filling Machine, Double Head Paste Filling Machine, Liquid Packaging Machine",
-    canonicalUrl: "https://avmpackagingsystem.com/paste-filling-machine.php",
-    image: "/images/avm/clean/all/paste-filling-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Paste Filling Machine Manufacturer in India offering automatic paste filling machines for cream, gel, ointment, sauce, jam & viscous products. High accuracy, stainless steel body, low maintenance & industrial performance. Enquiry now.",
-    description: "AVM Packaging System is a leading Paste Filling Machine Manufacturer in India offering automatic paste filling machines for cream, gel, ointment, sauce, jam & viscous products. High accuracy, stainless steel body, low maintenance & industrial performance. Enquiry now.",
-    features: [
-      "Stainless steel construction for hygiene and durability",
-      "Easy operation with low maintenance design",
-      "Adjustable filling volume system",
-      "Fast and efficient industrial output",
-      "Food Industry – jam, sauces, honey, peanut butter",
-      "Pharmaceutical Industry – ointments, gels, creams",
-      "Cosmetic Industry – lotions, face creams, gels",
-      "Chemical Industry – adhesives, lubricants, pastes",
-      "Toothpaste manufacturing units",
-      "Improves production speed and efficiency",
-      "Ensures accurate and consistent filling",
-      "Reduces product wastage",
-      "Minimizes labor dependency",
-      "Enhances hygiene and product safety",
-      "Supports large-scale industrial production",
+    "slug": "pedal-sealing-machine",
+    "name": "Pedal Sealing Machine",
+    "h1": "Pedal Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Pedal Sealing Machine Manufacturer in India | Foot Sealer | AVM",
+    "metaDescription": "Pedal sealing machine manufacturer in India. Heavy-duty foot operated impulse bag sealers for plastic, poly & laminated pouches. Factory price in Mumbai.",
+    "metaKeywords": "pedal sealing machine manufacturer in india, foot sealing machine mumbai, heavy duty pedal sealer, impulse bag sealer foot operated",
+    "canonicalUrl": "https://avmpackagingsystem.com/pedal-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Heavy-duty foot-operated impulse heat sealer designed for airtight sealing of thick plastic, multi-layer laminated, and heavy-gauge bags.",
+    "description": "AVM Packaging System manufactures heavy-duty Pedal Sealing Machines in Mumbai, India. Built with sturdy cast iron frames, high-capacity copper transformers, and electronic impulse timers, our foot-operated sealers allow operators to keep both hands free to position heavy bags of grains, chemicals, fertilizers, and powders while exerting high clamping pressure.",
+    "speed": "8 - 15 bags per minute",
+    "capacity": "Sealing lengths from 300mm up to 900mm",
+    "power": "450W - 1200W impulse, 220V Single Phase, 50 Hz",
+    "features": [
+      "Foot pedal operation leaves both hands completely free to align bags",
+      "Instant electronic impulse heating consumes electricity only during the sealing cycle",
+      "Pure copper wound step-down transformer for heavy-duty industrial reliability",
+      "Adjustable bag support tray holds heavy bags during the sealing process",
+      "Available with single impulse or dual heating jaws for ultra-thick multi-layer pouches",
+      "Electronic timer with audible buzzer for precise sealing cycle termination",
+      "Heavy cast iron stand resists tipping even under aggressive pedal stomping",
+      "Available in sealing lengths of 300mm, 450mm, 600mm, and 900mm"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Grains, Pulses, Flour, Rice & Sugar Bulk Bags",
+      "Chemicals, Fertilizers, Agro Powders & Pesticide Pouches",
+      "Textiles, Garments, Bedding & Blanket Protective Bags",
+      "Hardware, Fasteners, Engineering Spares & Metal Parts Packaging",
+      "General Plastic (LDPE, HDPE, PP) and Laminated Foil Sacks"
     ],
-    specifications: {
-      "Material": "Stainless Steel",
-      "Machine Type": "Automatic",
-      "Machine": "Double Head",
-      "Product Details: Material": "Stainless Steel",
+    "specifications": {
+      "Sealing Lengths": "300 mm (12\"), 450 mm (18\"), 600 mm (24\"), 900 mm (36\")",
+      "Sealing Width": "3 mm, 5 mm, 8 mm or 10 mm (Customizable)",
+      "Sealing Time": "0.2 to 2.5 seconds (Electronic timer control)",
+      "Heating Type": "Impulse Thermal Heat (Nichrome ribbon element)",
+      "Max Bag Thickness": "Up to 0.4 mm total thickness (Up to 0.8mm on dual heat)",
+      "Table Tray": "Height-adjustable stainless steel parcel shelf",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Machine Weight": "Approx. 25 kg to 42 kg (depending on length)"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What is the difference between single heating and double heating pedal sealers?",
+        "answer": "A single heating sealer has a heating element on the bottom jaw only, ideal for standard poly bags up to 150 microns. A double heating sealer has elements on both upper and lower jaws, providing double-sided heat penetration required for thick gusseted bags, laminated foil, and heavy agricultural sacks."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Does the heating element stay hot continuously?",
+        "answer": "No, this is an impulse sealer. Electricity flows through the Nichrome element for only 0.5 to 2 seconds while the foot pedal is depressed. As soon as the timer ends, power cuts off while the jaws hold pressure to solidify the seal."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How heavy a bag can the adjustable tray support?",
+        "answer": "The reinforced steel bag support tray comfortably holds bags weighing up to 25 kg during sealing, taking weight off the operator's hands."
       },
+      {
+        "question": "Are replacement Teflon tapes and heating elements included?",
+        "answer": "Yes, every AVM pedal sealing machine ships with a spare kit containing replacement Nichrome heating elements and high-temperature Teflon cloth strips."
+      }
     ]
   },
   {
-    slug: "pedal-sealing-machine",
-    name: "Pedal Sealing Machine",
-    h1: "Pedal Sealing Machine Manufacturer in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Pedal Sealing Machine Manufacturers in India | Heavy Duty Foot Sealer | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Pedal Sealing Machine manufacturer in India. We supply heavy duty foot sealing machines for pouches and bags used in food, pharma, FMCG and industrial packaging. Get best price & quotation.",
-    metaKeywords: "Pedal Sealing Machine, Pedal Sealing Machine Manufacturer, Foot Sealing Machine India, Pedal Sealer Machine, Heat Sealing Machine, Bag Sealing Machine, Industrial Sealing Machine, AVM Packaging System",
-    canonicalUrl: "https://avmpackagingsystem.com/pedal-sealing-machine.php",
-    image: "/images/avm/clean/sealing/pedal-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Pedal Sealing Machine manufacturer in India. We supply heavy duty foot sealing machines for pouches and bags used in food, pharma, FMCG and industrial packaging. Get best price & quotation.",
-    description: "AVM Packaging System is a leading Pedal Sealing Machine manufacturer in India. We supply heavy duty foot sealing machines for pouches and bags used in food, pharma, FMCG and industrial packaging. Get best price & quotation.",
-    features: [
-      "Foot operated sealing for hands-free operation",
-      "Strong and uniform heat sealing",
-      "Heavy-duty mild steel construction",
-      "Adjustable sealing time with electronic timer",
-      "Low maintenance and long service life",
+    "slug": "plastic-tube-sealing-machine",
+    "name": "Plastic Tube Sealing Machine",
+    "h1": "Plastic Tube Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Plastic Tube Sealing Machine Manufacturer in India | AVM",
+    "metaDescription": "Plastic tube sealing machine manufacturer in India. Semi-automatic & pneumatic ultrasonic tube sealers with batch coding & trimming. Factory price in Mumbai.",
+    "metaKeywords": "plastic tube sealing machine manufacturer in india, cosmetic tube sealer mumbai, ultrasonic tube sealing machine, pharma tube sealer india",
+    "canonicalUrl": "https://avmpackagingsystem.com/plastic-tube-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "High-precision plastic and laminated tube sealing machine equipped with heat/ultrasonic sealing, date coding, and automatic excess tail trimming.",
+    "description": "AVM Packaging System manufactures advanced Plastic Tube Sealing Machines in Mumbai, India. Designed for cosmetics, pharmaceuticals, adhesives, and dental care manufacturers, our tube sealers deliver aesthetically clean, hermetic ribbon seals with integrated batch/expiry date coding and pneumatic tail trimming on PE, PP, and laminated soft tubes.",
+    "speed": "15 - 30 tubes per minute",
+    "capacity": "Tube diameter 10mm to 55mm, height 50mm to 220mm",
+    "power": "1.2 kW - 2.0 kW, 220V Single Phase, 50 Hz",
+    "features": [
+      "Thermal heating or ultrasonic technology creates clean, aesthetically pleasing tube seals",
+      "Simultaneous hermetic sealing, embossed date coding, and excess tail trimming in one cycle",
+      "Pneumatic clamping jaws with water-cooled blocks prevent cosmetic tube blistering",
+      "Interchangeable tube cup holders for rapid changeover across tube diameters",
+      "Compatible with PE, PP, aluminum barrier laminated (ABL), and plastic barrier (PBL) tubes",
+      "Integrated emergency stop and safety interlocks compliant with pharma cleanrooms",
+      "Stainless Steel 304 frame with hygienic smooth surfaces for easy wiping",
+      "Compact footprint ideal for small to medium-scale cosmetic and pharma production"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Cosmetics (Facial Cleansers, BB Creams, Moisturizers, Lip Balms, Sunscreens)",
+      "Pharmaceutical Ointments, Antiseptic Creams, Burn Gels & Eye Ointments",
+      "Oral Care (Toothpastes, Medicated Dental Gels, Gum Pastes)",
+      "Food Pastes (Wasabi, Mustard, Garlic Paste, Cake Icing, Condensed Milk)",
+      "Industrial Adhesives, Superglue, Sealants, Grease & Lubricant Tubes"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Impulse Power": "800 W",
-      "Seal Length": "300 mm",
-      "Seal Width": "10 mm",
-      "Machine Weight": "25 Kg",
-      "Body Material": "Mild Steel",
-      "Model No": "DPS-300",
+    "specifications": {
+      "Tube Diameter Range": "10 mm to 55 mm",
+      "Tube Height Range": "50 mm to 220 mm",
+      "Sealing Speed": "15 to 30 tubes per minute",
+      "Sealing Method": "External Heat Sealing or Ultrasonic Wave Sealing",
+      "Batch Coding": "Embossed alphanumeric characters (MFG/EXP/BATCH)",
+      "Trimming": "Pneumatic straight knife trims excess tail flush",
+      "Operating Air Pressure": "5 to 6 Bar",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Machine Weight": "Approx. 85 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does the machine achieve such a clean trimmed edge on the tube tail?",
+        "answer": "Immediately after the heated or ultrasonic sealing jaws compress and seal the tube end, an integrated high-precision pneumatic guillotine knife slices away the excess plastic tail, leaving an immaculate, square retail finish."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can this machine seal both laminated (ABL) and extruded plastic (PE) tubes?",
+        "answer": "Yes, our universal sealing heads can be calibrated for pure polyethylene/polypropylene plastic tubes as well as multi-layer Aluminum Barrier Laminate (ABL) and Plastic Barrier Laminate (PBL) tubes."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can batch numbers and expiry dates be stamped during sealing?",
+        "answer": "Yes, the sealing jaw contains a slot for individual steel type characters (0-9 and letters). During the sealing stroke, it embosses crisp, permanent batch numbers directly into the seal ribbon."
       },
+      {
+        "question": "Is water cooling required for operation?",
+        "answer": "Yes, for continuous production, cold water circulation (via a small chiller or tap water hookup) keeps the outer sealing jaws cool, preventing unsightly heat marks or melting on the visible printed tube body."
+      }
     ]
   },
   {
-    slug: "plastic-tube-sealing-machine",
-    name: "Plastic Tube Sealing Machine",
-    h1: "Plastic Tube Sealing Machine",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Plastic Tube Sealing Machine Manufacturers in India | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Plastic Tube Sealing Machine Manufacturer in India. We supply high-performance tube sealing machines for cosmetic, pharmaceutical & FMCG industries. Enquire now for best price.",
-    metaKeywords: "Plastic Tube Sealing Machine, Plastic Tube Sealing Machine Manufacturer, Tube Sealing Machine India, Tube Sealing Machine Supplier Mumbai, Cosmetic Tube Sealing Machine, Pharmaceutical Tube Sealing Machine",
-    canonicalUrl: "https://avmpackagingsystem.com/plastic-tube-sealing-machine.php",
-    image: "/images/avm/clean/all/plastic-tube-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Plastic Tube Sealing Machine Manufacturer in India. We supply high-performance tube sealing machines for cosmetic, pharmaceutical & FMCG industries. Enquire now for best price.",
-    description: "AVM Packaging System is a leading Plastic Tube Sealing Machine Manufacturer in India. We supply high-performance tube sealing machines for cosmetic, pharmaceutical & FMCG industries. Enquire now for best price.",
-    features: [
-      "High-speed automatic and semi-automatic operation",
-      "Strong and leak-proof sealing quality",
-      "Suitable for plastic, laminated & aluminum tubes",
-      "Energy-efficient and low maintenance design",
-      "Ideal for large-scale industrial production",
+    "slug": "potato-chips-packing-machine",
+    "name": "Potato Chips Packing Machine",
+    "h1": "Potato Chips Packing Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Potato Chips Packing Machine Manufacturer in India | AVM",
+    "metaDescription": "Potato chips packing machine manufacturer in India. Automated pouch packaging with nitrogen gas flushing for chips, namkeen & snacks. Direct factory price.",
+    "metaKeywords": "potato chips packing machine manufacturer in india, snack food packaging machine mumbai, nitrogen flushing chips packing, namkeen packing machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/potato-chips-packing-machine",
+    "image": "/images/avm/clean/product/fryums-pouch-packing machine.jpg",
+    "shortDescription": "High-speed automated vertical packaging machine equipped with nitrogen gas flushing and multi-head weigher for fragile potato chips and namkeen.",
+    "description": "AVM Packaging System is a premier manufacturer of Potato Chips Packing Machines in Mumbai, India. Engineered specifically to eliminate product breakage and preserve delicate crispness, our automated packaging lines feature multi-head combination weighers, pneumatic nitrogen gas flushing, and low-friction center-seal forming collars to produce perfect pillow pouches for snack foods.",
+    "speed": "35 - 75 pouches per minute",
+    "capacity": "10g to 250g pouch sizes",
+    "power": "4.5 kW, 415V 3-Phase, 50 Hz",
+    "features": [
+      "Gentle product handling with low drop heights prevents fragile chip breakage",
+      "Pneumatic nitrogen gas flushing displaces oxygen to keep chips crisp and fresh",
+      "10-head or 14-head combination computer weigher delivers ±0.5g accuracy",
+      "Low-friction stainless steel forming collar for smooth, high-speed bag formation",
+      "PLC control with color touchscreen HMI for effortless speed and bag adjustments",
+      "Hermetic center fin seal ensures zero gas leakage throughout supply chain transit",
+      "Dimpled stainless steel surfaces prevent oil buildup and product sticking",
+      "Synchronized infeed Z-bucket elevator and outfeed finished pouch conveyor included"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Potato Chips (Salted, Cream & Onion, Masala, Wavy Cuts)",
+      "Banana & Tapioca Chips",
+      "Namkeen, Sev, Bhujia, Mixture & Gathiya",
+      "Extruded Snacks (Kurkure, Cheese Puffs, Rings, Fryums)",
+      "Popcorn, Puffed Rice Snacks & Tortilla Chips"
     ],
-    specifications: {
-      "Capacity": "10 -15 pieces/min",
-      "Brand": "AVM Packaging",
-      "Machine Type": "Sealing Machine",
-      "Voltage": "220V",
-      "Feature": "With Digital Temperature Control",
-      "Machine Dimession": "500X600X1200 mm",
-      "Product Details: Capacity": "10 -15 pieces/min",
+    "specifications": {
+      "Packaging Speed": "35 to 75 pouches per minute",
+      "Weighing Accuracy": "± 0.2 gm to 0.8 gm",
+      "Pouch Capacity": "10 gm to 250 gm (Snack sizes)",
+      "Max Film Width": "Up to 450 mm",
+      "Pouch Styles": "Pillow Pouch, Gusseted Bag, Euro-Hole Punch",
+      "Gas Flushing System": "Pneumatic Nitrogen Injection Manifold",
+      "Contact Material": "Food-grade Stainless Steel 304 (Dimple finish)",
+      "Air Requirement": "8 CFM at 6 kg/cm²",
+      "Power Supply": "415V AC, 3-Phase, 50 Hz",
+      "Total Weight": "Approx. 1,100 kg (Full turnkey line)"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How do your machines prevent potato chips from getting crushed during packaging?",
+        "answer": "We engineer custom steep-angle discharge chutes with dimpled stainless steel and minimized drop heights between the weigher buckets and the forming tube, allowing delicate chips to slide smoothly into the pouch without shattering."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How does the nitrogen flushing system maintain pouch puffiness?",
+        "answer": "Our synchronized high-velocity nitrogen manifold injects food-grade nitrogen gas directly inside the pouch immediately prior to the horizontal sealing jaws closing, creating the classic puffed protective cushion that protects chips during transport."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can this machine also pack namkeen and fryums?",
+        "answer": "Yes, our multi-head weigher collar-type machines are versatile workhorses for the entire snack industry, effortlessly packaging potato chips, namkeen mixtures, fryums, and popcorn with simple recipe selection on the HMI."
       },
+      {
+        "question": "What equipment is included in a complete turnkey chips packaging line?",
+        "answer": "A complete turnkey line includes the Z-bucket product infeed elevator, mezzanine working platform, 10/14-head multi-head combination weigher, collar-type vertical packaging machine with nitrogen flush, and outfeed takeaway conveyor."
+      }
     ]
   },
   {
-    slug: "potato-chips-packing-machine",
-    name: "Potato Chips Packing Machine",
-    h1: "Potato Chips Packing Machine",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Potato Chips Packaging Machine Trader, Manufacturer Mumbai",
-    metaDescription: "We are Exporter, Trader, Manufacturer of a wide range of products which include 2 head collar type potato chips packaging machine From Mumbai Maharashtra India",
-    metaKeywords: "AVM Packaging System, 2 head collar type potato chips packaging machine, Potato Chips Packaging Machine, Trader, Manufacturer Mumbai Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/potato-chips-packing-machine.php",
-    image: "/images/avm/clean/all/potato-chips-packaging-machine.jpg",
-    shortDescription: "We are Exporter, Trader, Manufacturer of a wide range of products which include 2 head collar type potato chips packaging machine From Mumbai Maharashtra India",
-    description: "We are Exporter, Trader, Manufacturer of a wide range of products which include 2 head collar type potato chips packaging machine From Mumbai Maharashtra India",
-    features: [
-      "PLC or Micro processer Based, Touch Screen HMI Display",
-      "Pneumatic Based,",
-      "Stepper Motor for Paper Pulling,",
-      "Digital PID Temperature Controller,",
-      "Batch Cutting System,",
-      "I-Mark Sensor,",
-      "All Cylinder & all Fittings From Janatics",
-      "Fully automatic operation with PLC control system",
-      "Touch screen HMI for easy machine operation",
-      "High-speed packaging with consistent accuracy",
-      "Temperature-controlled sealing for strong pouch sealing",
-      "Low maintenance and long service life",
-      "Potato chips",
-      "Banana chips",
-      "Snacks and namkeen",
-      "Higher production",
-      "Reduced labour cost",
-      "Accurate weighing",
-      "Less product wastage",
-      "Food-grade hygienic packing",
-      "Strong pouch sealing",
-      "Easy operation",
-      "Lower maintenance",
-      "Touch Screen",
-      "Stepper Motor",
-      "PID Controller",
-      "Batch Cutter",
-      "I-Mark Sensor",
+    "slug": "pouch-packaging-machine",
+    "name": "Pouch Packaging Machine",
+    "h1": "Pouch Packaging Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Pouch Packaging Machine Manufacturer in India | AVM Packaging",
+    "metaDescription": "Premier pouch packaging machine manufacturer in India. Form-Fill-Seal (FFS), collar-type & multi-track automated pouch machines. Best factory price Mumbai.",
+    "metaKeywords": "pouch packaging machine manufacturer in india, pouch packing machine mumbai, automatic pouch packaging equipment, FFS pouch packing machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/pouch-packaging-machine",
+    "image": "/images/avm/clean/product/fryums-pouch-packing machine.jpg",
+    "shortDescription": "Flagship pouch packaging machinery for powders, granules, liquids, and snacks. Engineered for high-speed operation, precise dosing, and hermetic sealing.",
+    "description": "AVM Packaging System is a premier Pouch Packaging Machine Manufacturer in Mumbai, India. We design and manufacture comprehensive automatic and semi-automatic pouch packaging solutions including Vertical Form-Fill-Seal (VFFS) systems, collar-type machines, auger powder pouch packers, and multi-track machines engineered to deliver high-speed, accurate filling and durable sealing for food, FMCG, and chemical manufacturers across India.",
+    "speed": "25 - 70 pouches per minute (1080 - 2400 pouches/hr)",
+    "capacity": "10g to 1000g pouch capacities",
+    "power": "2.5 kW - 4.5 kW, 240V / 415V",
+    "features": [
+      "Comprehensive Form-Fill-Seal automation for pillow, gusseted, and 3/4-side seal pouches",
+      "Precision dosing systems: Servo auger, multi-head weigher, volumetric cup, or liquid pump",
+      "Heavy-duty vibration-free frame clad in food-grade Stainless Steel 304",
+      "Microcontroller or PLC automation with touch HMI for complete cycle control",
+      "Digital PID temperature controllers maintain leak-proof hermetic seal integrity",
+      "Photoelectric sensor for precise printed eye-mark registration and minimal film waste",
+      "Nitrogen gas flushing attachments available for snacks and perishable food items",
+      "Pan-India on-site commissioning, operator training, and lifetime technical support"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Spices & Masalas (Chilli, Turmeric, Coriander, Garam Masala)",
+      "Snack Foods & Namkeen (Potato Chips, Sev, Fryums, Popcorn)",
+      "Grains, Pulses, Rice, Sugar, Salt & Agricultural Seeds",
+      "Tea & Coffee (CTC Tea Dust, Green Tea, Instant Coffee Granules)",
+      "Liquid & Pastes (Edible Oil, Tomato Paste, Shampoos, Lotions)",
+      "Pharmaceutical Granules, Chemical Powders & Detergents"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Piece",
-      "Brand": "AVM",
-      "Automation Grade": "Automatic",
-      "Power Consumption": "15 amps. / Single Phase,230V AC",
-      "Phase": "Single Phase",
-      "Filler Type": "Liner Two Head Weigher",
-      "Packaging Speed": "12 to 15 per minute",
-      "Product Details: Minimum Order Quantity": "1 Piece",
+    "specifications": {
+      "Packaging Speed": "1080 to 2400 pouches per hour (up to 70 ppm)",
+      "Filling Range": "10 gm to 1000 gm",
+      "Pouch Formats": "Center Seal, Pillow Bag, 3-Side Seal, 4-Side Seal, Gusset",
+      "Sealing Method": "Pneumatic or Motorized Heat Sealing",
+      "Packaging Material": "Heat-sealable laminates, BoPP, Met-PET, Polyethylene, Foil",
+      "Max Roll Width": "Up to 450 mm",
+      "Control System": "PLC with 7-inch Touchscreen HMI",
+      "Contact Material": "Stainless Steel 304 / SS 316",
+      "Power Supply": "220V Single Phase / 415V 3-Phase, 50 Hz",
+      "Warranty": "12 Months Comprehensive Factory Warranty"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What types of pouch packaging machines does AVM manufacture?",
+        "answer": "We manufacture a complete spectrum of pouch packaging equipment: Collar-type FFS machines for snacks and chips, Auger powder packing machines for spices and flours, Volumetric cup packers for grains and pulses, Liquid piston pouch packers for oils, and pneumatic continuous sealers."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can one machine handle multiple pouch sizes?",
+        "answer": "Yes, pouch length is adjusted instantly via the digital touchscreen HMI. For changing pouch width, you simply swap the forming collar (which takes about 10-15 minutes), allowing one machine to produce multiple product SKU sizes."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "What is the typical price of a pouch packaging machine in India?",
+        "answer": "Prices in India range from ₹1.5 Lakh for semi-automatic models to ₹3.5 Lakh - ₹8.5 Lakh for high-speed fully automated collar-type machines with multi-head weighers, depending on speed, dosing system, and customization."
       },
+      {
+        "question": "Does AVM Packaging supply machines outside Maharashtra?",
+        "answer": "Yes, we manufacture in Mumbai and deliver, install, and service packaging machinery across all Indian states (Gujarat, Delhi NCR, Karnataka, Tamil Nadu, Uttar Pradesh, Rajasthan, etc.) as well as exporting globally."
+      }
     ]
   },
   {
-    slug: "pouch-packaging-machine",
-    name: "Pouch Packaging Machine",
-    h1: "Pouch Packaging Machine Manufacturer in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Pouch Packaging Machine Manufacturer in India | AVM Packaging",
-    metaDescription: "AVM Packaging System manufactures pouch packaging machines for powders, granules, spices, snacks and food products. Explore machine models, specifications and packaging solutions across India.",
-    metaKeywords: "Pouch Packaging Machine, Pouch Packaging Machine Manufacturer, Pouch Packaging Machine Manufacturer in India, Automatic Pouch Packaging Machine, Pouch Packing Machine, Pouch Packing Machine Manufacturer, Automatic Pouch Packing Machine, Food Pouch Packaging Machine, Vertical Pouch Packing Machine, Form Fill Seal Machine, Packaging Machine Manufacturer, Food Packaging Machine, Packaging Equipment, Automatic Packaging Machine, Packaging Machinery, Vertical Form Fill Seal Machine, Industrial Packaging Machine",
-    canonicalUrl: "https://avmpackagingsystem.com/pouch-packaging-machine.php",
-    image: "/images/avm/clean/product/fryums-pouch-packaging-machine.jpg",
-    shortDescription: "AVM Packaging System manufactures pouch packaging machines for powders, granules, spices, snacks and food products. Explore machine models, specifications and packaging solutions across India.",
-    description: "AVM Packaging System manufactures pouch packaging machines for powders, granules, spices, snacks and food products. Explore machine models, specifications and packaging solutions across India.",
-    features: [
-      "Accurate weighing and filling",
-      "Consistent pouch sealing",
-      "PLC-based machine control",
-      "Stainless steel construction",
-      "Suitable for different pouch sizes",
-      "Automatic and semi-automatic configurations",
-      "Easy operation and routine maintenance",
-      "Suitable for continuous production applications",
-      "Low product wastage through controlled filling",
-      "Customised configurations based on product requirements",
-      "Detergent Powder",
-      "Animal Feed",
-      "Food Processing Industry",
-      "Snack Manufacturing Industry",
-      "Spice Industry",
-      "Tea Industry",
-      "Coffee Industry",
-      "FMCG Industry",
-      "Chemical Industry",
-      "Agriculture Industry",
-      "Pharmaceutical Industry",
-      "Pet Food Industry",
-      "Machine design and engineering",
-      "Precision fabrication and assembly",
-      "Electrical and PLC integration",
-      "Performance and sealing quality testing",
-      "Quality inspection before delivery",
-      "Installation, operator training, and after-sales support",
+    "slug": "pouch-sealing-machine",
+    "name": "Pouch Sealing Machine",
+    "h1": "Pouch Sealing Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Pouch Sealing Machine Manufacturer in India | AVM Packaging",
+    "metaDescription": "Industrial pouch sealing machine manufacturer in India. Continuous band, pneumatic & impulse heat sealers for foil, plastic & kraft pouches. Factory price Mumbai.",
+    "metaKeywords": "pouch sealing machine manufacturer in india, heat pouch sealer mumbai, continuous pouch sealing equipment, plastic pouch sealing machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/pouch-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Industrial heat sealing machines for pre-made pouches. Engineered for fast, airtight, leak-proof seals on multi-layer laminates, barrier foil, and poly bags.",
+    "description": "AVM Packaging System manufactures heavy-duty Pouch Sealing Machines in Mumbai, India. Ranging from continuous band conveyor sealers to pneumatic impulse sealers, our machines deliver strong, hermetic, and cosmetically clean heat seals on stand-up zipper pouches, aluminum foil bags, kraft paper pouches, and plastic bags across all packaging sectors.",
+    "speed": "0 - 15 meters per minute",
+    "capacity": "Pouches from 10g up to 25kg (on heavy-duty models)",
+    "power": "500W - 1200W, 220V Single Phase, 50 Hz",
+    "features": [
+      "Consistent, leak-proof hermetic heat seals with digital PID temperature regulation",
+      "Available in continuous band, pneumatic impulse, and foot pedal designs",
+      "Handles diverse film structures: Aluminum foil, Met-PET, Kraft poly, and thick LDPE",
+      "Adjustable sealing pressure and dwell time for consistent results across batches",
+      "Options for integrated batch coding (embossing, ink coding) and nitrogen gas injection",
+      "Robust all-metal construction built for demanding 24/7 industrial production environments",
+      "Emergency stop switch and safety earth grounding adhering to safety norms",
+      "Low power consumption with high thermal efficiency heating elements"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Food Packaging (Spices, Dry Fruits, Tea, Coffee, Namkeen, Snacks, Rice, Flour)",
+      "Pharmaceuticals (Sterile Pouches, Medical Kits, Chemical Granules)",
+      "Agrochemicals (Seeds, Fertilizers, Soil Nutrients, Pesticide Bags)",
+      "Pet Foods, Animal Feeds & Specialty Treats",
+      "Hardware, Fasteners, Electronic Components & Engineering Spares"
     ],
-    specifications: {
-      "Filling Type": "Weigh Filler",
-      "Sealing Type": "Centre",
-      "Usage/Application": "Food Processing Industry",
-      "Material": "SS",
-      "Capacity": "1080 - 1500 Pouch/ hour",
-      "Automation Grade": "Automatic",
-      "Pouch Capacity": "10-150 gm",
-      "Brand": "AVM",
-      "Features": "Conveyor Attached",
-      "Pouch Length": "4",
-      "Frequency": "50 Hz",
-      "Voltage": "240 V",
-      "Body Material": "Stainless Steel",
-      "Phase": "Single Phase",
-      "Packaging Application": "Popcorn , Chips",
-      "Filler Type": "Waigh Filler",
-      "Packaging Speed": "8-9 pouches per minutes",
-      "Machine Capacity": "1080 - 1500 Pouch/ hour",
-      "Packaging Type": "Pouch",
-      "Driven Type": "Electric",
-      "Minimum Order Quantity": "1 Unit",
-      "Machine Power": "1-2 hp",
-      "Power Consumption": "1-2 hp",
-      "Country of Origin": "Made in India",
-      "Capacity (pouch per hour)": "1000-2000 pouch per hour",
-      "Product Details: Filling Type": "Weigh Filler",
-      "Product Details: Brand": "AVM Packaging",
-      "Product Details: Machine Capacity": "1080 - 1500 Pouch/ hour",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Pouch Capacity": "10-100 gm",
-      "Product Details: Pouch Length": "6\"-8\", 4\"-6\", 2\"-4\"",
-      "Powder Pouch Packaging Machine": "Powders Automatic",
-      "Liquid Pouch Packaging Machine": "Liquids Automatic",
-      "Granule Pouch Packaging Machine": "Granules Automatic",
-      "Paste Packaging Machine": "Paste Automatic",
-      "Multi Track Machine": "High Speed Production Fully Automatic",
+    "specifications": {
+      "Sealing Width": "5 mm to 15 mm standard",
+      "Sealing Speed": "Up to 15 m/min (Continuous) / 10-15 pouches/min (Impulse)",
+      "Temperature Range": "0 to 300°C Digital Control",
+      "Film Compatibility": "Laminates, Aluminium Foil, BoPP, Kraft Paper, Polyethylene",
+      "Conveyor Capacity": "Up to 15 kg on heavy-duty motorized bed",
+      "Body Material": "Stainless Steel 304 / Mild Steel powder coated",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Warranty": "12 Months Comprehensive Warranty"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Can this pouch sealing machine seal thick 3-ply and 4-ply aluminum foil bags?",
+        "answer": "Yes, our continuous band sealers and dual-heat pneumatic impulse sealers feature heavy brass heating blocks with high thermal penetration specifically engineered for thick barrier foil and kraft laminate bags."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can it seal stand-up pouches with zip locks?",
+        "answer": "Yes, the sealing jaws seal cleanly above the zipper line without melting or distorting the zip lock profile, ensuring an airtight hermetic barrier."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Is vertical sealing available for liquid-filled pouches?",
+        "answer": "Yes, we supply vertical continuous sealers where the sealing head stands vertically above the conveyor, keeping liquid-filled pouches upright to prevent spills during sealing."
       },
+      {
+        "question": "How quickly are consumable parts like heating elements and Teflon bands replaced?",
+        "answer": "Our machines feature quick-release tensioners allowing operators to swap Teflon bands and heating elements in under 3 minutes without special tools."
+      }
     ]
   },
   {
-    slug: "pouch-sealing-machine",
-    name: "Pouch Sealing Machine",
-    h1: "Pouch Sealing Machine Manufacturer in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Pouch Sealing Machine Manufacturer in India | Automatic Pouch Sealing Machine | AVM Packaging System",
-    metaDescription: "AVM Packaging System is a premier Pouch Sealing Machine Manufacturer in India offering automatic and continuous pouch sealing machines for food, FMCG, and industrial packaging. Best price & nationwide support.",
-    metaKeywords: "Pouch Sealing Machine, Pouch Sealing Machine Manufacturer, Pouch Sealing Machine Manufacturers in India, Automatic Pouch Sealing Machine, Continuous Pouch Sealing Machine, Industrial Pouch Sealer, Band Sealing Machine, Heat Pouch Sealing Machine, Automatic Pouch Sealer, Plastic Pouch Sealing Machine, Pouch Sealing Machine Price, Vertical Pouch Sealing Machine, Heavy Duty Pouch Sealer",
-    canonicalUrl: "https://avmpackagingsystem.com/pouch-sealing-machine.php",
-    image: "/images/avm/clean/printing/vertical-continuous-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a premier Pouch Sealing Machine Manufacturer in India offering automatic and continuous pouch sealing machines for food, FMCG, and industrial packaging. Best price & nationwide support.",
-    description: "AVM Packaging System is a premier Pouch Sealing Machine Manufacturer in India offering automatic and continuous pouch sealing machines for food, FMCG, and industrial packaging. Best price & nationwide support.",
-    features: [
-      "High-speed continuous pouch sealing performance",
-      "Precise digital PID temperature controller",
-      "Heavy-duty Stainless Steel (SS 304) construction",
-      "Leak-proof and airtight seal guarantee",
-      "Adjustable conveyor speed and conveyor height",
-      "Integrated cooling fans for instant seal setting",
-      "Low maintenance and high operational energy efficiency",
-      "Compatible with plastic, foil, paper, and laminated pouches",
-      "Optional batch coding, nitrogen flushing, and air extraction",
-      "Suitable for continuous 24x7 industrial operations",
-      "Compact footprint with heavy-duty caster wheels",
-      "Customizable machine designs as per client requirements",
-      "Quick availability of original spare parts",
-      "Backed by expert technical guidance and pan-India service",
-      "Spices, Masala Powders, and Seasonings",
-      "Namkeen, Chips, Fryums, and Roasted Snacks",
-      "Pickles, Sauces, Pastes, and Edible Oils",
-      "Tea Leaves, Coffee Powder, and Beverage Granules",
-      "Rice, Pulses, Grains, Sugar, and Salt",
-      "Pharmaceutical Tablets, Capsules, and Powders",
-      "Chemical Powders, Detergents, and Agrochemicals",
-      "Hardware Components, Auto Parts, and Rubber Items",
-      "Pet Food, Fish Feed, and Poultry Feed",
-      "Cosmetic Creams, Gels, and Personal Care Items",
-      "Food Processing & Snack Manufacturing Industry",
-      "Spice & Condiment Packaging Industry",
-      "Pharmaceutical & Healthcare Industry",
-      "FMCG & Cosmetic Product Industry",
-      "Chemical, Agrochemical & Fertilizer Industry",
-      "Grain, Flour & Agriculture Millers",
-      "E-commerce Fulfillment & Logistics Centers",
-      "Hardware & Engineering Component Suppliers",
-      "Pet Food & Animal Feed Industry",
-      "Dairy & Frozen Food Processing Sector",
-      "Custom engineering design & material selection",
-      "Precision laser cutting, CNC bending, and SS frame fabrication",
-      "Assembly of drive motors, heating blocks, and electronic PID units",
-      "Sealing temperature calibration, belt tensioning, and speed alignment",
-      "Thermal seal stress, air leak, and continuous load testing",
-      "Final factory quality clearance, secure packing, and fast shipment",
+    "slug": "powder-filling-machine",
+    "name": "Powder Filling Machine",
+    "h1": "Powder Filling Machine Manufacturer in India",
+    "category": "Filling & Dosing Machinery",
+    "categoryId": "filling-machines",
+    "metaTitle": "Powder Filling Machine Manufacturer in India | AVM Packaging",
+    "metaDescription": "Powder filling machine manufacturer in India. High-accuracy auger and volumetric powder fillers for spices, milk powder, pharma & chemicals. Factory price.",
+    "metaKeywords": "powder filling machine manufacturer in india, automatic powder packing machine mumbai, spice powder filling machine, auger powder filler india",
+    "canonicalUrl": "https://avmpackagingsystem.com/powder-filling-machine",
+    "image": "/images/avm/clean/all/powder-filling-machine.jpg",
+    "shortDescription": "High-accuracy auger powder filling machine designed for dust-free, precision dosing of free-flowing and non-free-flowing powders into bottles, jars, and pouches.",
+    "description": "AVM Packaging System manufactures high-precision Powder Filling Machines in Mumbai, India. Engineered with advanced servo auger dosing technology, anti-bridging slow-speed agitators, and dust extraction ports, our powder fillers deliver ±1% accuracy across fine spices, milk powders, pharmaceutical formulations, protein supplements, and chemical powders.",
+    "speed": "20 - 45 fills per minute",
+    "capacity": "Dosing range 10g to 1000g (Expandable up to 5kg)",
+    "power": "1.5 kW - 2.2 kW, 220V/415V",
+    "features": [
+      "Precision servo motor drive guarantees ±1% repeatable powder dosing",
+      "Dust-free filling with integrated vacuum shroud and shroud clamp",
+      "Slow-speed counter-rotating agitator in hopper prevents powder caking and bridging",
+      "Food and pharma grade Stainless Steel 304 / SS 316 contact parts",
+      "Tool-less quick-disconnect hopper for fast washdown and recipe changeovers",
+      "PLC control with color touchscreen HMI for instant target weight entry",
+      "Available with automatic conveyor indexing or semi-automatic foot pedal trigger",
+      "Compatible with bulk screw feeder for automated level-controlled hopper loading"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Spices & Seasonings (Chilli Powder, Turmeric, Cumin, Pepper, Garam Masala)",
+      "Dairy & Food Powders (Milk Powder, Coffee Powder, Tea Dust, Whey Protein)",
+      "Baking & Cooking (Wheat Flour, Besan, Corn Starch, Cocoa Powder, Baking Soda)",
+      "Pharmaceuticals & Healthcare (Ayurvedic Churna, Antibiotics, Talc Powders)",
+      "Chemicals & Agro (Detergent Powders, Pesticides, Dye Powders, Enzymes)"
     ],
-    specifications: {
-      "Sealing Type": "Continuous Thermal Band",
-      "Sealing Speed": "0-12 meters/min",
-      "Usage/Application": "Industrial Heavy Pouch Sealing",
-      "Material": "Heavy-Duty Stainless Steel",
-      "Capacity": "1200-3000 pouches per hour",
-      "Automation Grade": "Semi-Automatic / Automatic",
-      "Seal Width": "10mm - 15mm Leakproof Seal",
-      "Brand": "AVM Packaging System",
-      "Sealing Mode": "Conveyorized Automatic",
-      "Temperature Range": "0 - 300°C Digital Control",
-      "Output Speed": "20-40 pouches per minute",
-      "Conveyor Load": "Up to 5 kg to 15 kg",
-      "Features": "Digital Temperature Controller & Batch Coding Option",
-      "Max Pouch Weight": "5 kg",
-      "Orientation": "Vertical Adjustable Height",
-      "Frequency": "50 Hz",
-      "Voltage": "220V Single Phase",
-      "Body Material": "Stainless Steel / Powder Coated MS",
-      "Sealing Capacity": "1000 - 1800 Pouches / Hour",
-      "Operation Type": "Pneumatic Cylinder Driven",
-      "Driven Type": "Pneumatic / Electric",
-      "Product Details: Sealing Type": "Continuous Thermal Band",
-      "Product Details: Sealing Mode": "Conveyorized Automatic",
-      "Product Details: Brand": "AVM Packaging System",
-      "Product Details: Sealing Capacity": "1000 - 1800 Pouches / Hour",
-      "Horizontal Continuous Pouch Sealer": "Flat Pouches, Dry Granules, Bakery Automatic Continuous",
-      "Vertical Continuous Pouch Sealer": "Liquid, Paste, Powder Pouches Automatic Continuous",
-      "Gas Flushing Pouch Sealing Machine": "Snacks, Chips, Perishable Foods Automatic Continuous",
-      "Pneumatic Heavy Duty Pouch Sealer": "Heavy Bags, Chemicals, Grains (5-25kg) Semi-Automatic",
-      "Impulse Foot-Operated Pouch Sealer": "Thick PE, Gusseted Bags, Small Batches Manual / Foot Pedal",
+    "specifications": {
+      "Dosing Range": "10 gm to 1000 gm (Optional auger tooling up to 5000 gm)",
+      "Dosing Accuracy": "± 0.5% to ± 1%",
+      "Filling Speed": "20 to 45 containers per minute",
+      "Hopper Capacity": "35 to 50 Liters (Stainless Steel with inspection window)",
+      "Automation Grade": "Semi-Automatic and Fully Automatic Conveyorized lines",
+      "Control System": "PLC with 7-inch Color Touchscreen HMI",
+      "Contact Material": "Stainless Steel 304 / SS 316",
+      "Drive System": "Precision Digital Servo Motor",
+      "Power Supply": "220V Single Phase / 415V 3-Phase, 50 Hz",
+      "Machine Weight": "Approx. 190 kg to 260 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does the machine prevent dust clouds during powder filling?",
+        "answer": "Our filling heads feature an enclosed dust-shroud with a suction port that connects to an industrial dust collector, capturing airborne particles at the nozzle before they escape into the packaging room."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can one powder filling machine pack both 50g and 1kg weights?",
+        "answer": "Yes, you can adjust the target fill weight instantly via the digital touchscreen. For drastic volume changes (e.g. from 20g to 1000g), we provide interchangeable quick-change auger screws and funnels."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Does the machine handle sticky or non-free-flowing powders?",
+        "answer": "Yes, the hopper includes an independent motor-driven agitator blade that sweeps the hopper walls, breaking up clumps and ensuring a uniform, dense flow into the auger screw."
       },
+      {
+        "question": "What is the warranty and service support in India?",
+        "answer": "We provide 12 months comprehensive warranty, on-site commissioning, and fast dispatch of genuine mechanical and electrical spares from our Mumbai headquarters."
+      }
     ]
   },
   {
-    slug: "powder-filling-machine",
-    name: "Powder Filling Machine",
-    h1: "Powder Filling Machine",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Powder Flling Machine Manufacturer, Trader, Exporter",
-    metaDescription: "AVM Packaging is a Manufacturer, Trader, and Exporter, from Mumbai. Providing you with the best range of powder filling machines with effective & timely delivery.",
-    metaKeywords: "AVM machine Manufacturer,Powder Flling Machine Manufacturer, Powder Flling Machine Trader, Powder Flling Machine Exporter, Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/powder-filling-machine.php",
-    image: "/images/avm/clean/all/powder-filling-machine.jpg",
-    shortDescription: "AVM Packaging is a Manufacturer, Trader, and Exporter, from Mumbai. Providing you with the best range of powder filling machines with effective & timely delivery.",
-    description: "AVM Packaging is a Manufacturer, Trader, and Exporter, from Mumbai. Providing you with the best range of powder filling machines with effective & timely delivery.",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "sealing-machine",
+    "name": "Industrial Sealing Machine",
+    "h1": "Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Sealing Machine Manufacturer in India | Factory Price | AVM",
+    "metaDescription": "AVM Packaging System is a premier sealing machine manufacturer in India. Continuous band sealers, pedal sealers, vacuum & tube sealers. Direct factory pricing.",
+    "metaKeywords": "sealing machine manufacturer in india, industrial sealing machines mumbai, heat sealing machine, pouch sealer manufacturer india",
+    "canonicalUrl": "https://avmpackagingsystem.com/sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "Comprehensive range of industrial heat sealing machines including continuous band sealers, vacuum chambers, pedal sealers, and tube sealing equipment.",
+    "description": "AVM Packaging System is a leading Sealing Machine Manufacturer and Supplier in Mumbai, India. We engineer a full catalog of industrial sealing machinery including Continuous Band Sealers, Foot Pedal Impulse Sealers, Chamber Vacuum Packaging Machines, Induction Cap Sealers, and Plastic Tube Sealers designed for food, pharmaceutical, and industrial packaging applications across India.",
+    "speed": "Continuous up to 15 m/min or cycle-based",
+    "capacity": "From small retail sachets to 50kg industrial bags",
+    "power": "Single Phase 220V or 3-Phase 415V, 50 Hz",
+    "features": [
+      "Complete lineup of industrial sealing solutions from tabletop to high-speed conveyor lines",
+      "Digital PID temperature controllers maintain exact heat settings within ±1°C",
+      "Heavy-duty industrial transformers and heating elements engineered for 24/7 reliability",
+      "High clamping pressure creates 100% leak-proof, airtight, and moisture-resistant seals",
+      "Constructed with high-grade Stainless Steel and powder-coated cast iron",
+      "Options for batch coding, nitrogen gas flushing, and vacuum air evacuation",
+      "Simple, ergonomic operation requiring minimal operator technical training",
+      "Direct factory pricing with comprehensive 12-month warranty and spare parts support"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Food & Snacks (Spices, Dry Fruits, Namkeen, Chips, Bakery, Flour, Rice)",
+      "Dairy & Beverages (Milk Pouches, Edible Oils, Ghee, Juices, Water Cups)",
+      "Pharmaceuticals & Healthcare (Sterile Pouches, Medicine Vials, Ointment Tubes)",
+      "Chemicals & Agro (Pesticides, Fertilizers, Seeds, Detergent Powders)",
+      "Industrial Hardware, Fasteners, Electronics, Textiles & Paper Products"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Voltage": "240 V",
-      "Frequency": "50 Hz",
-      "Phase": "Single Phase",
-      "Body Material": "Stainless Steel",
-      "Filling Capacity": "400-500 Kg per hour",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Machine Types": "Continuous Band, Pedal Impulse, Vacuum Chamber, Induction, Tube Sealer",
+      "Sealing Width": "3 mm to 15 mm (Diamond / Line knurling)",
+      "Sealing Lengths": "Continuous (Band Sealer) or 300 mm to 1000 mm (Impulse)",
+      "Temperature Range": "0 to 300°C Digital Control",
+      "Body Material": "Stainless Steel 304 / Mild Steel",
+      "Power Supply": "220V AC, 50 Hz, Single Phase (Standard)",
+      "Warranty": "12 Months Comprehensive Factory Warranty",
+      "Delivery": "Immediate dispatch on standard models; Pan-India shipping"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What types of sealing machines does AVM Packaging manufacture?",
+        "answer": "We manufacture Continuous Band Sealers (for high-speed pouch sealing), Heavy-Duty Pedal Sealers (for thick sacks), Vacuum Sealing Machines (for perishable food preservation), Induction Cap Sealers (for bottle foil sealing), and Plastic Tube Sealers (for cosmetics and pharma)."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How do I determine the right sealing temperature for my pouches?",
+        "answer": "Sealing temperature depends on your pouch material and thickness. Standard LDPE bags seal at 110°C–130°C, BoPP laminates at 130°C–160°C, and heavy multi-layer aluminum foil bags at 160°C–200°C. Our digital controllers allow precise temperature calibration."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can your sealing machines print batch numbers and expiry dates?",
+        "answer": "Yes, our continuous band sealers and tube sealers feature integrated embossing or dry-ink coder wheels that print alphanumeric batch codes, manufacturing dates, and MRP directly into the sealed seam."
       },
+      {
+        "question": "Do you have machines in stock for immediate dispatch?",
+        "answer": "Yes, standard models like horizontal band sealers, pedal sealers, and tabletop vacuum sealers are maintained in stock at our Mumbai facility for immediate same-day or next-day dispatch across India."
+      }
     ]
   },
   {
-    slug: "sealing-machine",
-    name: "Sealing Machine",
-    h1: "Sealing Machine Manufacturer & Supplier in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Sealing Machine Manufacturer & Supplier in India | Industrial Sealing Machines - AVM Packaging System",
-    metaDescription: "AVM Packaging System is a trusted sealing machine manufacturer & supplier in Mumbai, India. We offer pedal sealing machines, induction sealing machines, automatic sealing machines, tube sealing machines, and more for food, pharma, cosmetic & industrial use. Get best price today.",
-    metaKeywords: "sealing machine, sealing machine manufacturer, sealing machine manufacturer in mumbai, sealing machine suppliers India, automatic sealing machine, induction sealing machine, pedal sealing machine, tube sealing machine, foot sealing machine, heavy duty sealing machine, sealing machine price in india",
-    canonicalUrl: "https://avmpackagingsystem.com/sealing-machine.php",
-    image: "/images/avm/clean/sealing/pedal-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a trusted sealing machine manufacturer & supplier in Mumbai, India. We offer pedal sealing machines, induction sealing machines, automatic sealing machines, tube sealing machines, and more for food, pharma, cosmetic & industrial use. Get best price today.",
-    description: "AVM Packaging System is a trusted sealing machine manufacturer & supplier in Mumbai, India. We offer pedal sealing machines, induction sealing machines, automatic sealing machines, tube sealing machines, and more for food, pharma, cosmetic & industrial use. Get best price today.",
-    features: [
-      "Toothpaste tubes",
-      "Shaving cream tubes",
-      "Gum and adhesive tubes",
-      "Pharmaceutical ointment tubes",
-      "Blood bag tubes",
-      "Food & Beverage Industry – snacks, spices, dry fruits, juices, dairy",
-      "Pharmaceutical Industry – medicine pouches, vials, strips, bottles",
-      "Chemical Industry – fertilizers, detergents, industrial chemicals",
-      "Agriculture Product Packaging – seeds, pesticides, crop nutrients",
-      "Export Packaging Units – high-quality, tamper-proof sealing for exports",
-      "Industrial & Hardware Packaging – machine parts, components",
-      "Trusted sealing machine manufacturer in India with 10+ years of experience",
-      "High-performance industrial sealing machines for all production scales",
-      "Customized machine solutions for specific packaging needs",
-      "Competitive pricing – direct from manufacturer, no middlemen",
-      "Strong after-sales support including spare parts and technical assistance",
-      "Durable and energy-efficient machinery for continuous operation",
-      "Pan-India delivery from our Mumbai manufacturing facility",
+    "slug": "shrink-tunnel-machine",
+    "name": "Shrink Tunnel Machine",
+    "h1": "Shrink Tunnel Machine Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Shrink Tunnel Machine Manufacturer in India | Heat Tunnel | AVM",
+    "metaDescription": "Thermal shrink tunnel machine manufacturer in India. Industrial heat shrink packaging tunnels for bottles, cartons & tray packs. Factory direct price Mumbai.",
+    "metaKeywords": "shrink tunnel machine manufacturer in india, heat shrink tunnel mumbai, bottle shrink wrapping machine, POF PVC shrink packaging tunnel",
+    "canonicalUrl": "https://avmpackagingsystem.com/shrink-tunnel-machine",
+    "image": "/images/avm/clean/all/carton-taping-machine.jpg",
+    "shortDescription": "Industrial recirculating hot-air shrink tunnel designed for tight, crystal-clear shrink packaging on bottles, jars, cartons, and bundled multipacks.",
+    "description": "AVM Packaging System manufactures heavy-duty Thermal Shrink Tunnel Machines in Mumbai, India. Engineered with recirculating hot-air convection, high-efficiency infrared heating tubes, and variable-speed mesh/roller conveyors, our shrink tunnels produce tight, puncture-resistant, crystal-clear shrink packaging using POF, PVC, and PE films.",
+    "speed": "0 - 10 meters per minute variable conveyor",
+    "capacity": "Tunnel aperture sizes from 400x200mm up to 600x400mm",
+    "power": "6.5 kW - 12 kW, 415V 3-Phase, 50 Hz",
+    "features": [
+      "360-degree recirculating hot air convection ensures uniform, wrinkle-free shrink wrapping",
+      "High-efficiency infrared quartz heating tubes with digital PID temperature regulation",
+      "Variable speed conveyor (mesh belt or Teflon-sleeved silicone rollers) via electronic AC drive",
+      "Double insulated chamber walls minimize heat loss and keep outer casing cool and safe",
+      "Compatible with all standard shrink films: Polyolefin (POF), PVC, and Polyethylene (PE)",
+      "Adjustable internal air baffles direct airflow precisely to top, bottom, or sides of packages",
+      "Heavy-duty industrial build with high-temperature resistant conveyor bearings",
+      "Cooling fan station at tunnel outfeed for instant package stabilization"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Bottle Multipacks (Soft Drinks, Mineral Water, Condiments, Sauces)",
+      "Pharmaceutical Cartons, Medicine Bottles, Vials & Sanitizers",
+      "Cosmetics, Gift Packs, Perfumes, Soaps & Personal Care Multipacks",
+      "Food Products (Canned Goods, Egg Trays, Confectionery Boxes, Bakery Packs)",
+      "Stationery, Books, Calendars, Printed Media & Consumer Electronics",
+      "Automotive Spares, Hardware Fasteners & Engineering Tool Packs"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Brand": "AVM",
-      "Impulse Power": "1000 W600 W1000 W",
-      "Seal Length": "300-500 mm",
-      "Seal Width": "3-10 mm",
-      "Machine Weight": "35 Kg",
-      "Body Material": "Mild Steel",
-      "Model No": "DPS-300",
-      "Model": "AVM 770",
-      "Material": "Mild Steel",
-      "Capacity": "0-500 pouch per hour",
-      "Voltage": "220 V",
-      "Type": "Manual",
-      "Usage/Application": "Industrial",
-      "Driven": "Electric",
-      "Sealing Capacity": "8-10 pieces/min",
-      "Automation Grade": "Semi Automatic",
-      "Usage": "Carton Sealing",
-      "Packaging Type": "Center Seal",
-      "Driven Type": "Electric",
-      "I Deal In": "New Only",
-      "Frequency": "50 Hz",
-      "Pouch Capacity": "10 gm – 2 Kg",
-      "Machine Power": "1-2 hp",
-      "Sealing Diameter": "20-50 mm",
-      "Sealing Speed": "30-50 Packet/Min",
-      "Packaging Packet Size": "50 gm – 2 Kg",
-      "Phase": "Single Phase",
-      "Product Details: Minimum Order Quantity": "1 Unit",
-      "Product Details: Brand": "AVM Packaging",
-      "Product Details: Driven": "Electric",
-      "Product Details: Usage/Application": "Packaging",
+    "specifications": {
+      "Tunnel Dimensions": "L 1000 x W 400 x H 200 mm (Standard) / Up to 600x400 mm",
+      "Conveyor Speed": "0 to 10 meters per minute (Variable Speed Drive)",
+      "Temperature Range": "0 to 300°C Digital PID Control",
+      "Heating Elements": "Stainless Steel tubular heaters or Quartz IR tubes",
+      "Conveyor Type": "Silicone-coated live rollers or Teflon mesh belt",
+      "Max Conveyor Load": "Up to 30 kg evenly distributed",
+      "Film Compatibility": "POF (Polyolefin), PVC, PE Shrink Film",
+      "Power Consumption": "6.5 kW to 9.5 kW (415V 3-Phase, 50 Hz)",
+      "Machine Weight": "Approx. 140 kg to 220 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What is the difference between POF and PVC shrink film in a shrink tunnel?",
+        "answer": "PVC film shrinks at lower temperatures and is rigid and economical, commonly used for stationery and cosmetics. POF (Polyolefin) film is food-contact approved, exceptionally clear, highly puncture-resistant, and does not emit toxic chlorine fumes during heating."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can this tunnel shrink-wrap groups of bottles without a cardboard tray?",
+        "answer": "Yes, our high-power PE shrink tunnels with high-velocity air blowers can wrap unsupported matrix bundles of water bottles, cans, and jars (e.g. 6-pack or 12-pack) securely for transport."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How do you prevent heat damage to sensitive products inside the package?",
+        "answer": "By adjusting the conveyor speed to pass through the tunnel in just 3 to 6 seconds, the hot air shrinks only the exterior film while keeping the internal product completely protected from thermal transfer."
       },
+      {
+        "question": "Can this shrink tunnel be paired with an L-sealer machine?",
+        "answer": "Yes, our shrink tunnels are engineered to align directly downstream from manual, semi-automatic, or fully automatic L-bar sealers to form a complete automated shrink wrapping line."
+      }
     ]
   },
   {
-    slug: "shrink-tunnel-machine",
-    name: "Shrink Tunnel Machine",
-    h1: "Shrink Tunnel Machine Manufacturer & Supplier in India",
-    category: "Pouch Packaging Machinery",
-    categoryId: "pouch-packing",
-    metaTitle: "Shrink Tunnel Machine Manufacturer & Supplier in India | AVM Packaging System",
-    metaDescription: "Buy semi-automatic & heat shrink tunnel machines from AVM Packaging System – trusted manufacturer & supplier in Mumbai, India. Starting from ₹35,000. Get best price today. Call or WhatsApp.",
-    metaKeywords: "shrink tunnel machine, shrink tunnel machine manufacturer, shrink tunnel packaging machine, shrink tunnel wrapping machine, semi automatic shrink tunnel machine, best shrink tunnel machine, heat shrink tunnel machine, shrink tunnel machine India",
-    canonicalUrl: "https://avmpackagingsystem.com/shrink-tunnel-machine.php",
-    image: "/images/avm/clean/all/shrink-tunnel-machine.jpg",
-    shortDescription: "Buy semi-automatic & heat shrink tunnel machines from AVM Packaging System – trusted manufacturer & supplier in Mumbai, India. Starting from ₹35,000. Get best price today. Call or WhatsApp.",
-    description: "Buy semi-automatic & heat shrink tunnel machines from AVM Packaging System – trusted manufacturer & supplier in Mumbai, India. Starting from ₹35,000. Get best price today. Call or WhatsApp.",
-    features: [
-      "Product Loading: The pre-wrapped product (wrapped in shrink film) is placed on the conveyor belt at the machine's infeed end.",
-      "Conveyor Transport: The belt carries the product into the shrink tunnel at an adjustable, controlled speed.",
-      "Heat Application: Inside the tunnel, hot air circulates evenly around the product, activating the film shrinkage.",
-      "Film Contraction: The shrink film tightens uniformly around the product, eliminating wrinkles and loose film.",
-      "Cooling & Exit: The product exits the tunnel and the film sets, creating a firm, professional shrink-wrapped package.",
-      "Tamper-evident packaging that builds consumer trust",
-      "Uniform heat distribution for consistent wrapping quality",
-      "Compatible with bottles, jars, cartons, pouches, and trays",
-      "Works with PVC and POF shrink films",
-      "Low energy consumption and simple operation",
-      "Improves product shelf appeal and shelf life",
-      "Semi-Automatic Shrink Tunnel Machine – ideal for small to medium production; operator-assisted loading",
-      "Fully Automatic Shrink Tunnel Machine – integrated with automatic feeding systems for high-volume lines",
-      "Heat Shrink Tunnel Machine – uses electric heating elements; suitable for most film types",
-      "Steam Shrink Tunnel Machine – uses steam heat; preferred for round bottles and label-shrinking",
-      "PVC Shrink Tunnel Machine – optimised for PVC shrink film at lower temperatures",
-      "POF Shrink Tunnel Machine – food-grade polyolefin film compatible; high clarity finish",
-      "Semi-Automatic Shrink Tunnel Machine: ₹35,000 – ₹80,000",
-      "Standard Heat Shrink Tunnel Machine: ₹70,000 – ₹1,20,000",
-      "Fully Automatic Shrink Tunnel Machine: ₹1,00,000 – ₹2,00,000+",
-      "Bottles & Jars – shrink sleeve and full-body wrapping for beverage, pharma, and cosmetic bottles",
-      "Cartons & Boxes – protective outer shrink wrap for retail cartons and multipack boxes",
-      "Pouches & Sachets – bundle packaging of multiple pouches with shrink film",
-      "Multi-Pack Trays – grouping bottles, cans, or cups into retail-ready shrink-wrapped trays",
-      "Stationery & Books – clear wrapping for notepads, books, and stationery sets",
-      "Pharmaceutical Blister Packs – outer shrink-wrapping of strip or blister-packed medicines",
-      "Industrial Parts & Components – protective film packaging for metal or plastic parts",
-      "Food & Beverage Industry – bottle grouping, tray packaging, label shrinking",
-      "Pharmaceutical Industry – tamper-evident medicine packaging",
-      "Cosmetics & Personal Care – premium shrink wrapping for brand packaging",
-      "FMCG & Consumer Goods – high-speed multipack shrink bundling",
-      "Electronics & Electrical – device and accessory protective packaging",
-      "Stationery & Publishing – book and stationery shrink wrapping",
-      "Automotive – component packaging for distribution and export",
-      "Clean the tunnel interior and conveyor belt after every production shift",
-      "Inspect heating elements monthly for consistent temperature output",
-      "Lubricate conveyor belt rollers and drive chain as per the machine manual",
-      "Ensure blower fans are free from dust and debris for proper airflow",
-      "Inspect electrical connections quarterly for safety and optimal performance",
+    "slug": "strapping-machine",
+    "name": "Strapping Machine",
+    "h1": "Strapping Machine Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Strapping Machine Manufacturer in India | Tabletop Strapping | AVM",
+    "metaDescription": "Semi-automatic tabletop strapping machine manufacturer in India. Low-table & standard height parcel banding machines for cartons & boxes. Factory price Mumbai.",
+    "metaKeywords": "strapping machine manufacturer in india, semi automatic strapping machine mumbai, tabletop box strapper, plastic band strapping machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/strapping-machine",
+    "image": "/images/avm/clean/all/carton-taping-machine.jpg",
+    "shortDescription": "High-speed semi-automatic tabletop strapping machine for secure, high-tension polypropylene band strapping of cartons, bundles, and parcels.",
+    "description": "AVM Packaging System manufactures durable, high-efficiency Strapping Machines in Mumbai, India. Available in standard-table and low-table configurations, our semi-automatic strappers provide reliable friction heat-seal banding on boxes, newspapers, textiles, and shipping parcels, drastically reducing packaging labor and safeguarding goods during transit.",
+    "speed": "1.5 seconds per strapping cycle",
+    "capacity": "Table load up to 80 kg",
+    "power": "200W - 250W, 220V Single Phase, 50 Hz",
+    "features": [
+      "Ultra-fast 1.5-second strap cycle boosts shipping station productivity",
+      "Quick thermal blade creates durable, smoke-free friction heat seals",
+      "External mechanical tension dial allows operators to adjust strap tightness from 15 to 45 kg",
+      "Automatic motor shut-off timer engages after 60 seconds of idle time to conserve energy",
+      "Enclosed strap reel dispenser keeps polypropylene coils clean and tangle-free",
+      "Stainless steel top plate with heavy castors and foot brakes for warehouse mobility",
+      "Available in low-table height (450mm) for heavy packages and standard height (750mm)",
+      "Operates with economical standard 6mm to 15mm Polypropylene (PP) straps"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Corrugated Carton Box Reinforcement & Bundling",
+      "E-commerce Logistics, Parcel Sorting & Fulfillment Hubs",
+      "Printing, Publishing, Newspaper & Magazine Bundling",
+      "Apparel, Garments, Fabrics & Towel Packaging",
+      "Tiles, Sanitaryware, Hardware & Engineering Component Baling"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Automation Grade": "Semi-Automatic",
-      "Phase": "Single Phase",
-      "Body Material": "Mild Steel",
-      "Motor Power": "1 HP",
-      "Conveyor Length": "850 mm",
-      "Voltage": "220 V",
-      "Frequency": "50 Hz",
-      "Film Compatibility": "PVC / POF Shrink Film",
-      "Brand": "AVM",
-      "Country of Origin": "India (Mumbai)",
-      "Primary Function": "Applies heat to shrink pre-wrapped film",
-      "Used With": "Pre-wrapped products",
-      "Film Contact": "No – heat only",
-      "Typical Use": "Final shrink finish step",
-      "Common Pairing": "Used after shrink wrapper",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Strapping Speed": "1.5 seconds per cycle",
+      "Strap Width Range": "6 mm to 15 mm adjustable",
+      "Strap Tension": "15 kg to 45 kg adjustable",
+      "Table Height": "750 mm (Standard) / 450 mm (Low table model)",
+      "Strap Core Diameter": "200 mm",
+      "Joint Sealing": "Instant Thermal Friction Heat Seal",
+      "Power Supply": "220V AC, 50 Hz, Single Phase (200W)",
+      "Machine Dimensions": "900 x 570 x 740 mm",
+      "Net Weight": "Approx. 80 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "What is the difference between standard table and low-table strapping machines?",
+        "answer": "A standard table machine stands at 750mm height, ideal for operators packing light to medium parcels while standing. A low-table machine stands at 450mm height, allowing operators to easily slide heavy cartons (25kg-60kg) onto the table without lifting."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How do I load a new roll of PP strapping tape?",
+        "answer": "Open the side access door, place the 200mm core PP roll onto the reel shaft, tighten the reel flange, and thread the strap end through the tension arm and feeding guides. The machine auto-feeds the strap onto the table ready for work."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Does the machine require metal crimp seals or clips?",
+        "answer": "No, the machine uses a clean, smoke-free thermal heating blade that melts and fuses the strap ends together under pressure, completely eliminating the recurring cost of metal clips."
       },
+      {
+        "question": "How durable is the internal mechanical assembly?",
+        "answer": "Our strapping heads are manufactured with case-hardened alloy steels and sealed self-lubricating ball bearings designed for over 1,000,000 cycles with minimal maintenance."
+      }
     ]
   },
   {
-    slug: "strapping-machine",
-    name: "Strapping Machine",
-    h1: "Strapping Machine",
-    category: "End-of-Line Machinery",
-    categoryId: "end-of-line",
-    metaTitle: "Strapping Machine Manufacturer in India | Box Strapping Machine Supplier",
-    metaDescription: "AVM Packaging System is a leading Strapping Machine Manufacturer in India offering semi automatic, box strapping and low table strapping machines. High-quality industrial packaging solutions for logistics, FMCG, pharma and export packaging.",
-    metaKeywords: "Strapping Machine, Strapping Machine Manufacturer in India, Box Strapping Machine Manufacturer, Semi Automatic Strapping Machine, Industrial Strapping Machine, Packaging Machine India, Box Packaging Machine",
-    canonicalUrl: "https://avmpackagingsystem.com/strapping-machine.php",
-    image: "/images/avm/clean/strapping/semi-automatic-box-strapping-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Strapping Machine Manufacturer in India offering semi automatic, box strapping and low table strapping machines. High-quality industrial packaging solutions for logistics, FMCG, pharma and export packaging.",
-    description: "AVM Packaging System is a leading Strapping Machine Manufacturer in India offering semi automatic, box strapping and low table strapping machines. High-quality industrial packaging solutions for logistics, FMCG, pharma and export packaging.",
-    features: [
-      "Logistics & Warehousing",
-      "Manufacturing & Assembly Units",
-      "Pharmaceutical & Healthcare Packaging",
-      "Food & Beverage Packaging",
-      "FMCG & Consumer Goods",
-      "Electronics & Electrical Components",
-      "Textile, Garments & Export Packaging",
-      "E-commerce Fulfillment Centers",
+    "slug": "tube-sealing-machine",
+    "name": "Tube Sealing Machine",
+    "h1": "Tube Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Tube Sealing Machine Manufacturer in India | Factory Price | AVM",
+    "metaDescription": "Manufacturer of industrial tube sealing machines in India. Ultrasonic & heat sealers for plastic, lami & aluminum tubes. Direct factory price Mumbai.",
+    "metaKeywords": "tube sealing machine manufacturer in india, cosmetic tube sealer mumbai, ultrasonic tube sealer, lami tube sealing machine india",
+    "canonicalUrl": "https://avmpackagingsystem.com/tube-sealing-machine",
+    "image": "/images/avm/clean/printing/horizontal-continuous-sealing-machine.jpg",
+    "shortDescription": "High-precision ultrasonic and thermal tube sealing machine with integrated batch coding and trimming for cosmetic, pharma, and food tubes.",
+    "description": "AVM Packaging System manufactures heavy-duty Tube Sealing Machines in Mumbai, India. Built for cosmetic creams, toothpastes, pharmaceutical ointments, and adhesives, our machines support plastic, laminated (ABL/PBL), and aluminum tubes, providing airtight seals, permanent embossed batch numbers, and clean trimmed edges.",
+    "speed": "20 - 40 tubes per minute",
+    "capacity": "Tube diameter 13mm to 60mm, height 50mm to 250mm",
+    "power": "1.5 kW - 2.2 kW, 220V Single Phase, 50 Hz",
+    "features": [
+      "Available with thermal hot-jaw sealing or high-frequency ultrasonic sealing technology",
+      "Simultaneous hermetic sealing, embossed date coding, and excess tail trimming",
+      "Handles all tube substrates: Pure plastic (PE, PP), ABL, PBL, and aluminum tubes",
+      "Pneumatic clamping mechanism ensures consistent, uniform seal pressure",
+      "Interchangeable tube cup fixtures for rapid changeover between tube diameters",
+      "Equipped with batch code lettering block for permanent MFG/EXP/BATCH marking",
+      "Water-cooled sealing jaws maintain pristine cosmetic tube surface without burning",
+      "Stainless steel 304 chassis compliant with cleanroom pharmaceutical requirements"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Cosmetics: Face Creams, Body Lotions, Sunscreens, Cleansers, Face Washes",
+      "Pharmaceuticals: Antiseptic Creams, Healing Ointments, Eye Gels, Burn Salves",
+      "Oral Care: Toothpaste, Medicated Dental Gels, Mouth Ulcer Gels",
+      "Food Products: Condensed Milk, Wasabi Pastes, Cake Icing, Tomato Puree",
+      "Industrial & DIY: Superglues, Silicones, Shoe Adhesives, Lubricating Greases"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Automation Grade": "Semi Automatic",
-      "Brand": "AVM",
-      "Body Material": "Mild Steel",
-      "Voltage": "220 V",
-      "Frequency": "50 Hz",
-      "Strapping Tension": "05-50 Kg",
-      "Machine Weight": "100 Kg",
-      "Surface Finishing": "Painted",
-      "Power Source": "Electric",
-      "Portable": "Yes",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Tube Diameter": "13 mm to 60 mm",
+      "Tube Length Range": "50 mm to 250 mm",
+      "Sealing Speed": "20 to 40 tubes per minute",
+      "Sealing Technology": "Hot Air / Heated Jaw / Ultrasonic (20 kHz)",
+      "Date Coding": "Embossed alphanumeric characters (steel type set included)",
+      "Trimming Accuracy": "± 0.5 mm straight pneumatic cut",
+      "Air Consumption": "5 to 6 CFM at 6 kg/cm²",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Net Weight": "Approx. 110 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "Why is ultrasonic tube sealing preferred for cosmetic creams?",
+        "answer": "Ultrasonic sealing generates heat only at the molecular interface inside the plastic seal, leaving the outside printed graphics completely unblemished without burning, blistering, or warping."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can this machine seal tubes if product has splashed onto the sealing area?",
+        "answer": "Yes, our ultrasonic tube sealers vibrate at 20,000 Hz, expelling any paste, cream, or liquid droplets out of the sealing zone before bonding the plastic, ensuring a 100% leak-proof seal even through contamination."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How are different tube diameters accommodated?",
+        "answer": "We supply quick-change nylon/aluminum tube pucks. Swapping from a 19mm eye cream tube to a 35mm facewash tube takes under 5 minutes without requiring tools."
       },
+      {
+        "question": "Do you also supply automatic tube filling and sealing machines?",
+        "answer": "Yes, alongside our semi-automatic tabletop models, we manufacture fully automatic rotary tube filling and sealing machines with automatic tube loading, orientation, filling, sealing, coding, and discharge."
+      }
     ]
   },
   {
-    slug: "tube-sealing-machine",
-    name: "Tube Sealing Machine in",
-    h1: "Tube Sealing Machine in India – Plastic & Laminated Tube Sealer",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Tube Sealing Machine in India – Price, Manufacturer & Supplier | AVM Packaging",
-    metaDescription: "Buy Tube Sealing Machine in India at best price. Manufacturer & supplier of plastic and laminated tube sealing machines for pharma, cosmetic & FMCG industries. Get quote now.",
-    metaKeywords: "Tube Sealing Machine, Plastic Tube Sealing Machine, Tube Sealing Machine Manufacturer, Tube Sealing Equipment, Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/tube-sealing-machine.php",
-    image: "/images/avm/clean/all/plastic-tube-sealing-machine.jpg",
-    shortDescription: "Buy Tube Sealing Machine in India at best price. Manufacturer & supplier of plastic and laminated tube sealing machines for pharma, cosmetic & FMCG industries. Get quote now.",
-    description: "Buy Tube Sealing Machine in India at best price. Manufacturer & supplier of plastic and laminated tube sealing machines for pharma, cosmetic & FMCG industries. Get quote now.",
-    features: [
-      "Suitable for plastic and laminated tubes",
-      "Digital temperature control for accurate sealing",
-      "Compact design with low power consumption",
-      "Easy operation and low maintenance",
-      "Strong, leak-proof and uniform sealing",
-      "Cosmetic and personal care items",
-      "Food and FMCG packaging",
+    "slug": "vacuum-sealing-machine",
+    "name": "Vacuum Sealing Machine",
+    "h1": "Vacuum Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Vacuum Sealing Machine Manufacturer in India | Chamber Sealer | AVM",
+    "metaDescription": "Certified vacuum sealing machine manufacturer in India. Single & double chamber vacuum sealers for meat, dry fruits, grains & electronics. Factory price Mumbai.",
+    "metaKeywords": "vacuum sealing machine manufacturer in india, commercial chamber vacuum sealer mumbai, double chamber vacuum packing machine, food vacuum packing india",
+    "canonicalUrl": "https://avmpackagingsystem.com/vacuum-sealing-machine",
+    "image": "/images/avm/clean/vaccum/double-chamber-vaccum-packing-machine.jpg",
+    "shortDescription": "Heavy-duty commercial single and double chamber vacuum sealing machines designed for 99.9% air evacuation and hermetic sealing of perishable foods and electronics.",
+    "description": "AVM Packaging System is a certified Vacuum Sealing Machine Manufacturer in Mumbai, India. We engineer heavy-duty tabletop, single-chamber, and high-capacity double-chamber vacuum packaging machines equipped with high-displacement German-technology oil rotary vacuum pumps, microcomputer digital controls, and inert gas flushing for perishable food, meat, dry fruits, and industrial electronics.",
+    "speed": "2 - 4 vacuum cycles per minute (multiple bags per cycle)",
+    "capacity": "Chamber sizes from 400x350x120mm to 650x550x150mm",
+    "power": "900W - 2.5 kW, 220V/415V, 50 Hz",
+    "features": [
+      "High-vacuum rotary oil pump achieves up to 99.9% oxygen evacuation (≤ 1.0 kPa)",
+      "Extends perishable food shelf life by 3x to 5x without chemical preservatives",
+      "Heavy-duty deep-drawn Stainless Steel 304 chamber resists corrosion and washdowns",
+      "Transparent heavy acrylic lid provides complete visibility throughout the vacuum cycle",
+      "Digital microcomputer controller with programmable vacuum, gas flush, and seal times",
+      "Available with dual parallel sealing bars to seal multiple pouches simultaneously",
+      "Optional inert nitrogen / CO2 gas flushing for fragile chips, nuts, and fresh meat",
+      "Equipped with oil mist filter and convenient oil drain valve for easy maintenance"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Meat, Poultry, Seafood, Fish Fillets & Processed Meats",
+      "Cheese Blocks, Paneer, Dairy Products & Butter",
+      "Dry Fruits (Cashews, Almonds, Walnuts, Pistachios, Raisins)",
+      "Whole Grains, Specialty Rice, Pulses, Seeds & Hops",
+      "Pre-cooked Foods, Ready-to-Eat (RTE) Meals & Frozen Vegetables",
+      "Electronic PCB Assemblies, Semiconductor Chips, Aerospace Parts & Currency"
     ],
-    specifications: {
-      "Machine Category": "Tube Sealing Machine in India – Plastic & Laminated Tube Sealer",
-      "Automation Grade": "Automatic / Semi-Automatic",
-      "Material of Construction": "SS304 / SS316 Heavy Duty",
-      "Voltage & Power": "230V Single Phase / 415V 3-Phase, 50Hz",
-      "Control Architecture": "Microprocessor / Digital PID / PLC HMI",
-      "Application Sectors": "Food, FMCG, Pharma, Chemicals & Hardware",
-      "Warranty": "1 Year Manufacturer Warranty with Lifetime Support",
+    "specifications": {
+      "Chamber Dimensions": "Single: 440 x 420 x 130 mm / Double: 650 x 550 x 150 mm",
+      "Sealing Bar Length": "400 mm to 650 mm (Single or Double bars per chamber)",
+      "Sealing Width": "8 mm or 10 mm airtight flat seal",
+      "Vacuum Pump Capacity": "20 m³/hr to 63 m³/hr Heavy-Duty Oil Rotary Pump",
+      "Cycle Time": "15 to 35 seconds per cycle",
+      "Ultimate Vacuum": "≤ 1.0 kPa (99.9% evacuation)",
+      "Body Construction": "Heavy Stainless Steel 304",
+      "Power Supply": "220V Single Phase / 415V 3-Phase, 50 Hz",
+      "Machine Weight": "Approx. 75 kg (Single Chamber) / 220 kg (Double Chamber)"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does vacuum packaging extend the shelf life of food?",
+        "answer": "By removing over 99% of atmospheric oxygen from inside the pouch, aerobic bacteria, mold, and fungus cannot survive or reproduce. Furthermore, vacuum sealing prevents freezer burn, moisture loss, and fat rancidity, extending food freshness by 300% to 500%."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "What is the difference between single chamber and double chamber vacuum sealers?",
+        "answer": "A single chamber machine has one vacuum bed and lid. A double chamber machine has two alternating vacuum beds: while chamber A is undergoing the vacuum/sealing cycle, the operator loads pouches into chamber B, doubling production throughput with zero idle waiting time."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can liquids and soups be vacuum sealed in a chamber machine?",
+        "answer": "Yes, unlike external suction sealers that suck liquids out, chamber vacuum machines equalize air pressure across the entire chamber, allowing you to vacuum seal liquids, marinades, curries, and sauces without drawing liquid out of the pouch."
       },
+      {
+        "question": "What type of pouches must be used with a chamber vacuum sealer?",
+        "answer": "Chamber machines utilize economical smooth 3-side sealed nylon/polyethylene (PA/PE) barrier pouches, saving thousands of rupees compared to the expensive embossed pouches required by home sealers."
+      }
     ]
   },
   {
-    slug: "vacuum-sealers",
-    name: "Vacuum Sealers",
-    h1: "Vacuum Sealers",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Vacuum Packing Machine Manufacturer, Exporter, Trader Mumbai",
-    metaDescription: "We provide you with the best range of portable vacuum packing machines Having good quality, durable products with effective & timely delivery, Mumbai, India.",
-    metaKeywords: "AVM Packaging System, Vaccum Packing Machine, portable vacuum packing machines, Manufacturer, Exporter, Trader, Mumbai India",
-    canonicalUrl: "https://avmpackagingsystem.com/vacuum-sealers.php",
-    image: "/images/avm/clean/all/portable-vacuum-packing-machine.jpg",
-    shortDescription: "We provide you with the best range of portable vacuum packing machines Having good quality, durable products with effective & timely delivery, Mumbai, India.",
-    description: "We provide you with the best range of portable vacuum packing machines Having good quality, durable products with effective & timely delivery, Mumbai, India.",
-    features: [
-      "High-precision electronic control system for reliable continuous operation",
-      "Heavy-duty stainless steel / MS powder-coated industrial construction",
-      "Adjustable speed and sealing parameters for varying pouch dimensions",
-      "Minimal maintenance design with readily accessible components",
-      "Integrated safety interlocks and emergency stop mechanisms",
+    "slug": "weigh-filling-machine",
+    "name": "Weigh Filling Machine",
+    "h1": "Weigh Filling Machine Manufacturer in India",
+    "category": "Filling & Dosing Machinery",
+    "categoryId": "filling-machines",
+    "metaTitle": "Weigh Filling Machine Manufacturer in India | Granule Dosing | AVM",
+    "metaDescription": "Weigh filling machine manufacturer in India. High-precision load-cell electronic weigh fillers for tea, pulses, grains, seeds & cashews. Factory price Mumbai.",
+    "metaKeywords": "weigh filling machine manufacturer in india, electronic weigh filler mumbai, granule weighing machine, tea weighing filling machine india",
+    "canonicalUrl": "https://avmpackagingsystem.com/weigh-filling-machine",
+    "image": "/images/avm/clean/all/powder-filling-machine.jpg",
+    "shortDescription": "High-precision electronic load cell weigh filler designed for accurate batch weighing and dispensing of free-flowing granules, tea, seeds, and confectionery.",
+    "description": "AVM Packaging System manufactures high-accuracy Weigh Filling Machines in Mumbai, India. Engineered with microcomputer digital controllers, high-sensitivity load cells, and dual-speed vibratory feed pans, our weighers deliver ±0.2g accuracy across tea leaves, pulses, grain seeds, dry fruits, candies, and plastic granules.",
+    "speed": "15 - 35 discharges per minute",
+    "capacity": "Weighing range from 10g to 1000g (customizable up to 5kg)",
+    "power": "350W, 220V Single Phase, 50 Hz",
+    "features": [
+      "High-precision digital load cell delivers ±0.2g to ±0.5g weighing accuracy",
+      "Two-stage vibratory feeding (coarse feed for speed, fine dribble for pinpoint accuracy)",
+      "All product contact parts fabricated in food-grade Stainless Steel 304",
+      "Touchpad digital controller displays target weight, current weight, and batch count",
+      "Optical photo-sensor under discharge chute for hands-free automatic bag triggering",
+      "Easy-access cleanout latch on hopper for rapid product changeover and washdown",
+      "Compact tabletop or floor stand configurations with lockable casters",
+      "Zero product damage on fragile seeds, roasted nuts, and whole-leaf teas"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Tea & Coffee (CTC Tea Leaves, Whole Leaf Green Tea, Roasted Coffee Beans)",
+      "Pulses, Rice, Grains, Sugar, Salt & Specialty Cereals",
+      "Dry Fruits (Almonds, Cashews, Raisins, Pine Nuts, Pistachios)",
+      "Agricultural Seeds, Vegetable Seeds, Flower Seeds & Pellet Feeds",
+      "Confectionery, Gems, Hard Candies, Mints, Toffees & Jelly Beans",
+      "Plastic Masterbatches, Granules, Screws, Nuts & Small Hardware"
     ],
-    specifications: {
-      "Model Name/Number": "DZ300",
-      "Weight": "2.3 Kg",
-      "Chamber Type": "No Chamber",
-      "Brand": "AVM Packaging",
-      "Voltage": "220 V",
-      "Dimension": "350X140X70 mm",
-      "Vaccum Limit": "0.35 KPA",
-      "Product Details: Model Name/Number": "DZ300",
+    "specifications": {
+      "Weighing Range": "10 gm to 1000 gm (Optional models up to 5000 gm)",
+      "Weighing Accuracy": "± 0.2 gm to 0.5 gm",
+      "Weighing Speed": "15 to 35 dumps per minute",
+      "Hopper Volume": "25 to 40 Liters (Stainless Steel 304)",
+      "Vibratory Feeding": "Dual-Stage (Fast Flow + Slow Trim Dribble)",
+      "Discharge Trigger": "Foot Pedal Switch or Optical Hands-Free Sensor",
+      "Power Consumption": "350 Watts",
+      "Power Supply": "220V AC, 50 Hz, Single Phase",
+      "Machine Weight": "Approx. 45 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does the machine achieve such high weighing accuracy?",
+        "answer": "The machine uses a two-stage vibratory feeder. The primary vibrator quickly fills 90% of the target weight at high speed. The secondary micro-vibrator then dribbles the remaining 10% grain by grain until the digital load cell registers the exact target weight, eliminating overfilling."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "Can this machine weigh fragile whole-leaf tea without breaking leaves?",
+        "answer": "Yes, unlike auger screws or rotary cups that generate shear forces, vibratory weighers gently float products along a polished stainless steel pan, preserving fragile green tea leaves and roasted cashews without breakage."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "How does the operator trigger the machine to discharge into a pouch?",
+        "answer": "The operator simply holds an open pouch under the discharge funnel. An optical sensor automatically senses the pouch and opens the pneumatic discharge gate, or the operator can press the foot pedal."
       },
+      {
+        "question": "Can it be connected to an automatic bagger or conveyor later?",
+        "answer": "Yes, our weighers feature standard PLC output relay signals that allow them to be mounted above automatic form-fill-seal machines or index conveyors whenever you want to upgrade to full automation."
+      }
     ]
   },
   {
-    slug: "vacuum-sealing-machine",
-    name: "Vacuum Sealing Machine",
-    h1: "Vacuum Sealing Machine Manufacturer in India",
-    category: "Sealing & Capping Machinery",
-    categoryId: "sealing-machines",
-    metaTitle: "Vacuum Sealing Machine Manufacturer in India | Chamber & Mini Vacuum Sealer | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Vacuum Sealing Machine manufacturer in India offering chamber, mini, table top & industrial vacuum sealing machines for food, pharmaceutical and industrial packaging applications.",
-    metaKeywords: "Vacuum Sealing Machine, Vacuum Sealing Machine Manufacturer, Chamber Vacuum Sealing Machine, Mini Vacuum Sealing Machine, Vacuum Packaging Machine, Table Top Vacuum Sealing Machine, Industrial Vacuum Sealer, Vacuum Sealer Machine India, Vacuum Packing Machine Mumbai",
-    canonicalUrl: "https://avmpackagingsystem.com/vacuum-sealing-machine.php",
-    image: "/images/avm/clean/vaccum/table-top-vacuum-sealing-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Vacuum Sealing Machine manufacturer in India offering chamber, mini, table top & industrial vacuum sealing machines for food, pharmaceutical and industrial packaging applications.",
-    description: "AVM Packaging System is a leading Vacuum Sealing Machine manufacturer in India offering chamber, mini, table top & industrial vacuum sealing machines for food, pharmaceutical and industrial packaging applications.",
-    features: [
-      "Food Packaging Industry",
-      "Pharmaceutical Packaging",
-      "FMCG Product Packaging",
-      "Dry Fruit & Spice Packaging",
-      "Electronics Packaging",
-      "Medical Equipment Packaging",
-      "Chemical Packaging",
-      "Industrial Product Packaging",
-      "Industrial-grade vacuum sealing solutions",
-      "Strong and consistent airtight sealing",
-      "Stainless-steel machine options",
-      "Multiple models for different production requirements",
-      "Customized machine configurations available",
-      "Supply and technical support across India",
+    "slug": "wrapping-machine",
+    "name": "Wrapping Machine",
+    "h1": "Wrapping Machine Manufacturer in India",
+    "category": "Carton Taping, Strapping & End-of-Line",
+    "categoryId": "end-of-line",
+    "metaTitle": "Wrapping Machine Manufacturer in India | Film Wrapping | AVM",
+    "metaDescription": "Industrial wrapping machine manufacturer in India. Stretch film pallet wrappers, tray overwrappers & carton wrapping machines. Direct factory price Mumbai.",
+    "metaKeywords": "wrapping machine manufacturer in india, pallet stretch wrapping machine mumbai, tray overwrapping machine, carton stretch wrapper india",
+    "canonicalUrl": "https://avmpackagingsystem.com/wrapping-machine",
+    "image": "/images/avm/clean/all/carton-taping-machine.jpg",
+    "shortDescription": "Industrial stretch film wrapping and tray overwrapping machinery designed for moisture-proof, tamper-evident secondary packaging of goods and pallets.",
+    "description": "AVM Packaging System is a premier manufacturer of Industrial Wrapping Machines in Mumbai, India. We engineer rotary turntable stretch wrappers, carton shrink overwrappers, and food tray wrapping machines that tightly wrap corrugated boxes, pallets, luggage, and food trays with high-clarity stretch and cling films, protecting consignments against dust, moisture, and transit damage.",
+    "speed": "Up to 25 wraps per minute (or 20-30 pallets/hr)",
+    "capacity": "From small retail trays up to 2,000 kg heavy industrial pallets",
+    "power": "1.0 kW - 2.5 kW, 220V/415V, 50 Hz",
+    "features": [
+      "Power pre-stretch film carriage stretches film up to 250%-300%, cutting film consumption in half",
+      "Digital PLC control with optical height sensing sensor for automatic pallet height detection",
+      "Adjustable turntable rotation speed and film carriage vertical speed via electronic VFD",
+      "Soft start and soft stop turntable rotation prevents unstable loads from toppling",
+      "Reinforced heavy-duty structural steel turntable supports up to 2,000 kg loads",
+      "Manual, semi-automatic, and fully automatic remote control operational modes",
+      "Provides complete 360-degree moisture, dust, and tamper protection during transport",
+      "Low maintenance with sealed heavy-duty drive chains and bearings"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Palletized Warehouse Consignments for Export and Domestic Trucking",
+      "Food Trays (Fresh Produce, Meat, Poultry, Bakery Trays, Mushroom Packs)",
+      "Corrugated Carton Boxes, Electronics & Home Appliance Bundles",
+      "Airport Luggage, Baggage & Commercial Parcel Protection",
+      "Textile Rolls, Paper Mills, Chemical Drums & Ceramic Tile Pallets"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Weight": "30-35 Kg",
-      "Voltage": "240 V",
-      "Driven Type": "Electric",
-      "Frequency": "50 Hz",
-      "Material": "Plastic",
-      "Usage": "Food Sealing",
-      "Brand": "AVM",
-      "Sealing Length": "400 mm",
-      "Automation Grade": "Semi-Automatic",
-      "Vacuum Pump Power": "1500 W",
-      "Usage/Application": "Food Packaging",
-      "Phase": "Single",
-      "Body Material": "ABS Plastic",
-      "Sealing Capacity": "20-30 pieces/min",
-      "Mini Vacuum Sealing Machine": "Small packs and light-duty vacuum sealing",
-      "Table Top Vacuum Sealing Machine": "Compact food and commercial packaging operations",
-      "Single Chamber Vacuum Sealing Machine": "Regular industrial vacuum packaging",
-      "Chamber Vacuum Sealing Machine": "Airtight packaging requiring controlled vacuum cycles",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Turntable Diameter": "1500 mm to 2000 mm (Pallet models)",
+      "Max Pallet Height": "Up to 2400 mm",
+      "Max Load Weight": "Up to 2000 kg",
+      "Turntable Speed": "0 to 12 RPM (Variable Frequency Drive)",
+      "Film Pre-Stretch Ratio": "Up to 300% motorized pre-stretch",
+      "Control System": "PLC with Operator Touchscreen HMI",
+      "Film Reel Specs": "Width 500 mm, Core 76 mm, Max OD 250 mm",
+      "Power Supply": "415V 3-Phase / 220V Single Phase, 50 Hz",
+      "Machine Weight": "Approx. 550 kg to 850 kg"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
+        "question": "How does a motorized pre-stretch film carriage save money?",
+        "answer": "A standard core-brake wrapper stretches film by friction, only yielding about 50%-80% elongation. Our motorized pre-stretch carriage uses geared rollers to stretch 1 meter of stretch film into 3 to 3.5 meters before applying it to the pallet, saving over 50% on annual film expenses."
       },
       {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
+        "question": "How does the machine know the height of different pallets?",
+        "answer": "The film carriage has an integrated photoelectric eye sensor that automatically detects the top edge of any pallet load, wraps the specified number of top reinforcing layers, and commands the carriage to return to the bottom."
       },
       {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
+        "question": "Can this machine wrap light or unstable boxes without knocking them over?",
+        "answer": "Yes, our electronic Variable Frequency Drives (VFD) ensure a gentle, gradual soft-start and soft-stop acceleration that prevents light or slippery boxes from shifting off the pallet."
       },
+      {
+        "question": "Do you supply ramp attachments for hand pallet trucks (pallet jacks)?",
+        "answer": "Yes, we provide heavy steel access ramps that bolt directly to the turntable perimeter, allowing workers to easily load pallets using manual hand hydraulic jacks or electric pallet trucks."
+      }
     ]
   },
   {
-    slug: "weigh-filling-machine",
-    name: "Weigh Filling Machine",
-    h1: "Weigh Filling Machine",
-    category: "Filling & Dosing Machinery",
-    categoryId: "filling-machines",
-    metaTitle: "Weigh Filling Machine Manufacturer, Trader, Supplier Mumbai India | AVM Packaging System",
-    metaDescription: "AVM Packaging System is a premier Weigh Filling Machine Manufacturer in India offering automatic linear weigh filler machines for grains, spices, snacks, and pulses. Get best price & service.",
-    metaKeywords: "Weigh Filling Machine, Weigh Filling Machine Manufacturer, Weigh Filling Machine Manufacturers in India, Automatic Weigh Filling Machine, Linear Weigher Machine, Weigh Filler Packaging Machine, Weigh Filling Machine Price, Multihead Weigh Filling Machine, Automatic Weigh Filler, Electronic Weigh Filling Machine",
-    canonicalUrl: "https://avmpackagingsystem.com/weigh-filling-machine.php",
-    image: "/images/avm/clean/all/powder-filling-machine.jpg",
-    shortDescription: "AVM Packaging System is a premier Weigh Filling Machine Manufacturer in India offering automatic linear weigh filler machines for grains, spices, snacks, and pulses. Get best price & service.",
-    description: "AVM Packaging System is a premier Weigh Filling Machine Manufacturer in India offering automatic linear weigh filler machines for grains, spices, snacks, and pulses. Get best price & service.",
-    features: [
-      "PLC or Microprocessor-Based Controller with Touchscreen HMI",
-      "High-Precision Digital Load Cell Weighing Technology",
-      "Pneumatic Gate Operating System for Instant Discharge",
-      "Digital PID Temperature Controller for Integrated Sealing",
-      "Variable Speed Vibratory Feeder Bowls for Smooth Flow",
-      "Pneumatic Components & Fittings from Janatics",
-      "Fully automatic operation controlled via a high-precision PLC unit",
-      "Interactive color Touchscreen HMI panel for real-time target weight setting",
-      "High-speed weight sensing with near-zero weight deviation",
-      "Durable pneumatic gate discharge system eliminating product jamming",
-      "Minimal maintenance requirement and extended industrial service life",
-      "Potato chips, banana chips, fryums, and namkeen",
-      "Grains, pulses, rice, sugar, and salt",
-      "Tea leaves, coffee beans, and spice seeds",
-      "Dry fruits, nuts, agriculture seeds, and plastic granules",
-      "Substantially higher operational production output",
-      "Drastic reduction in manual labor costs and human errors",
-      "Ultra-precise weigh filling eliminating costly material overfill",
-      "Minimal product breakage and negligible waste generation",
-      "Full compliance with food-grade sanitation standard operating procedures",
-      "Seamless integration with continuous sealing and pouch packaging lines",
-      "Simplified operational setup with user-friendly calibration settings",
-      "Rugged structure engineered for continuous 24/7 industrial duty",
-      "PLC Control Unit",
-      "Touchscreen HMI",
-      "Digital Load Cell Sensor",
-      "Vibratory Feeder Pan",
-      "Pneumatic Cylinders",
-      "PID Temperature Controller",
-      "Stainless Steel SS304 Body",
-      "Janatics Pneumatic Fittings",
+    "slug": "packing-machine",
+    "name": "Automatic Packing Machine",
+    "h1": "Packaging Machine Manufacturer in India",
+    "category": "Pouch Packaging Machinery",
+    "categoryId": "pouch-packing",
+    "metaTitle": "Packaging Machine Manufacturer in India | Factory Price | AVM",
+    "metaDescription": "AVM Packaging System is a premier packaging machine manufacturer in India. Automatic pouch packaging, sealing, filling & end-of-line machinery in Mumbai.",
+    "metaKeywords": "packaging machine manufacturer in india, automatic packaging machinery mumbai, industrial packing machines, food packaging equipment india",
+    "canonicalUrl": "https://avmpackagingsystem.com/packaging-machine",
+    "image": "/images/avm/clean/vaccum/potato-chips-packaging-machine.jpg",
+    "shortDescription": "Industrial packaging machinery engineered for automated pouch forming, filling, sealing, and secondary packaging across food, FMCG, and pharma industries.",
+    "description": "AVM Packaging System is a premier Packaging Machine Manufacturer in Mumbai, India. We design, fabricate, and commission high-speed automatic packaging lines including Form-Fill-Seal (FFS) pouch packaging machines, continuous band sealers, vacuum packaging chambers, auger powder fillers, liquid bottle fillers, and carton taping lines tailored to your exact manufacturing requirements.",
+    "speed": "Up to 3,000 units per hour",
+    "capacity": "10g to 50kg",
+    "power": "220V / 415V",
+    "features": [
+      "Complete end-to-end packaging automation from raw dosing to final carton taping",
+      "Food-grade Stainless Steel 304 / SS 316 construction meeting ISO and cGMP standards",
+      "Microcontroller and PLC systems with intuitive touchscreen HMI interfaces",
+      "Modular design allowing seamless expansion as your production volume scales"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Snack Foods, Potato Chips, Namkeen, Bakery & Confectionery",
+      "Spices, Flours, Grain, Pulses, Rice, Sugar & Salt",
+      "Edible Oils, Sauces, Ghee, Beverages, Water & Liquid Detergents"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Piece",
-      "Brand": "AVM Packaging System",
-      "Automation Grade": "Automatic",
-      "Power Consumption": "15 amps. / Single Phase, 230V AC",
-      "Phase": "Single Phase",
-      "Filler Type": "Precision Load Cell Weigh Filler (1 / 2 / 4 Head)",
-      "Packaging Speed": "15 to 30 Pouches per minute",
-      "Product Details: Minimum Order Quantity": "1 Piece",
+    "specifications": {
+      "Machine Categories": "Pouch Packing (FFS), Sealing, Filling, Coding, End-of-Line",
+      "Automation Grade": "Semi-Automatic and Fully Automatic lines",
+      "Production Speeds": "Up to 3,000 packages per hour",
+      "Contact Material": "Stainless Steel 304 / SS 316"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
-      },
-      {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
-      },
-      {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
-      },
+        "question": "How do I choose the right packaging machine for my product?",
+        "answer": "Selecting the optimal machine depends on your product's physical state (powder, granule, liquid, or solid), desired pouch or container format, required packages per minute, and budget. Our engineering team in Mumbai provides free technical consultation and packaging feasibility analysis."
+      }
     ]
   },
   {
-    slug: "wrapping-machine",
-    name: "Wrapping Machine",
-    h1: "Wrapping Machine Manufacturer in India",
-    category: "Wrapping & Flow Wrap",
-    categoryId: "wrapping-flow-wrap",
-    metaTitle: "Wrapping Machine Manufacturer in India | Shrink Wrapping Machine | AVM Packaging",
-    metaDescription: "AVM Packaging System is a leading Wrapping Machine Manufacturer in India offering Shrink Wrapping Machines, Tray Wrapping Machines & Semi Automatic Shrink Wrapping Machines for industrial packaging applications. Enquiry based solutions available across India.",
-    metaKeywords: "Wrapping Machine Manufacturer, Wrapping Machine Manufacturers India, Shrink Wrapping Machine, Shrink Wrapping Machine Manufacturer, Semi Automatic Shrink Wrapping Machine, Semi Automatic Shrink Wrapping Machine Manufacturer, Tray Wrapping Machine, Tray Wrapping Machine Manufacturer, Wrapping Machines India, AVM Packaging System Mumbai",
-    canonicalUrl: "https://avmpackagingsystem.com/wrapping-machine.php",
-    image: "/images/avm/clean/wrapping/semi-automatic-shrink-wrapping-machine.jpg",
-    shortDescription: "AVM Packaging System is a leading Wrapping Machine Manufacturer in India offering Shrink Wrapping Machines, Tray Wrapping Machines & Semi Automatic Shrink Wrapping Machines for industrial packaging applications. Enquiry based solutions available across India.",
-    description: "AVM Packaging System is a leading Wrapping Machine Manufacturer in India offering Shrink Wrapping Machines, Tray Wrapping Machines & Semi Automatic Shrink Wrapping Machines for industrial packaging applications. Enquiry based solutions available across India.",
-    features: [
-      "Food & Beverage Industry",
-      "Pharmaceutical Packaging",
-      "Chemical Packaging",
-      "Industrial Product Packaging",
-      "Bottle & Carton Wrapping",
-      "Tray Packaging Applications",
+    "slug": "vacuum-sealers",
+    "name": "Vacuum Sealers",
+    "h1": "Vacuum Sealing Machine Manufacturer in India",
+    "category": "Sealing & Capping Machinery",
+    "categoryId": "sealing-machines",
+    "metaTitle": "Vacuum Sealing Machine Manufacturer in India | Chamber Sealer | AVM",
+    "metaDescription": "Certified vacuum sealing machine manufacturer in India. Single & double chamber vacuum sealers for meat, dry fruits, grains & electronics. Factory price Mumbai.",
+    "metaKeywords": "vacuum sealing machine manufacturer in india, commercial chamber vacuum sealer mumbai, double chamber vacuum packing machine",
+    "canonicalUrl": "https://avmpackagingsystem.com/vacuum-sealing-machine",
+    "image": "/images/avm/clean/vaccum/double-chamber-vaccum-packing-machine.jpg",
+    "shortDescription": "Heavy-duty commercial single and double chamber vacuum sealing machines designed for 99.9% air evacuation and hermetic sealing.",
+    "description": "AVM Packaging System is a certified Vacuum Sealing Machine Manufacturer in Mumbai, India. We engineer heavy-duty tabletop, single-chamber, and high-capacity double-chamber vacuum packaging machines equipped with high-displacement German-technology oil rotary vacuum pumps.",
+    "speed": "2 - 4 vacuum cycles per minute",
+    "capacity": "Chamber sizes from 400x350x120mm to 650x550x150mm",
+    "power": "900W - 2.5 kW, 220V/415V",
+    "features": [
+      "High-vacuum rotary oil pump achieves up to 99.9% oxygen evacuation (≤ 1.0 kPa)",
+      "Extends perishable food shelf life by 3x to 5x without chemical preservatives",
+      "Heavy-duty deep-drawn Stainless Steel 304 chamber resists corrosion and washdowns"
     ],
-    applications: [
-      "Food & Beverages",
-      "Pharmaceuticals & Healthcare",
-      "Agricultural & Seeds",
-      "Chemicals & Detergents",
-      "Cosmetics & Personal Care",
-      "Hardware & Industrial Components",
+    "applications": [
+      "Meat, Poultry, Seafood, Fish Fillets & Processed Meats",
+      "Cheese Blocks, Paneer, Dairy Products & Butter",
+      "Dry Fruits (Cashews, Almonds, Walnuts, Pistachios, Raisins)"
     ],
-    specifications: {
-      "Minimum Order Quantity": "1 Unit",
-      "Automation Grade": "Semi Automatic",
-      "Brand": "AVM Packaging",
-      "Frequency": "50-60 Hz",
-      "Voltage": "240 V",
-      "Machine Weight": "280 Kg",
-      "Body Material": "Mild Steel",
-      "Motor Power": "3 hp",
-      "Capacity": "200-250 pieces/hr",
-      "Material": "MS",
-      "Product Details: Minimum Order Quantity": "1 Unit",
+    "specifications": {
+      "Chamber Dimensions": "Single: 440 x 420 x 130 mm / Double: 650 x 550 x 150 mm",
+      "Sealing Bar Length": "400 mm to 650 mm",
+      "Vacuum Pump Capacity": "20 m³/hr to 63 m³/hr Heavy-Duty Oil Rotary Pump"
     },
-    faqs: [
+    "faqs": [
       {
-        question: "What is the warranty and after-sales support for the ",
-        answer: "AVM Packaging System provides a comprehensive warranty on all machinery, along with on-site installation, operator training, readily available spare parts, and lifetime technical support from Mumbai, India."
-      },
-      {
-        question: "Can this machine be customized for specific pouch sizes or materials?",
-        answer: "Yes. All our packaging machines are engineered and customized to your specific pouch dimensions, packaging materials (laminates, foil, poly), and desired production outputs."
-      },
-      {
-        question: "What is the expected delivery timeframe?",
-        answer: "Standard models are dispatched within 1 to 2 weeks, while customized automated packaging lines typically ship within 3 to 4 weeks across India and for global exports."
-      },
+        "question": "How does vacuum packaging extend the shelf life of food?",
+        "answer": "By removing over 99% of atmospheric oxygen from inside the pouch, aerobic bacteria, mold, and fungus cannot survive or reproduce. Furthermore, vacuum sealing prevents freezer burn, moisture loss, and fat rancidity, extending food freshness by 300% to 500%."
+      }
     ]
   }
 ];

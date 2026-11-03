@@ -26,7 +26,6 @@ export const categories: CategoryGroup[] = [
       { name: "Form Filling Machine", slug: "form-filling-machine", shortDesc: "Vertical form-fill-seal FFS system" },
       { name: "Dry Fruit Packing Machine", slug: "dry-fruit-packing-machine", shortDesc: "Cashew, almond & nut packager" },
       { name: "Packaging Machine", slug: "packaging-machine", shortDesc: "Heavy duty industrial packaging line" },
-      { name: "Automatic Packing Machine", slug: "packing-machine", shortDesc: "Multi-purpose pouch packer" },
       { name: "Pouch Sealing Machine", slug: "pouch-sealing-machine", shortDesc: "Pneumatic high-integrity sealer" }
     ]
   },
@@ -41,7 +40,6 @@ export const categories: CategoryGroup[] = [
       { name: "Continuous Sealing Machine", slug: "continuous-sealing-machine", shortDesc: "High-speed motorized conveyor sealer" },
       { name: "Band Sealing Machine", slug: "band-sealing-machine", shortDesc: "Horizontal/vertical band sealer" },
       { name: "Vacuum Sealing Machine", slug: "vacuum-sealing-machine", shortDesc: "Commercial tabletop & chamber sealer" },
-      { name: "Vacuum Sealers", slug: "vacuum-sealers", shortDesc: "Portable heavy-duty vacuum machines" },
       { name: "Pedal Sealing Machine", slug: "pedal-sealing-machine", shortDesc: "Foot operated heavy bag sealer" },
       { name: "Plastic Tube Sealing Machine", slug: "plastic-tube-sealing-machine", shortDesc: "Cosmetic & pharma tube sealer" },
       { name: "Tube Sealing Machine", slug: "tube-sealing-machine", shortDesc: "Ultrasonic / heat tube sealer" },

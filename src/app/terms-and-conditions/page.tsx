@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Terms and Conditions - AVM Packaging System",
   description: "Terms and conditions for packaging machinery orders, commissioning, and services by AVM Packaging System Mumbai.",
   alternates: {
-    canonical: "https://avmpackagingsystem.com/terms-and-conditions.php",
+    canonical: "https://avmpackagingsystem.com/terms-and-conditions",
   },
 };
 

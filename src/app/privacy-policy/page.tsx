@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy - AVM Packaging System",
   description: "Privacy policy and client data protection guidelines of AVM Packaging System Mumbai India.",
   alternates: {
-    canonical: "https://avmpackagingsystem.com/privacy-policy.php",
+    canonical: "https://avmpackagingsystem.com/privacy-policy",
   },
 };
 

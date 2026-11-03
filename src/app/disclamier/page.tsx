@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Disclaimer - AVM Packaging System Mumbai India",
   description: "Product performance and specification disclaimer for packaging machinery manufactured by AVM Packaging System Mumbai.",
   alternates: {
-    canonical: "https://avmpackagingsystem.com/disclamier.php",
+    canonical: "https://avmpackagingsystem.com/disclamier",
   },
 };
 

@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   description: "AVM Packaging System is a premier manufacturer, supplier, and exporter of high-speed automatic packaging machines based in Goregaon East, Mumbai, India.",
   keywords: "Packaging Machines Manufacturer Mumbai, Automatic Packaging Machine, Packaging Machinery India, AVM Packaging System",
   alternates: {
-    canonical: "https://avmpackagingsystem.com/aboutus.php",
+    canonical: "https://avmpackagingsystem.com/aboutus",
   },
   openGraph: {
     title: "Packaging Machines Manufacturer in Mumbai - AVM Packaging System",
     description: "AVM Packaging System is a premier manufacturer, supplier, and exporter of high-speed automatic packaging machines based in Goregaon East, Mumbai, India.",
-    url: "https://avmpackagingsystem.com/aboutus.php",
+    url: "https://avmpackagingsystem.com/aboutus",
     type: "website",
   },
 };

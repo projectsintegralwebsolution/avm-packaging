@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description: "Watch 23+ operational video demonstrations of authentic AVM Packaging System machinery including pouch packing machines, continuous band sealers, auger fillers, and vacuum sealers.",
   keywords: "Packaging Machine Videos, Pouch Packing Machine Video, Band Sealer Video, Chips Packaging Machine Video, AVM Packaging Video Gallery",
   alternates: {
-    canonical: "https://avmpackagingsystem.com/videogallery.php",
+    canonical: "https://avmpackagingsystem.com/videogallery",
   },
   openGraph: {
     title: "Packaging Machine Videos - AVM Packaging System Mumbai",
     description: "Watch 23+ operational video demonstrations of authentic AVM Packaging System machinery.",
-    url: "https://avmpackagingsystem.com/videogallery.php",
+    url: "https://avmpackagingsystem.com/videogallery",
     type: "website",
   },
 };
