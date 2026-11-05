@@ -126,11 +126,12 @@ export default function RFQModal() {
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
+                <label htmlFor="rfq-machine" className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
                   <Layers className="w-3.5 h-3.5 text-[#FF5E14]" />
                   <span>Selected Machinery Model</span>
                 </label>
                 <select
+                  id="rfq-machine"
                   value={machine}
                   onChange={(e) => setMachine(e.target.value)}
                   className="w-full px-3 py-2 text-sm bg-slate-50 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF5E14] focus:border-transparent text-slate-800 font-medium"
@@ -146,11 +147,12 @@ export default function RFQModal() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
+                  <label htmlFor="rfq-name" className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
                     <User className="w-3.5 h-3.5 text-slate-500" />
                     <span>Your Name *</span>
                   </label>
                   <input
+                    id="rfq-name"
                     type="text"
                     required
                     value={name}
@@ -160,11 +162,12 @@ export default function RFQModal() {
                   />
                 </div>
                 <div>
-                  <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
+                  <label htmlFor="rfq-phone" className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
                     <Phone className="w-3.5 h-3.5 text-emerald-600" />
                     <span>Mobile / WhatsApp *</span>
                   </label>
                   <input
+                    id="rfq-phone"
                     type="tel"
                     required
                     value={phone}
@@ -177,11 +180,12 @@ export default function RFQModal() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
+                  <label htmlFor="rfq-email" className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
                     <Mail className="w-3.5 h-3.5 text-sky-500" />
                     <span>Email Address</span>
                   </label>
                   <input
+                    id="rfq-email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -190,11 +194,12 @@ export default function RFQModal() {
                   />
                 </div>
                 <div>
-                  <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
+                  <label htmlFor="rfq-city" className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
                     <MapPin className="w-3.5 h-3.5 text-rose-500" />
                     <span>City / Country</span>
                   </label>
                   <input
+                    id="rfq-city"
                     type="text"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
@@ -205,11 +210,12 @@ export default function RFQModal() {
               </div>
 
               <div>
-                <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
+                <label htmlFor="rfq-notes" className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 uppercase tracking-wide mb-1">
                   <FileText className="w-3.5 h-3.5 text-[#FF5E14]" />
                   <span>Packaging Requirements (Pouch Size / Speed / Product)</span>
                 </label>
                 <textarea
+                  id="rfq-notes"
                   rows={2}
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}

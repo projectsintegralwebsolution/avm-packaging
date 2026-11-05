@@ -104,12 +104,14 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder={`Search ${allProducts.length} machinery models...`}
+                  aria-label="Search all machinery models"
                   className="w-full pl-8 pr-7 py-1.5 text-xs text-white bg-slate-900 border border-slate-800 rounded-lg focus:outline-none focus:border-[#FF5E14] placeholder:text-slate-500"
                 />
                 {searchQuery && (
                   <button
                     onClick={() => setSearchQuery("")}
                     className="absolute right-3 top-1/2 -translate-y-1/2 p-0.5 text-slate-400 hover:text-white"
+                    aria-label="Clear search query"
                   >
                     <X className="w-3 h-3" />
                   </button>

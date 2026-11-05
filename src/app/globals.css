@@ -40,7 +40,7 @@
   }
 
   .badge-orange {
-    @apply inline-flex items-center gap-1.5 px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#FF5E14] bg-[#FF5E14]/10 rounded-full border border-[#FF5E14]/20;
+    @apply inline-flex items-center gap-1.5 px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#B93800] bg-[#FF5E14]/10 rounded-full border border-[#FF5E14]/20;
   }
 
   .badge-navy {

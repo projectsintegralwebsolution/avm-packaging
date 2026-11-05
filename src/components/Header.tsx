@@ -260,6 +260,7 @@ export default function Header() {
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         placeholder={`Search ${allProducts.length} machinery models...`}
+                        aria-label="Search all machinery models"
                         className="w-full pl-8 pr-7 py-1.5 text-xs text-[#0F172A] bg-[#F8FAFC] border border-[#E5ECF0] rounded-lg focus:outline-none focus:border-[#FF5E14] focus:bg-white focus:ring-2 focus:ring-[#FF5E14]/15 transition-all placeholder:text-slate-400 font-medium"
                       />
                       {searchQuery && (

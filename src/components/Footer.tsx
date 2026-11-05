@@ -181,18 +181,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-6 border-t border-slate-800 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-12 pt-6 border-t border-slate-800 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p>© {currentYear} AVM Packaging System. All Rights Reserved. Mumbai, Maharashtra, India.</p>
-          <div className="flex flex-col sm:flex-row items-center gap-3 text-[11px] text-slate-600">
+          <div className="flex flex-col sm:flex-row items-center gap-3 text-[11px] text-slate-400">
             <p>Engineered for high-throughput packaging automation.</p>
-            <span className="hidden sm:inline text-slate-700">·</span>
+            <span className="hidden sm:inline text-slate-500">·</span>
             <p>
               Developed by{" "}
               <a
                 href="https://integralwebsolution.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-[#FF5E14] transition-colors font-medium"
+                className="text-slate-300 hover:text-[#FF5E14] transition-colors font-medium"
               >
                 Integral Web Solution
               </a>

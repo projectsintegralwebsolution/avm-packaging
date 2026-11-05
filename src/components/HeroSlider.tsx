@@ -40,7 +40,7 @@ const slides: SlideData[] = [
     titleLight: "High-Speed Automated",
     titleHighlight: "Pouch Packaging Systems",
     description: "Complete vertical form-fill-seal packaging line with supporting conveyor and sealing equipment. Engineered for potato chips, namkeen, fryums, snacks, and food granules.",
-    bannerImage: "/images/banner/hero-banner-1.png",
+    bannerImage: "/images/banner/hero-banner-1.webp",
     machineName: "Vertical Form-Fill-Seal Packaging Line",
     specs: [
       { label: "Output Speed", value: "15 - 120 PPM" },
@@ -65,7 +65,7 @@ const slides: SlideData[] = [
     titleLight: "High-Efficiency Horizontal",
     titleHighlight: "Flow-Wrap Packaging Machines",
     description: "Horizontal flow-wrap packaging machine with extended feeding conveyor and film-wrapping mechanism. Continuous hermetic wrapping for bakery, biscuits, trays, and industrial items.",
-    bannerImage: "/images/banner/hero-banner-2.png",
+    bannerImage: "/images/banner/hero-banner-2.webp",
     machineName: "Horizontal Flow-Wrap Packaging Machine",
     specs: [
       { label: "Output Speed", value: "30 - 250 PPM" },
@@ -90,7 +90,7 @@ const slides: SlideData[] = [
     titleLight: "High-Speed Automatic",
     titleHighlight: "Carton Strapping Systems",
     description: "Industrial carton strapping machine with yellow arch frame, integrated conveyor system, and heavy-duty black strapping reel. Engineered for high-throughput logistics and dispatch.",
-    bannerImage: "/images/banner/hero-banner-3.png",
+    bannerImage: "/images/banner/hero-banner-3.webp",
     machineName: "Automatic Arch Carton Strapping Machine",
     specs: [
       { label: "Cycle Speed", value: "1.5 - 2.0 Sec/Strap" },
@@ -154,6 +154,7 @@ export default function HeroSlider() {
             alt={s.machineName}
             fill
             priority={idx === 0}
+            loading={idx === 0 ? "eager" : "lazy"}
             sizes="100vw"
             quality={95}
             className="object-cover object-right md:object-center select-none"
