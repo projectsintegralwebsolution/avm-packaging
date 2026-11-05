@@ -242,7 +242,7 @@ export default function RFQModal() {
                   Instant WhatsApp
                 </button>
               </div>
-              <p className="text-[11px] text-center text-slate-500">
+              <p className="text-[11px] text-center text-slate-600">
                 Direct response from AVM Packaging engineers in Goregaon, Mumbai. Zero spam guaranteed.
               </p>
             </form>

@@ -68,7 +68,7 @@ export const categories: CategoryGroup[] = [
     name: "Coding & Marking Equipment",
     slug: "pad-printing-machine",
     description: "Industrial pad printing machines and automatic bottle sticker labelers for containers, bottles, and products.",
-    image: "/images/avm/clean/all/pad-printing-machine-header.png",
+    image: "/images/avm/clean/all/pad-printing-machine-header.webp",
     products: [
       { name: "Pad Printing Machine", slug: "pad-printing-machine", shortDesc: "1-2 color precision logo printer" },
       { name: "Bottle Sticker Labeling Machine", slug: "bottle-sticker-labeling-machine", shortDesc: "Round bottle self-adhesive labeler" }

@@ -68,7 +68,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <meta name="theme-color" content="#0B192C" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="/images/banner/hero-banner-1-mobile.webp" media="(max-width: 640px)" fetchPriority="high" type="image/webp" />
+        <link rel="preload" as="image" href="/images/banner/hero-banner-1.webp" media="(min-width: 641px)" fetchPriority="high" type="image/webp" />
         {/* Google Analytics preserved from original website */}
         <Script
           strategy="lazyOnload"

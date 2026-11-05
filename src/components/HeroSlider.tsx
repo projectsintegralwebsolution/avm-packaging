@@ -23,6 +23,7 @@ interface SlideData {
   titleHighlight: string;
   description: string;
   bannerImage: string;
+  mobileBannerImage: string;
   machineName: string;
   specs: { label: string; value: string }[];
   primaryCtaText: string;
@@ -41,6 +42,7 @@ const slides: SlideData[] = [
     titleHighlight: "Pouch Packaging Systems",
     description: "Complete vertical form-fill-seal packaging line with supporting conveyor and sealing equipment. Engineered for potato chips, namkeen, fryums, snacks, and food granules.",
     bannerImage: "/images/banner/hero-banner-1.webp",
+    mobileBannerImage: "/images/banner/hero-banner-1-mobile.webp",
     machineName: "Vertical Form-Fill-Seal Packaging Line",
     specs: [
       { label: "Output Speed", value: "15 - 120 PPM" },
@@ -66,6 +68,7 @@ const slides: SlideData[] = [
     titleHighlight: "Flow-Wrap Packaging Machines",
     description: "Horizontal flow-wrap packaging machine with extended feeding conveyor and film-wrapping mechanism. Continuous hermetic wrapping for bakery, biscuits, trays, and industrial items.",
     bannerImage: "/images/banner/hero-banner-2.webp",
+    mobileBannerImage: "/images/banner/hero-banner-2-mobile.webp",
     machineName: "Horizontal Flow-Wrap Packaging Machine",
     specs: [
       { label: "Output Speed", value: "30 - 250 PPM" },
@@ -91,6 +94,7 @@ const slides: SlideData[] = [
     titleHighlight: "Carton Strapping Systems",
     description: "Industrial carton strapping machine with yellow arch frame, integrated conveyor system, and heavy-duty black strapping reel. Engineered for high-throughput logistics and dispatch.",
     bannerImage: "/images/banner/hero-banner-3.webp",
+    mobileBannerImage: "/images/banner/hero-banner-3-mobile.webp",
     machineName: "Automatic Arch Carton Strapping Machine",
     specs: [
       { label: "Cycle Speed", value: "1.5 - 2.0 Sec/Strap" },
@@ -149,16 +153,17 @@ export default function HeroSlider() {
           }`}
           aria-hidden={idx !== currentSlide}
         >
-          <Image
-            src={s.bannerImage}
-            alt={s.machineName}
-            fill
-            priority={idx === 0}
-            loading={idx === 0 ? "eager" : "lazy"}
-            sizes="100vw"
-            quality={95}
-            className="object-cover object-right md:object-center select-none"
-          />
+          <picture>
+            <source media="(max-width: 640px)" srcSet={s.mobileBannerImage} type="image/webp" />
+            <img
+              src={s.bannerImage}
+              alt={s.machineName}
+              loading={idx === 0 ? "eager" : "lazy"}
+              fetchPriority={idx === 0 ? "high" : "low"}
+              decoding={idx === 0 ? "sync" : "async"}
+              className="absolute inset-0 w-full h-full object-cover object-right md:object-center select-none pointer-events-none"
+            />
+          </picture>
         </div>
       ))}
 
@@ -274,20 +279,24 @@ export default function HeroSlider() {
         <div className="flex items-center justify-between border-t border-slate-800/60 pt-3">
           
           {/* Slide Dots / Progress Indicators */}
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-1">
             {slides.map((s, idx) => (
               <button
                 key={s.id}
                 onClick={() => setCurrentSlide(idx)}
                 aria-label={`Go to slide ${idx + 1}`}
-                className={`transition-all duration-300 rounded-full ${
-                  idx === currentSlide
-                    ? "w-8 h-2.5 bg-[#FF5E14]"
-                    : "w-2.5 h-2.5 bg-slate-700 hover:bg-slate-500"
-                }`}
-              />
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full focus:outline-none"
+              >
+                <span
+                  className={`transition-all duration-300 rounded-full block ${
+                    idx === currentSlide
+                      ? "w-8 h-2.5 bg-[#FF5E14]"
+                      : "w-2.5 h-2.5 bg-slate-700 hover:bg-slate-500"
+                  }`}
+                />
+              </button>
             ))}
-            <span className="text-xs text-slate-300 ml-2 font-mono">
+            <span className="text-xs text-slate-300 ml-1 font-mono">
               0{currentSlide + 1} / 0{slides.length}
             </span>
           </div>
@@ -299,7 +308,7 @@ export default function HeroSlider() {
               <button
                 key={s.id}
                 onClick={() => setCurrentSlide(idx)}
-                className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   idx === currentSlide 
                     ? "bg-slate-800/90 text-white border border-slate-700 shadow-xs" 
                     : "hover:text-white text-slate-400"
@@ -315,14 +324,14 @@ export default function HeroSlider() {
             <button
               onClick={prevSlide}
               aria-label="Previous Slide"
-              className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors shadow-xs"
+              className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors shadow-xs"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
             <button
               onClick={nextSlide}
               aria-label="Next Slide"
-              className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors shadow-xs"
+              className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors shadow-xs"
             >
               <ChevronRight className="w-4 h-4" />
             </button>

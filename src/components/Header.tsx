@@ -246,7 +246,7 @@ export default function Header() {
                     <h3 className="text-base sm:text-lg font-extrabold text-[#0B192C] tracking-tight leading-tight">
                       Explore Our Packaging Machinery
                     </h3>
-                    <p className="text-[11px] text-slate-500 font-medium">
+                    <p className="text-[11px] text-slate-600 font-medium">
                       Complete range of {allProducts.length} models for every packaging need
                     </p>
                   </div>
@@ -328,7 +328,7 @@ export default function Header() {
                                 <h4 className="text-xs font-bold text-[#0F172A] group-hover:text-[#FF5E14] transition-colors leading-snug">
                                   {prod.name}
                                 </h4>
-                                <p className="text-[10.5px] text-slate-500 line-clamp-1 mt-0.5">
+                                <p className="text-[10.5px] text-slate-600 line-clamp-1 mt-0.5">
                                   {prod.shortDesc}
                                 </p>
                               </div>
@@ -525,7 +525,7 @@ export default function Header() {
                     </div>
                     <div>
                       <span className="text-[11px] font-bold text-[#0B192C] block leading-tight">35+ Machinery Models</span>
-                      <span className="text-[9.5px] text-slate-500 font-medium block">Complete Packaging Solutions</span>
+                      <span className="text-[9.5px] text-slate-600 font-medium block">Complete Packaging Solutions</span>
                     </div>
                   </div>
 
@@ -535,7 +535,7 @@ export default function Header() {
                     </div>
                     <div>
                       <span className="text-[11px] font-bold text-[#0B192C] block leading-tight">Engineered in Mumbai</span>
-                      <span className="text-[9.5px] text-slate-500 font-medium block">Trusted Worldwide</span>
+                      <span className="text-[9.5px] text-slate-600 font-medium block">Trusted Worldwide</span>
                     </div>
                   </div>
 
@@ -545,7 +545,7 @@ export default function Header() {
                     </div>
                     <div>
                       <span className="text-[11px] font-bold text-[#0B192C] block leading-tight">Custom Solutions</span>
-                      <span className="text-[9.5px] text-slate-500 font-medium block">Tailored to Your Needs</span>
+                      <span className="text-[9.5px] text-slate-600 font-medium block">Tailored to Your Needs</span>
                     </div>
                   </div>
 
@@ -555,7 +555,7 @@ export default function Header() {
                     </div>
                     <div>
                       <span className="text-[11px] font-bold text-[#0B192C] block leading-tight">Expert Support</span>
-                      <span className="text-[9.5px] text-slate-500 font-medium block">From Selection to Installation</span>
+                      <span className="text-[9.5px] text-slate-600 font-medium block">From Selection to Installation</span>
                     </div>
                   </div>
                 </div>

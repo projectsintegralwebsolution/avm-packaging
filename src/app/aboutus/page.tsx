@@ -72,7 +72,7 @@ export default function AboutUsPage() {
             <div className="lg:col-span-6">
               <div className="relative w-full h-[380px] sm:h-[460px] rounded-3xl overflow-hidden shadow-xl border border-slate-200 group bg-slate-900">
                 <Image
-                  src="/images/about/avm-packaging-machinery-facility.jpg"
+                  src="/images/about/avm-packaging-machinery-facility.webp"
                   alt="Automatic packaging machinery and conveyor sealing systems at AVM Packaging Systems manufacturing facility in Mumbai"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -86,7 +86,7 @@ export default function AboutUsPage() {
                   <div>
                     <span className="text-xs font-bold uppercase tracking-wider text-[#FF5E14] block">Manufacturing Facility</span>
                     <h4 className="text-sm sm:text-base font-bold text-slate-900">Precision Engineering & Rigorous Quality Assurance</h4>
-                    <p className="text-xs text-slate-500 mt-0.5">Goregaon East, Mumbai • Certified Packaging Solutions</p>
+                    <p className="text-xs text-slate-600 mt-0.5">Goregaon East, Mumbai • Certified Packaging Solutions</p>
                   </div>
                   <div className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-xs border border-emerald-200 shrink-0">
                     <ShieldCheck className="w-4 h-4 text-emerald-600" />

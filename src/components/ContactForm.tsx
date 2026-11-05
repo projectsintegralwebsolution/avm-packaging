@@ -58,7 +58,7 @@ export default function ContactForm() {
         <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mt-1">
           Send Technical Enquiry
         </h3>
-        <p className="text-xs sm:text-sm text-slate-500 mt-1">
+        <p className="text-xs sm:text-sm text-slate-600 mt-1">
           Speak directly with our senior packaging machinery engineers in Goregaon, Mumbai.
         </p>
       </div>
@@ -177,7 +177,7 @@ export default function ContactForm() {
             </button>
           </div>
 
-          <p className="text-[11px] text-center text-slate-400">
+          <p className="text-[11px] text-center text-slate-600">
             Guaranteed confidentiality. Factory-direct pricing without distributor markups.
           </p>
         </form>

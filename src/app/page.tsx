@@ -200,12 +200,13 @@ export default function HomePage() {
                   <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
                     <Link
                       href={`/${cat.slug}`}
+                      aria-label={`Explore all ${cat.name} machinery models`}
                       className="inline-flex items-center gap-1.5 text-xs font-bold text-[#FF5E14] hover:text-[#E04800]"
                     >
                       <span>Explore Category</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </Link>
-                    <span className="text-[11px] text-slate-400 font-semibold">
+                    <span className="text-[11px] text-slate-600 font-semibold">
                       Goregaon Plant
                     </span>
                   </div>
@@ -342,7 +343,7 @@ export default function HomePage() {
             {/* Clients Grid */}
             <div className="lg:col-span-6 bg-slate-50 border border-slate-200 rounded-3xl p-8">
               <div className="text-center mb-6">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Trusted By Fast Growing Brands</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-600">Trusted By Fast Growing Brands</span>
                 <h3 className="text-lg font-bold text-slate-900 mt-1">Our Packaging Machinery Clients</h3>
               </div>
               <div className="grid grid-cols-3 gap-4">
@@ -356,13 +357,14 @@ export default function HomePage() {
                         src={`/images/clients/clogo${idx}.jpg`}
                         alt={`AVM Packaging System Machinery Client ${idx + 1}`}
                         fill
+                        sizes="(max-width: 640px) 33vw, 150px"
                         className="object-contain"
                       />
                     </div>
                   </div>
                 ))}
               </div>
-              <p className="text-center text-[11px] text-slate-500 mt-4">
+              <p className="text-center text-[11px] text-slate-600 mt-4">
                 Installed in over 500+ manufacturing plants across Maharashtra, Gujarat, Delhi NCR, and nationwide.
               </p>
             </div>

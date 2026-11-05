@@ -31,7 +31,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Image container */}
       <div className="relative w-full h-48 bg-gradient-to-br from-slate-200 via-slate-100 to-slate-200 overflow-hidden border-b border-slate-200 flex items-center justify-center mt-2">
         <Image
-          src={product.image || "/images/avm/clean/all/potato-chips-packaging-machine.jpg"}
+          src={product.image || "/images/avm/clean/all/potato-chips-packaging-machine.webp"}
           alt={`${product.name} manufactured by AVM Packaging System`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -70,6 +70,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between gap-2">
           <Link
             href={`/${product.slug}`}
+            aria-label={`View full technical specifications for ${product.name}`}
             className="inline-flex items-center gap-1 text-xs font-bold text-slate-700 hover:text-[#FF5E14] transition-colors"
           >
             <span>Specs & Details</span>
@@ -78,6 +79,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
           <button
             onClick={() => openModal(product.name)}
+            aria-label={`Request instant quote for ${product.name}`}
             className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-bold text-white bg-[#0B192C] hover:bg-[#FF5E14] rounded-lg shadow-sm transition-colors"
           >
             <Send className="w-3 h-3" />
