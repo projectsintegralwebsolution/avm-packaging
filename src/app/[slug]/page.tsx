@@ -23,9 +23,9 @@ import ProductCard from "@/components/ProductCard";
 import ContactForm from "@/components/ContactForm";
 
 interface ProductPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 // Generate static params for all products at build time
@@ -37,7 +37,8 @@ export async function generateStaticParams() {
 
 // Generate exact preserved SEO Metadata
 export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
-  const product = getProductBySlug(params.slug);
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
   if (!product) {
     return {
       title: "Packaging Machinery | AVM Packaging System",
@@ -66,8 +67,9 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   };
 }
 
-export default function ProductDetailPage({ params }: ProductPageProps) {
-  const product = getProductBySlug(params.slug);
+export default async function ProductDetailPage({ params }: ProductPageProps) {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
 
   if (!product) {
     notFound();
